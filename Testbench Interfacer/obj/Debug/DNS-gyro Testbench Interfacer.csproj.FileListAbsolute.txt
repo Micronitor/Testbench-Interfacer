@@ -1,0 +1,20 @@
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.exe.config
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.exe
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.pdb
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.csprojResolveAssemblyReference.cache
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS_gyro_Testbench_Interfacer.Properties.Resources.resources
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.csproj.GenerateResource.Cache
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.exe
+c:\users\lars erik s paulsen\documents\visual studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro Testbench Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS_gyro_Testbench_Interfacer.Interfacer.resources
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.exe.config
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.csprojResolveAssemblyReference.cache
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS_gyro_Testbench_Interfacer.Properties.Resources.resources
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\DNS-gyro Testbench Interfacer.csproj.GenerateResource.Cache
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\DNS-gyro Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\EposCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Debug\EposPCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Debug\Testbench_Interfacer.Interfacer.resources

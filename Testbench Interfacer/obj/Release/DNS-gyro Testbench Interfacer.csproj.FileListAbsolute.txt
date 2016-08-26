@@ -1,0 +1,12 @@
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\DNS-gyro Testbench Interfacer.exe.config
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\DNS-gyro Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\DNS-gyro Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\EposCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\DNS_gyro_Testbench_Interfacer.Properties.Resources.resources
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\DNS-gyro Testbench Interfacer.csproj.GenerateResource.Cache
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\DNS-gyro Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\DNS-gyro Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\DNS-gyro Testbench Interfacer.csprojResolveAssemblyReference.cache
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\EposPCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\obj\Release\Testbench_Interfacer.Interfacer.resources
+C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\DNS-gyro-Testbench-Interfacer\DNS-gyro Testbench Interfacer\bin\Release\Testbench Interfacer.exe.config
