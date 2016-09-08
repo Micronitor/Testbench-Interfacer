@@ -19,3 +19,13 @@ C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\Testbench-Int
 C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\Testbench-Interfacer\Testbench Interfacer\bin\Debug\Testbench Interfacer.exe
 C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\Testbench-Interfacer\Testbench Interfacer\bin\Debug\Testbench Interfacer.pdb
 C:\Users\Lars Erik S Paulsen\Documents\Visual Studio 2015\Projects\Testbench-Interfacer\Testbench Interfacer\bin\Debug\EposCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Debug\Testbench Interfacer.exe.config
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Debug\Testbench Interfacer.exe
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Debug\Testbench Interfacer.pdb
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Debug\EposCmd.Net.dll
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench Interfacer.csprojResolveAssemblyReference.cache
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench_Interfacer.Interfacer.resources
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench_Interfacer.Properties.Resources.resources
+C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Debug\Testbench Interfacer.csproj.GenerateResource.Cache
