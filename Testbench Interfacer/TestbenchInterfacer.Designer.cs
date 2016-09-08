@@ -2161,9 +2161,9 @@
             this.cb_Toggle_in_on_direction.AutoSize = true;
             this.cb_Toggle_in_on_direction.Location = new System.Drawing.Point(11, 842);
             this.cb_Toggle_in_on_direction.Name = "cb_Toggle_in_on_direction";
-            this.cb_Toggle_in_on_direction.Size = new System.Drawing.Size(150, 17);
+            this.cb_Toggle_in_on_direction.Size = new System.Drawing.Size(156, 17);
             this.cb_Toggle_in_on_direction.TabIndex = 96;
-            this.cb_Toggle_in_on_direction.Text = "Toggle in on direction only";
+            this.cb_Toggle_in_on_direction.Text = "Toggle in one direction only";
             this.cb_Toggle_in_on_direction.UseVisualStyleBackColor = true;
             // 
             // Interfacer
