@@ -213,7 +213,6 @@
             this.Motor3_Position = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lb_Micronitor = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.cb_Toggle_in_on_direction = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -2157,16 +2156,6 @@
             this.lb_Micronitor.TabIndex = 94;
             this.lb_Micronitor.Text = "Micronitor 2016";
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 95;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // cb_Toggle_in_on_direction
             // 
             this.cb_Toggle_in_on_direction.AutoSize = true;
@@ -2184,7 +2173,6 @@
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(998, 936);
             this.Controls.Add(this.cb_Toggle_in_on_direction);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lb_Micronitor);
             this.Controls.Add(this.Motor3_Deacceleration);
             this.Controls.Add(this.Motor3_Distance);
@@ -2551,7 +2539,6 @@
         private System.Windows.Forms.TextBox Motor2_Velocityreal;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label lb_Micronitor;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox cb_Toggle_in_on_direction;
     }
 }
