@@ -213,6 +213,7 @@
             this.Motor3_Position = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lb_Micronitor = new System.Windows.Forms.Label();
+            this.cb_Toggle_in_on_direction = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -2155,12 +2156,23 @@
             this.lb_Micronitor.TabIndex = 94;
             this.lb_Micronitor.Text = "Micronitor 2016";
             // 
+            // cb_Toggle_in_on_direction
+            // 
+            this.cb_Toggle_in_on_direction.AutoSize = true;
+            this.cb_Toggle_in_on_direction.Location = new System.Drawing.Point(11, 842);
+            this.cb_Toggle_in_on_direction.Name = "cb_Toggle_in_on_direction";
+            this.cb_Toggle_in_on_direction.Size = new System.Drawing.Size(156, 17);
+            this.cb_Toggle_in_on_direction.TabIndex = 96;
+            this.cb_Toggle_in_on_direction.Text = "Toggle in one direction only";
+            this.cb_Toggle_in_on_direction.UseVisualStyleBackColor = true;
+            // 
             // Interfacer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(998, 936);
+            this.Controls.Add(this.cb_Toggle_in_on_direction);
             this.Controls.Add(this.lb_Micronitor);
             this.Controls.Add(this.Motor3_Deacceleration);
             this.Controls.Add(this.Motor3_Distance);
@@ -2527,6 +2539,7 @@
         private System.Windows.Forms.TextBox Motor2_Velocityreal;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label lb_Micronitor;
+        private System.Windows.Forms.CheckBox cb_Toggle_in_on_direction;
     }
 }
 

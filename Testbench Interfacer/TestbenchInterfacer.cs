@@ -1122,44 +1122,69 @@ namespace Testbench_Interfacer
         {
             Ticks++;
             Invoke(new Action(() => LoggProgress.Increment(1)));
-            
-            if ((Ticks % 2)==1)
+
+            if (cb_Toggle_in_on_direction.Checked)
             {
                 if (cb_Motor1_Enabled.Checked)
                 {
                     motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
+                    motor1.setNewZero();
                     Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                 }
 
                 if (cb_Motor2_Enabled.Checked)
                 {
                     motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
+                    motor2.setNewZero();
                     Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                 }
                 if (cb_Motor3_Enabled.Checked)
                 {
                     motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
+                    motor3.setNewZero();
                     Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                 }
-                //ToggleBool = false;
             }
             else
             {
-                if (cb_Motor1_Enabled.Checked)
+                if ((Ticks % 2) == 1)
                 {
-                    motor1.absoluteMoveToAndStop(0);
-                    Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
-                }
-                if (cb_Motor2_Enabled.Checked)
-                    motor2.absoluteMoveToAndStop(0);
-                    Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
-                if (cb_Motor3_Enabled.Checked)
-                {
-                    motor3.absoluteMoveToAndStop(0);
-                    Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
-                }
+                    if (cb_Motor1_Enabled.Checked)
+                    {
+                        motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
+                        Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
+                    }
 
-                //ToggleBool = true;
+                    if (cb_Motor2_Enabled.Checked)
+                    {
+                        motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
+                        Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                    }
+                    if (cb_Motor3_Enabled.Checked)
+                    {
+                        motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
+                        Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                    }
+                    //ToggleBool = false;
+                }
+                else
+                {
+                    if (cb_Motor1_Enabled.Checked)
+                    {
+                        motor1.absoluteMoveToAndStop(0);
+                        Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
+                    }
+                    if (cb_Motor2_Enabled.Checked)
+                        motor2.absoluteMoveToAndStop(0);
+                    Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                    if (cb_Motor3_Enabled.Checked)
+                    {
+                        motor3.absoluteMoveToAndStop(0);
+                        Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                    }
+
+                    //ToggleBool = true;
+                }
             }
             Thread.Sleep(1);
         }
