@@ -145,7 +145,6 @@
             this.bt_Start_Logging = new System.Windows.Forms.Button();
             this.LoggWorker = new System.ComponentModel.BackgroundWorker();
             this.bt_Cancel_Logging = new System.Windows.Forms.Button();
-            this.bt_Motor1_Setup = new System.Windows.Forms.Button();
             this.lb_Motor_Controller1 = new System.Windows.Forms.Label();
             this.Motor1_Velocity = new System.Windows.Forms.TextBox();
             this.Motor1_Acceleration = new System.Windows.Forms.TextBox();
@@ -214,6 +213,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.lb_Micronitor = new System.Windows.Forms.Label();
             this.cb_Toggle_in_on_direction = new System.Windows.Forms.CheckBox();
+            this.bt_Motor1_Setup = new System.Windows.Forms.Button();
+            this.cb_Textguide = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -419,7 +420,6 @@
             this.Sensor_1_installed_bitmap.Enabled = false;
             this.Sensor_1_installed_bitmap.Location = new System.Drawing.Point(558, 205);
             this.Sensor_1_installed_bitmap.Name = "Sensor_1_installed_bitmap";
-            this.Sensor_1_installed_bitmap.ReadOnly = true;
             this.Sensor_1_installed_bitmap.Size = new System.Drawing.Size(130, 20);
             this.Sensor_1_installed_bitmap.TabIndex = 27;
             this.Sensor_1_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_1_installed_bitmap_TextChanged);
@@ -465,7 +465,6 @@
             this.Sensor_2_installed_bitmap.Enabled = false;
             this.Sensor_2_installed_bitmap.Location = new System.Drawing.Point(558, 365);
             this.Sensor_2_installed_bitmap.Name = "Sensor_2_installed_bitmap";
-            this.Sensor_2_installed_bitmap.ReadOnly = true;
             this.Sensor_2_installed_bitmap.Size = new System.Drawing.Size(130, 20);
             this.Sensor_2_installed_bitmap.TabIndex = 27;
             this.Sensor_2_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_2_installed_bitmap_TextChanged);
@@ -1391,7 +1390,7 @@
             // LoggProgress
             // 
             this.LoggProgress.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.LoggProgress.Location = new System.Drawing.Point(11, 893);
+            this.LoggProgress.Location = new System.Drawing.Point(12, 918);
             this.LoggProgress.MarqueeAnimationSpeed = 50;
             this.LoggProgress.Maximum = 20;
             this.LoggProgress.Name = "LoggProgress";
@@ -1402,7 +1401,7 @@
             // 
             this.bt_Start_Logging.BackColor = System.Drawing.SystemColors.Control;
             this.bt_Start_Logging.Enabled = false;
-            this.bt_Start_Logging.Location = new System.Drawing.Point(702, 864);
+            this.bt_Start_Logging.Location = new System.Drawing.Point(703, 889);
             this.bt_Start_Logging.Name = "bt_Start_Logging";
             this.bt_Start_Logging.Size = new System.Drawing.Size(143, 23);
             this.bt_Start_Logging.TabIndex = 33;
@@ -1418,26 +1417,13 @@
             // 
             this.bt_Cancel_Logging.BackColor = System.Drawing.SystemColors.Control;
             this.bt_Cancel_Logging.Enabled = false;
-            this.bt_Cancel_Logging.Location = new System.Drawing.Point(851, 864);
+            this.bt_Cancel_Logging.Location = new System.Drawing.Point(852, 889);
             this.bt_Cancel_Logging.Name = "bt_Cancel_Logging";
             this.bt_Cancel_Logging.Size = new System.Drawing.Size(137, 23);
             this.bt_Cancel_Logging.TabIndex = 34;
             this.bt_Cancel_Logging.Text = "Cancel Logging";
             this.bt_Cancel_Logging.UseVisualStyleBackColor = false;
             this.bt_Cancel_Logging.Click += new System.EventHandler(this.CancelLoggSession);
-            // 
-            // bt_Motor1_Setup
-            // 
-            this.bt_Motor1_Setup.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.bt_Motor1_Setup.Enabled = false;
-            this.bt_Motor1_Setup.Location = new System.Drawing.Point(371, 920);
-            this.bt_Motor1_Setup.Name = "bt_Motor1_Setup";
-            this.bt_Motor1_Setup.Size = new System.Drawing.Size(100, 25);
-            this.bt_Motor1_Setup.TabIndex = 35;
-            this.bt_Motor1_Setup.Text = "Motor1 Setup";
-            this.bt_Motor1_Setup.UseVisualStyleBackColor = false;
-            this.bt_Motor1_Setup.Visible = false;
-            this.bt_Motor1_Setup.Click += new System.EventHandler(this.bt_Motor1_Setup_Click);
             // 
             // lb_Motor_Controller1
             // 
@@ -1487,7 +1473,7 @@
             // Logging_Period
             // 
             this.Logging_Period.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Logging_Period.Location = new System.Drawing.Point(107, 867);
+            this.Logging_Period.Location = new System.Drawing.Point(108, 892);
             this.Logging_Period.Name = "Logging_Period";
             this.Logging_Period.Size = new System.Drawing.Size(100, 20);
             this.Logging_Period.TabIndex = 42;
@@ -1496,7 +1482,7 @@
             // Toggle_Delay
             // 
             this.Toggle_Delay.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Toggle_Delay.Location = new System.Drawing.Point(314, 867);
+            this.Toggle_Delay.Location = new System.Drawing.Point(315, 892);
             this.Toggle_Delay.Name = "Toggle_Delay";
             this.Toggle_Delay.Size = new System.Drawing.Size(100, 20);
             this.Toggle_Delay.TabIndex = 43;
@@ -1505,7 +1491,7 @@
             // lb_Logging_Period
             // 
             this.lb_Logging_Period.AutoSize = true;
-            this.lb_Logging_Period.Location = new System.Drawing.Point(9, 870);
+            this.lb_Logging_Period.Location = new System.Drawing.Point(10, 895);
             this.lb_Logging_Period.Name = "lb_Logging_Period";
             this.lb_Logging_Period.Size = new System.Drawing.Size(92, 13);
             this.lb_Logging_Period.TabIndex = 44;
@@ -1514,7 +1500,7 @@
             // lb_Toggle_Delay
             // 
             this.lb_Toggle_Delay.AutoSize = true;
-            this.lb_Toggle_Delay.Location = new System.Drawing.Point(224, 870);
+            this.lb_Toggle_Delay.Location = new System.Drawing.Point(225, 895);
             this.lb_Toggle_Delay.Name = "lb_Toggle_Delay";
             this.lb_Toggle_Delay.Size = new System.Drawing.Size(84, 13);
             this.lb_Toggle_Delay.TabIndex = 45;
@@ -1642,7 +1628,7 @@
             // 
             this.bt_Motor2_Setup.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.bt_Motor2_Setup.Enabled = false;
-            this.bt_Motor2_Setup.Location = new System.Drawing.Point(477, 922);
+            this.bt_Motor2_Setup.Location = new System.Drawing.Point(478, 947);
             this.bt_Motor2_Setup.Name = "bt_Motor2_Setup";
             this.bt_Motor2_Setup.Size = new System.Drawing.Size(100, 23);
             this.bt_Motor2_Setup.TabIndex = 51;
@@ -1740,7 +1726,7 @@
             // 
             this.bt_Motor3_Setup.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.bt_Motor3_Setup.Enabled = false;
-            this.bt_Motor3_Setup.Location = new System.Drawing.Point(583, 922);
+            this.bt_Motor3_Setup.Location = new System.Drawing.Point(584, 947);
             this.bt_Motor3_Setup.Name = "bt_Motor3_Setup";
             this.bt_Motor3_Setup.Size = new System.Drawing.Size(100, 23);
             this.bt_Motor3_Setup.TabIndex = 60;
@@ -2150,7 +2136,7 @@
             // 
             this.lb_Micronitor.AutoSize = true;
             this.lb_Micronitor.Enabled = false;
-            this.lb_Micronitor.Location = new System.Drawing.Point(912, 919);
+            this.lb_Micronitor.Location = new System.Drawing.Point(913, 944);
             this.lb_Micronitor.Name = "lb_Micronitor";
             this.lb_Micronitor.Size = new System.Drawing.Size(80, 13);
             this.lb_Micronitor.TabIndex = 94;
@@ -2159,19 +2145,46 @@
             // cb_Toggle_in_on_direction
             // 
             this.cb_Toggle_in_on_direction.AutoSize = true;
-            this.cb_Toggle_in_on_direction.Location = new System.Drawing.Point(11, 842);
+            this.cb_Toggle_in_on_direction.Location = new System.Drawing.Point(12, 867);
             this.cb_Toggle_in_on_direction.Name = "cb_Toggle_in_on_direction";
             this.cb_Toggle_in_on_direction.Size = new System.Drawing.Size(156, 17);
             this.cb_Toggle_in_on_direction.TabIndex = 96;
             this.cb_Toggle_in_on_direction.Text = "Toggle in one direction only";
             this.cb_Toggle_in_on_direction.UseVisualStyleBackColor = true;
+            this.cb_Toggle_in_on_direction.CheckedChanged += new System.EventHandler(this.cb_Toggle_in_on_direction_CheckedChanged);
+            // 
+            // bt_Motor1_Setup
+            // 
+            this.bt_Motor1_Setup.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.bt_Motor1_Setup.Enabled = false;
+            this.bt_Motor1_Setup.Location = new System.Drawing.Point(372, 945);
+            this.bt_Motor1_Setup.Name = "bt_Motor1_Setup";
+            this.bt_Motor1_Setup.Size = new System.Drawing.Size(100, 25);
+            this.bt_Motor1_Setup.TabIndex = 35;
+            this.bt_Motor1_Setup.Text = "Motor1 Setup";
+            this.bt_Motor1_Setup.UseVisualStyleBackColor = false;
+            this.bt_Motor1_Setup.Visible = false;
+            this.bt_Motor1_Setup.Click += new System.EventHandler(this.bt_Motor1_Setup_Click);
+            // 
+            // cb_Textguide
+            // 
+            this.cb_Textguide.AutoSize = true;
+            this.cb_Textguide.Location = new System.Drawing.Point(176, 867);
+            this.cb_Textguide.Name = "cb_Textguide";
+            this.cb_Textguide.Size = new System.Drawing.Size(186, 17);
+            this.cb_Textguide.TabIndex = 97;
+            this.cb_Textguide.Text = "Run distances defined in guide.txt";
+            this.cb_Textguide.UseVisualStyleBackColor = true;
+            this.cb_Textguide.CheckedChanged += new System.EventHandler(this.cb_Textguide_CheckedChanged);
             // 
             // Interfacer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(998, 936);
+            this.ClientSize = new System.Drawing.Size(1007, 970);
+            this.Controls.Add(this.cb_Textguide);
             this.Controls.Add(this.cb_Toggle_in_on_direction);
             this.Controls.Add(this.lb_Micronitor);
             this.Controls.Add(this.Motor3_Deacceleration);
@@ -2322,7 +2335,7 @@
             this.Controls.Add(this.label_Sensor_2_Misalign_Gamma);
             this.Controls.Add(this.label_Temperature_offset);
             this.Controls.Add(this.label_Temperature_scale_factor);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Interfacer";
             this.Text = "Testbench Interfacer";
@@ -2466,7 +2479,6 @@
         private System.Windows.Forms.Button bt_Start_Logging;
         private System.ComponentModel.BackgroundWorker LoggWorker;
         private System.Windows.Forms.Button bt_Cancel_Logging;
-        private System.Windows.Forms.Button bt_Motor1_Setup;
         private System.Windows.Forms.Label lb_Motor_Controller1;
         private System.Windows.Forms.TextBox Motor1_Velocity;
         private System.Windows.Forms.TextBox Motor1_Acceleration;
@@ -2540,6 +2552,8 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label lb_Micronitor;
         private System.Windows.Forms.CheckBox cb_Toggle_in_on_direction;
+        private System.Windows.Forms.Button bt_Motor1_Setup;
+        private System.Windows.Forms.CheckBox cb_Textguide;
     }
 }
 

@@ -52,6 +52,10 @@ namespace Testbench_Interfacer
         /// </summary>
         public Interfacer()
         {
+            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            //this.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+
+
             InitializeComponent();
 
             System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
@@ -402,7 +406,7 @@ namespace Testbench_Interfacer
                 + NaNtoUndefined(Carriers[CurrentCarrier].Sensor_2_Misalign_Beta.ToString("0.#########"))
                 + NaNtoUndefined(Carriers[CurrentCarrier].Sensor_2_Misalign_Gamma.ToString("0.#########"));
 
-
+                Invoke(new Action(() => Console.Text = carrierSettings));
                 /*               
                 + Carriers[CurrentCarrier].Temperature offset;
                 + Carriers[CurrentCarrier].Temperature scale factor;
@@ -435,7 +439,7 @@ namespace Testbench_Interfacer
 
         }
 
-        //
+        //Removed reason for this check, No longer display NaN in textbox
         private string NaNtoUndefined(string txt)
         {
             if (txt == "NaN")
@@ -655,7 +659,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Sample_rate = float.Parse(Sensor_1_Sample_rate.Text);
             }
-            catch (FormatException) { Sensor_1_Sample_rate.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Sample_rate.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Scale_factor_X_TextChanged(object sender, EventArgs e)
@@ -664,7 +668,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Scale_factor_X = float.Parse(Sensor_1_Scale_factor_X.Text);
             }
-            catch (FormatException) { Sensor_1_Scale_factor_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Scale_factor_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Scale_factor_Y_TextChanged(object sender, EventArgs e)
@@ -673,7 +677,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Scale_factor_Y = float.Parse(Sensor_1_Scale_factor_Y.Text);
             }
-            catch (FormatException) { Sensor_1_Scale_factor_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Scale_factor_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Scale_factor_Z_TextChanged(object sender, EventArgs e)
@@ -682,7 +686,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Scale_factor_Z = float.Parse(Sensor_1_Scale_factor_Z.Text);
             }
-            catch (FormatException) { Sensor_1_Scale_factor_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Scale_factor_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_SF_Tempco_X_TextChanged(object sender, EventArgs e)
@@ -691,7 +695,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_SF_Tempco_X = float.Parse(Sensor_1_SF_Tempco_X.Text);
             }
-            catch (FormatException) { Sensor_1_SF_Tempco_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_SF_Tempco_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_SF_Tempco_Y_TextChanged(object sender, EventArgs e)
@@ -700,7 +704,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_SF_Tempco_Y = float.Parse(Sensor_1_SF_Tempco_Y.Text);
             }
-            catch (FormatException) { Sensor_1_SF_Tempco_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_SF_Tempco_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_SF_Tempco_Z_TextChanged(object sender, EventArgs e)
@@ -709,7 +713,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_SF_Tempco_Z = float.Parse(Sensor_1_SF_Tempco_Z.Text);
             }
-            catch (FormatException) { Sensor_1_SF_Tempco_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_SF_Tempco_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_X_TextChanged(object sender, EventArgs e)
@@ -718,7 +722,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_X = float.Parse(Sensor_1_Offset_X.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_Y_TextChanged(object sender, EventArgs e)
@@ -727,7 +731,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_Y = float.Parse(Sensor_1_Offset_Y.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_Z_TextChanged(object sender, EventArgs e)
@@ -736,7 +740,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_Z = float.Parse(Sensor_1_Offset_Z.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_Tempco_X_TextChanged(object sender, EventArgs e)
@@ -745,7 +749,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_Tempco_X = float.Parse(Sensor_1_Offset_Tempco_X.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_Tempco_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_Tempco_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_Tempco_Y_TextChanged(object sender, EventArgs e)
@@ -754,7 +758,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_Tempco_Y = float.Parse(Sensor_1_Offset_Tempco_Y.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_Tempco_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_Tempco_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Offset_Tempco_Z_TextChanged(object sender, EventArgs e)
@@ -763,7 +767,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Offset_Tempco_Z = float.Parse(Sensor_1_Offset_Tempco_Z.Text);
             }
-            catch (FormatException) { Sensor_1_Offset_Tempco_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Offset_Tempco_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Misalign_Alpha_TextChanged(object sender, EventArgs e)
@@ -772,7 +776,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Misalign_Alpha = float.Parse(Sensor_1_Misalign_Alpha.Text);
             }
-            catch (FormatException) { Sensor_1_Misalign_Alpha.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Misalign_Alpha.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Misalign_Beta_TextChanged(object sender, EventArgs e)
@@ -781,7 +785,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Misalign_Beta = float.Parse(Sensor_1_Misalign_Beta.Text);
             }
-            catch (FormatException) { Sensor_1_Misalign_Beta.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Misalign_Beta.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_1_Misalign_Gamma_TextChanged(object sender, EventArgs e)
@@ -790,7 +794,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_1_Misalign_Gamma = float.Parse(Sensor_1_Misalign_Gamma.Text);
             }
-            catch (FormatException) { Sensor_1_Misalign_Gamma.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_1_Misalign_Gamma.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Sample_rate_TextChanged(object sender, EventArgs e)
@@ -799,7 +803,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Sample_rate = float.Parse(Sensor_2_Sample_rate.Text);
             }
-            catch (FormatException) { Sensor_2_Sample_rate.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Sample_rate.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Scale_factor_X_TextChanged(object sender, EventArgs e)
@@ -808,7 +812,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Scale_factor_X = float.Parse(Sensor_2_Scale_factor_X.Text);
             }
-            catch (FormatException) { Sensor_2_Scale_factor_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Scale_factor_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Scale_factor_Y_TextChanged(object sender, EventArgs e)
@@ -817,7 +821,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Scale_factor_Y = float.Parse(Sensor_2_Scale_factor_Y.Text);
             }
-            catch (FormatException) { Sensor_2_Scale_factor_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Scale_factor_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Scale_factor_Z_TextChanged(object sender, EventArgs e)
@@ -826,7 +830,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Scale_factor_Z = float.Parse(Sensor_2_Scale_factor_Z.Text);
             }
-            catch (FormatException) { Sensor_2_Scale_factor_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Scale_factor_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_SF_Tempco_X_TextChanged(object sender, EventArgs e)
@@ -835,7 +839,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_SF_Tempco_X = float.Parse(Sensor_2_SF_Tempco_X.Text);
             }
-            catch (FormatException) { Sensor_2_SF_Tempco_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_SF_Tempco_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_SF_Tempco_Y_TextChanged(object sender, EventArgs e)
@@ -844,7 +848,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_SF_Tempco_Y = float.Parse(Sensor_2_SF_Tempco_Y.Text);
             }
-            catch (FormatException) { Sensor_2_SF_Tempco_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_SF_Tempco_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_SF_Tempco_Z_TextChanged(object sender, EventArgs e)
@@ -853,7 +857,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_SF_Tempco_Z = float.Parse(Sensor_2_SF_Tempco_Z.Text);
             }
-            catch (FormatException) { Sensor_2_SF_Tempco_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_SF_Tempco_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_X_TextChanged(object sender, EventArgs e)
@@ -862,7 +866,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_X = float.Parse(Sensor_2_Offset_X.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_Y_TextChanged(object sender, EventArgs e)
@@ -871,7 +875,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_Y = float.Parse(Sensor_2_Offset_Y.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_Z_TextChanged(object sender, EventArgs e)
@@ -880,7 +884,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_Z = float.Parse(Sensor_2_Offset_Z.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_Tempco_X_TextChanged(object sender, EventArgs e)
@@ -889,7 +893,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_Tempco_X = float.Parse(Sensor_2_Offset_Tempco_X.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_Tempco_X.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_Tempco_X.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_Tempco_Y_TextChanged(object sender, EventArgs e)
@@ -898,7 +902,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_Tempco_Y = float.Parse(Sensor_2_Offset_Tempco_Y.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_Tempco_Y.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_Tempco_Y.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Offset_Tempco_Z_TextChanged(object sender, EventArgs e)
@@ -907,7 +911,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Offset_Tempco_Z = float.Parse(Sensor_2_Offset_Tempco_Z.Text);
             }
-            catch (FormatException) { Sensor_2_Offset_Tempco_Z.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Offset_Tempco_Z.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Misalign_Alpha_TextChanged(object sender, EventArgs e)
@@ -916,7 +920,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Misalign_Alpha = float.Parse(Sensor_2_Misalign_Alpha.Text);
             }
-            catch (FormatException) { Sensor_2_Misalign_Alpha.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Misalign_Alpha.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Misalign_Beta_TextChanged(object sender, EventArgs e)
@@ -925,7 +929,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Misalign_Beta = float.Parse(Sensor_2_Misalign_Beta.Text);
             }
-            catch (FormatException) { Sensor_2_Misalign_Beta.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Misalign_Beta.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Sensor_2_Misalign_Gamma_TextChanged(object sender, EventArgs e)
@@ -934,7 +938,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Sensor_2_Misalign_Gamma = float.Parse(Sensor_2_Misalign_Gamma.Text);
             }
-            catch (FormatException) { Sensor_2_Misalign_Gamma.Text = float.NaN.ToString(); }
+            catch (FormatException) { Sensor_2_Misalign_Gamma.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Temperature_offset_TextChanged(object sender, EventArgs e)
@@ -943,7 +947,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Temperature_offset = float.Parse(Temperature_offset.Text);
             }
-            catch (FormatException) { Temperature_offset.Text = float.NaN.ToString(); }
+            catch (FormatException) { Temperature_offset.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void Temperature_scale_factor_TextChanged(object sender, EventArgs e)
@@ -952,7 +956,7 @@ namespace Testbench_Interfacer
             {
                 Carriers[CurrentCarrier].Temperature_scale_factor = float.Parse(Temperature_scale_factor.Text);
             }
-            catch (FormatException) { Temperature_scale_factor.Text = float.NaN.ToString(); }
+            catch (FormatException) { Temperature_scale_factor.Text = ""; }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
         private void cb_Logg_Enabled_CheckedChanged(object sender, EventArgs e)
@@ -975,12 +979,24 @@ namespace Testbench_Interfacer
         private bool CancelLogging;
         public int totalTicks;
         public int Ticks = 0;
+        public string[] textguide = { "not set" };
+        string textguidePath;
+
+        private static object _eventlock = new object();
+        private static bool _eventFinished = new bool();
+
+        private static Mutex mut = new Mutex();
 
         /// <summary>
         /// Reset variables and start Logg thread.
         /// </summary>
         private void InitializeLoggSession(object sender, EventArgs e)
         {
+            cb_Textguide.Enabled = false;
+            cb_Toggle_in_on_direction.Enabled = false;
+            Logging_Period.Enabled = false;
+            Toggle_Delay.Enabled = false;
+
             Ticks = 0;
             CancelLogging = false;
 
@@ -1005,6 +1021,32 @@ namespace Testbench_Interfacer
                     //TODO
                 }
             }
+
+            //Check if Run with guide.txt is set
+            if (cb_Textguide.Checked)
+            {
+                try
+                {
+                    textguidePath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "guide.txt");
+                    textguide = File.ReadAllLines(textguidePath);
+
+                    Console.Clear();
+
+                    Console.AppendText("RUNNING SEQUENCE:\n");
+
+                    for (int i = 0; i < textguide.Length; i++)
+                    {
+                        Console.AppendText(textguide[i] + ",");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    CancelLoggSession(this, e);
+                }
+
+            }
+            
 
             try
             {
@@ -1031,7 +1073,7 @@ namespace Testbench_Interfacer
         {
             try
             {
-                CancelLogging = true;
+                    Invoke(new Action(() => CancelLogging = true));
             }
             catch (Exception ex)
             {
@@ -1054,11 +1096,33 @@ namespace Testbench_Interfacer
         /// </summary>
         public void LoggSession(object sender, EventArgs e)
         {
-            var timer = new System.Windows.Forms.Timer();
-            timer.Tick += new EventHandler(TimeTick);
-            timer.Interval = Int32.Parse(Toggle_Delay.Text) * 1000; //1000 ms
-            
-            totalTicks = int.Parse(Logging_Period.Text) / (int.Parse(Toggle_Delay.Text));
+            //var timer = new System.Windows.Forms.Timer();
+            //timer.Tick += new EventHandler(TimeTick);
+            //timer.Interval = Int32.Parse(Toggle_Delay.Text) * 1000; //1000 ms
+
+            if (cb_Motor1_Enabled.Checked)
+            {
+                motor1.setNewZero();
+            }
+            if (cb_Motor2_Enabled.Checked)
+            {
+                motor2.setNewZero();
+            }
+            if (cb_Motor3_Enabled.Checked)
+            {
+                motor3.setNewZero();
+            }
+
+            //If using textguide u
+            if (cb_Textguide.Checked)
+            {
+                totalTicks = textguide.Length;
+            }
+            else
+            {
+                totalTicks = int.Parse(Logging_Period.Text) / (int.Parse(Toggle_Delay.Text));
+            }
+
             Invoke(new Action(() => LoggProgress.Maximum = totalTicks));
             Invoke(new Action(() => LoggProgress.Value = 0));
             Invoke(new Action(() => LoggProgress.Maximum = totalTicks));
@@ -1083,15 +1147,85 @@ namespace Testbench_Interfacer
             }
             if (Logg_warning)
                 MessageBox.Show("No Carriers with active logg.");
-            timer.Start();
+            //timer.Start();
 
+            int spinlimit = 1000;
+            int runs = 0;
+
+            
 
             while (!CancelLogging && Ticks < totalTicks)
             {
-                Application.DoEvents();
+                var TimeTickThread = new Thread(() => TimeTick(new object(), new EventArgs()));
+                //if (CancelLogging)
+                //{
+                //    break;
+                //}
+
+                //Application.DoEvents();
+                //Thread.Sleep(Int32.Parse(Toggle_Delay.Text) * 1000);
+
+                //if (CancelLogging)
+                //{
+                //    break;
+                //}
+
+
+                /////////// CHECK IF TIMETICK THREAD MANAGED TO FINISH!!!!
+
+
+                
+                    TimeTickThread.Start();// TimeTick(this, e);
+                    while (!CancelLogging && runs < spinlimit)
+                    {
+                    try
+                    {
+                        Thread.Sleep(Int32.Parse(Toggle_Delay.Text));
+                    }
+                    catch (Exception ex) { }
+                        //if(runs % 200 == 0)
+                        //    Invoke(new Action(() => Console.AppendText(CancelLogging.ToString() + Ticks.ToString() + "\n")));
+                        runs++;
+                    }
+
+                lock (_eventlock)
+                {
+                    if (_eventFinished == false)
+                    {
+                        if (cb_Motor1_Enabled.Checked)
+                        {
+                            motor1.emergency_stop = true;
+                            motor1.setNewZero();
+                        }
+                        if (cb_Motor2_Enabled.Checked)
+                        {
+                            motor2.emergency_stop = true;
+                            motor2.setNewZero();
+                        }
+                        if (cb_Motor3_Enabled.Checked)
+                        {
+                            motor3.emergency_stop = true;
+                            motor3.setNewZero();
+                        }
+
+
+                        MessageBox.Show("Logging Session was Cancelled while turning or Distance was too far to be reached within Toggle Delay.\n\nNOTE: New Zero position set to current position");
+                        Invoke(new Action(() => CancelLoggSession(this, e)));
+
+                    }
+                    
+                }
+
+
+
+                runs = 0;
+                    //Invoke(new Action(() => Console.AppendText(CancelLogging.ToString() + Ticks.ToString() + "\n")));
+                mut.WaitOne();
+                    TimeTickThread.Join();
+                mut.ReleaseMutex();
             }
 
-            timer.Dispose();
+            //timer.Dispose();
             int remainingTicks = totalTicks - Ticks;
 
             //Close loggfiles for enabled addresses
@@ -1111,6 +1245,26 @@ namespace Testbench_Interfacer
                     //TODO
                 }
             }
+
+            if (cb_Textguide.Checked)
+            {
+                Invoke(new Action(() => cb_Textguide.Enabled = true));
+            }
+            else if (cb_Toggle_in_on_direction.Checked)
+            {
+                Invoke(new Action(() => cb_Toggle_in_on_direction.Enabled = true));
+            }
+            else
+            {
+                Invoke(new Action(() => cb_Textguide.Enabled = true));
+                Invoke(new Action(() => cb_Toggle_in_on_direction.Enabled = true));
+            }
+
+            Invoke(new Action(() => Logging_Period.Enabled = true));
+            Invoke(new Action(() => Toggle_Delay.Enabled = true));
+
+            Invoke(new Action(() => Console.Clear()));
+
             Invoke(new Action(() => LoggProgress.Value = totalTicks));
         }
 
@@ -1121,72 +1275,108 @@ namespace Testbench_Interfacer
         public void TimeTick(object sender, EventArgs e)
         {
             Ticks++;
+            lock (_eventlock)
+            {
+                _eventFinished = false;
+            }
             Invoke(new Action(() => LoggProgress.Increment(1)));
 
-            if (cb_Toggle_in_on_direction.Checked)
-            {
-                if (cb_Motor1_Enabled.Checked)
-                {
-                    motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
-                    motor1.setNewZero();
-                    Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
-                }
-
-                if (cb_Motor2_Enabled.Checked)
-                {
-                    motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
-                    motor2.setNewZero();
-                    Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
-                }
-                if (cb_Motor3_Enabled.Checked)
-                {
-                    motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
-                    motor3.setNewZero();
-                    Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
-                }
-            }
-            else
-            {
-                if ((Ticks % 2) == 1)
+                if (cb_Toggle_in_on_direction.Checked)
                 {
                     if (cb_Motor1_Enabled.Checked)
                     {
                         motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
+                        motor1.setNewZero();
                         Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                     }
 
                     if (cb_Motor2_Enabled.Checked)
                     {
                         motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
+                        motor2.setNewZero();
                         Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                     }
                     if (cb_Motor3_Enabled.Checked)
                     {
                         motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
+                        motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                     }
-                    //ToggleBool = false;
                 }
-                else
+                else if (cb_Textguide.Checked)
                 {
-                    if (cb_Motor1_Enabled.Checked)
+                if (cb_Motor1_Enabled.Checked)
                     {
-                        motor1.absoluteMoveToAndStop(0);
+                        motor1.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
+                        motor1.setNewZero();
                         Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                     }
+
                     if (cb_Motor2_Enabled.Checked)
-                        motor2.absoluteMoveToAndStop(0);
-                    Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                    {
+                        motor2.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
+                        motor2.setNewZero();
+                        Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                    }
                     if (cb_Motor3_Enabled.Checked)
                     {
-                        motor3.absoluteMoveToAndStop(0);
+                        motor3.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
+                        motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                     }
-
-                    //ToggleBool = true;
-                }
+                    
             }
-            Thread.Sleep(1);
+                else
+                {
+                    if ((Ticks % 2) == 1)
+                    {
+                        if (cb_Motor1_Enabled.Checked)
+                        {
+                            motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
+                            motor1.setNewZero();
+                            Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
+                        }
+
+                        if (cb_Motor2_Enabled.Checked)
+                        {
+                            motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
+                            motor2.setNewZero();
+                            Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                        }
+                        if (cb_Motor3_Enabled.Checked)
+                        {
+                            motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
+                            motor3.setNewZero();
+                            Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                        }
+                    }
+                    else
+                    {
+                        if (cb_Motor1_Enabled.Checked)
+                        {
+                            motor1.absoluteMoveToAndStop(-(int.Parse(Motor1_Distance.Text)));
+                            motor1.setNewZero();
+                            Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
+                        }
+                        if (cb_Motor2_Enabled.Checked)
+                            motor2.absoluteMoveToAndStop(-(int.Parse(Motor2_Distancereal.Text)));
+                            motor2.setNewZero();
+                            Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
+                        if (cb_Motor3_Enabled.Checked)
+                        {
+                            motor3.absoluteMoveToAndStop(-(int.Parse(Motor3_Distance.Text)));
+                            motor3.setNewZero();
+                            Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                        }
+                    }
+
+            }
+
+                
+                lock (_eventlock)
+                {
+                    _eventFinished = true;
+                }
         }
 
         //private void updateMotor1Speed()
@@ -1216,18 +1406,36 @@ namespace Testbench_Interfacer
         /// <summary>
         /// Setup Motor1.
         /// </summary>
+        /// </summary>
         private void bt_Motor1_Setup_Click(object sender, EventArgs ea)
         {
             try
             {
-                motor1.initializeNewMotorController(1);
-                cb_Motor1_Enabled.Checked = true;
+                motor2.initializeNewMotorController(1);
+                cb_Motor1_Enabled.Checked = true;//TODO Find out why all needs to be 1
             }
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
             }
         }
+
+        int Motor1_Setup(object sender, EventArgs ea)
+        {
+            int temp = 0;
+            try
+            {
+                temp = motor1.initializeNewMotorController(1);
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            return temp;
+        }
+
+
         /// <summary>
         /// Setup Motor2.
         /// </summary>
@@ -1294,8 +1502,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    bt_Motor1_Setup_Click(this, e);
-                    if (cb_Motor1_Enabled.Checked)
+                    if (motor1.initializeNewMotorController(1) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor1_Save_Setting.Enabled = true;
@@ -1311,6 +1518,11 @@ namespace Testbench_Interfacer
                         Motor1_Status.BackColor = Color.Green;
                         
                         Motor1_Position.Text = motor1.position.ToString();
+                    }
+                    else
+                    {
+                        cb_Motor1_Enabled.Checked = false;
+                        MessageBox.Show("Make sure the EPOS2 controller i connected.");
                     }
                 }
                 catch (Exception ex)
@@ -1344,8 +1556,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    bt_Motor2_Setup_Click(this, e);
-                    if (cb_Motor2_Enabled.Checked)
+                    if (motor2.initializeNewMotorController(1) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor2_Save_Setting.Enabled = true;
@@ -1361,6 +1572,11 @@ namespace Testbench_Interfacer
                         Motor2_Status.BackColor = Color.Green;
 
                         Motor2_Positionreal.Text = motor2.position.ToString();
+                    }
+                    else
+                    {
+                        cb_Motor2_Enabled.Checked = false;
+                        MessageBox.Show("Make sure the EPOS2 controller i connected.");
                     }
                 }
                 catch (Exception ex)
@@ -1393,8 +1609,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    bt_Motor3_Setup_Click(this, e);
-                    if (cb_Motor3_Enabled.Checked)
+                    if (motor3.initializeNewMotorController(1) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor3_Save_Setting.Enabled = true;
@@ -1410,6 +1625,11 @@ namespace Testbench_Interfacer
                         Motor3_Status.BackColor = Color.Green;
 
                         Motor3_Position.Text = motor3.position.ToString();
+                    }
+                    else
+                    {
+                        cb_Motor3_Enabled.Checked = false;
+                        MessageBox.Show("Make sure the EPOS2 controller i connected.");
                     }
                 }
                 catch (Exception ex)
@@ -1541,6 +1761,32 @@ namespace Testbench_Interfacer
                 {
                     //TODO
                 }
+            }
+        }
+
+        private void cb_Textguide_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_Textguide.Checked)
+            {
+                cb_Toggle_in_on_direction.Enabled = false;
+                Logging_Period.Enabled = false;
+            }
+            else
+            {
+                cb_Toggle_in_on_direction.Enabled = true;
+                Logging_Period.Enabled = true;
+            }
+        }
+
+        private void cb_Toggle_in_on_direction_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_Toggle_in_on_direction.Checked)
+            {
+                cb_Textguide.Enabled = false;
+            }
+            else
+            {
+                cb_Textguide.Enabled = true;
             }
         }
     }

@@ -131,7 +131,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Sample_rate = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Sample_rate = 0;
                         }
                         else
                         {
@@ -144,7 +144,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_X = 0;
                         }
                         else
                         {
@@ -157,7 +157,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_Y = 0;
                         }
                         else
                         {
@@ -170,7 +170,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Scale_factor_Z = 0;
                         }
                         else
                         {
@@ -183,7 +183,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_X = 0;
                         }
                         else
                         {
@@ -196,7 +196,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_Y = 0;
                         }
                         else
                         {
@@ -209,7 +209,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_SF_Tempco_Z = 0;
                         }
                         else
                         {
@@ -222,7 +222,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_X = 0;
                         }
                         else
                         {
@@ -235,7 +235,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_Y = 0;
                         }
                         else
                         {
@@ -248,7 +248,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_Z = 0;
                         }
                         else
                         {
@@ -261,7 +261,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_X = 0;
                         }
                         else
                         {
@@ -274,7 +274,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_Y = 0;
                         }
                         else
                         {
@@ -287,7 +287,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Offset_Tempco_Z = 0;
                         }
                         else
                         {
@@ -300,7 +300,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Misalign_Alpha = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Misalign_Alpha = 0;
                         }
                         else
                         {
@@ -313,7 +313,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Misalign_Beta = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Misalign_Beta = 0;
                         }
                         else
                         {
@@ -326,7 +326,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_1_Misalign_Gamma = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_1_Misalign_Gamma = 0;
                         }
                         else
                         {
@@ -339,7 +339,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Sample_rate = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Sample_rate = 0;
                         }
                         else
                         {
@@ -352,7 +352,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_X = 0;
                         }
                         else
                         {
@@ -365,7 +365,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_Y = 0;
                         }
                         else
                         {
@@ -378,7 +378,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Scale_factor_Z = 0;
                         }
                         else
                         {
@@ -391,7 +391,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_X = 0;
                         }
                         else
                         {
@@ -404,7 +404,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_Y = 0;
                         }
                         else
                         {
@@ -417,7 +417,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_SF_Tempco_Z = 0;
                         }
                         else
                         {
@@ -430,7 +430,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_X = 0;
                         }
                         else
                         {
@@ -443,7 +443,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_Y = 0;
                         }
                         else
                         {
@@ -456,7 +456,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_Z = 0;
                         }
                         else
                         {
@@ -469,7 +469,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_X = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_X = 0;
                         }
                         else
                         {
@@ -482,7 +482,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_Y = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_Y = 0;
                         }
                         else
                         {
@@ -495,7 +495,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_Z = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Offset_Tempco_Z = 0;
                         }
                         else
                         {
@@ -508,7 +508,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Misalign_Alpha = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Misalign_Alpha = 0;
                         }
                         else
                         {
@@ -521,7 +521,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Misalign_Beta = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Misalign_Beta = 0;
                         }
                         else
                         {
@@ -534,7 +534,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Sensor_2_Misalign_Gamma = float.NaN;
+                            Carriers[InitializedCarriers].Sensor_2_Misalign_Gamma = 0;
                         }
                         else
                         {
@@ -547,7 +547,7 @@ namespace Testbench_Interfacer
                     
                         if (serialData.Substring(27, 9).Equals("undefined"))
                         {
-                            Carriers[InitializedCarriers].Temperature_offset = float.NaN;
+                            Carriers[InitializedCarriers].Temperature_offset = 0;
                         }
                         else
                         {
@@ -564,7 +564,7 @@ namespace Testbench_Interfacer
 
                         if (serialData.Substring(27,9).Equals("undefined"))
                             {
-                            Carriers[InitializedCarriers].Temperature_scale_factor = float.NaN;
+                            Carriers[InitializedCarriers].Temperature_scale_factor = 0;
                             }
                         else
                             {                            

@@ -54,6 +54,25 @@ class MotorControllerEPOS
     }
 
     /// <summary>
+    /// External input to immediatly stop.
+    /// </summary>
+    public bool emergency_stop { get; set; }
+        //get
+        //{
+        //    lock (_deviceLock)
+        //    {
+        //        return emergency_stop;
+        //    }
+        //}
+        //set
+        //{
+        //    lock (_deviceLock)
+        //    {
+        //        emergency_stop = value;
+        //    }
+        //}
+
+    /// <summary>
     /// Motor speed status.
     /// Exposes current speed for displaying in the interface.
     /// </summary>
@@ -159,60 +178,54 @@ class MotorControllerEPOS
     /// <param name="DeviceNr"> Possible reduntant.</param>
     /// TODO minor: Investigate why DeviceNr has to be '1'.
     /// TODO minor: Implement full control over sample rate.
-    public void initializeNewMotorController(UInt16 DeviceNr)
+    public int initializeNewMotorController(UInt16 DeviceNr)
     {
+        int success = 0;
+
         lock (_deviceLock)
         {
             try
             {
                 dispose();
+
                 _mConnector = new DeviceManager();
-            }
-            catch (DeviceException e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
 
-            try
-            {
                 _mEpos = _mConnector.CreateDevice(DeviceNr);
-                setNewZero();
+
+                success = setNewZero();
+
             }
-            catch (DeviceException e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            catch (AccessViolationException e)
-            {
-                MessageBox.Show(e.Message);
-            }
+
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
+
+                success = 0;
             }
 
-            _sampleRate = 5;
+            _sampleRate = 1;
         }
+
+        return success;
+
     }
 
     /// <summary>
     /// Set new Zero position.
     /// </summary>
-    public void setNewZero()
+    public int setNewZero()
     {
         lock (_deviceLock)
         {
             try
             {
                 _zeroPosition = _mEpos.Operation.MotionInfo.GetPositionIs();
+                return 1;
             }
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
+                return 0;
             }
         }
     }       
@@ -282,7 +295,7 @@ class MotorControllerEPOS
     /// <summary>
     /// Disable MotorController functionality.
     /// </summary>
-    private void disable()
+    public void disable()
     {
         lock (_deviceLock)
         {
@@ -310,6 +323,9 @@ class MotorControllerEPOS
     /// TODO minor: Better exception handling. 
     private void absoluteMoveTo(int target)
     {
+
+        emergency_stop = false;
+
         lock (_deviceLock)
         {
             try
@@ -336,18 +352,20 @@ class MotorControllerEPOS
         enable();
         _moving = true;
         absoluteMoveTo(target);
-
-        try
-        {
-            while (target != position)
+        //lock (_deviceLock)
+        //{
+            try
             {
-                Thread.Sleep(_sampleRate);
+                while (target != position && !emergency_stop)
+                {
+                    Thread.Sleep(_sampleRate);
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            MessageBox.Show(ex.Message);
-        }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        //}
         _moving = false;
         disable();
     }
