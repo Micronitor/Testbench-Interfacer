@@ -354,18 +354,24 @@ class MotorControllerEPOS
         absoluteMoveTo(target);
         //lock (_deviceLock)
         //{
-            try
-            {
-                while (target != position && !emergency_stop)
-                {
-                    Thread.Sleep(_sampleRate);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+        var StopperThread = new Thread(() => Stopper(target));
+        StopperThread.Start();
         //}
+    }
+
+    private void Stopper(int target)
+    {
+        try
+        {
+            while (target != position && !emergency_stop)
+            {
+                Thread.Sleep(_sampleRate);
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
         _moving = false;
         disable();
     }
