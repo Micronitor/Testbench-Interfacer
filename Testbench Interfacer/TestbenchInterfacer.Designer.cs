@@ -45,99 +45,99 @@
             this.bt_Set_Carrier = new System.Windows.Forms.Button();
             this.SendWorker = new System.ComponentModel.BackgroundWorker();
             this.Carrier_serial_number = new System.Windows.Forms.TextBox();
-            this.Sensor_1_name = new System.Windows.Forms.TextBox();
-            this.Sensor_2_name = new System.Windows.Forms.TextBox();
-            this.Sensor_1_active_sensors = new System.Windows.Forms.TextBox();
-            this.Sensor_1_installed_bitmap = new System.Windows.Forms.TextBox();
-            this.Sensor_1_enabled_bitmap = new System.Windows.Forms.TextBox();
-            this.Sensor_1_faulty_bitmap = new System.Windows.Forms.TextBox();
-            this.Sensor_2_active_sensors = new System.Windows.Forms.TextBox();
-            this.Sensor_2_installed_bitmap = new System.Windows.Forms.TextBox();
-            this.Sensor_2_enabled_bitmap = new System.Windows.Forms.TextBox();
-            this.Sensor_2_failty_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_A_name = new System.Windows.Forms.TextBox();
+            this.Sensor_B_name = new System.Windows.Forms.TextBox();
+            this.Sensor_A_active_sensors = new System.Windows.Forms.TextBox();
+            this.Sensor_A_installed_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_A_enabled_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_A_faulty_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_B_active_sensors = new System.Windows.Forms.TextBox();
+            this.Sensor_B_installed_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_B_enabled_bitmap = new System.Windows.Forms.TextBox();
+            this.Sensor_B_failty_bitmap = new System.Windows.Forms.TextBox();
             this.Encoder_offset = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Raw_data_format = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Raw_data_format = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Sample_rate = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Scale_factor_X = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Scale_factor_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Scale_factor_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_1_SF_Tempco_X = new System.Windows.Forms.TextBox();
-            this.Sensor_1_SF_Tempco_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_1_SF_Tempco_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_X = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_Tempco_X = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_Tempco_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Offset_Tempco_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Misalign_Alpha = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Misalign_Beta = new System.Windows.Forms.TextBox();
-            this.Sensor_1_Misalign_Gamma = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Sample_rate = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Scale_factor_X = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Scale_factor_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Scale_factor_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_2_SF_Tempco_X = new System.Windows.Forms.TextBox();
-            this.Sensor_2_SF_Tempco_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_2_SF_Tempco_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_X = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_Tempco_X = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_Tempco_Y = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Offset_Tempco_Z = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Misalign_Alpha = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Misalign_Beta = new System.Windows.Forms.TextBox();
-            this.Sensor_2_Misalign_Gamma = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Raw_data_format = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Raw_data_format = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Sample_rate = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Scale_factor_X = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Scale_factor_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Scale_factor_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_A_SF_Tempco_X = new System.Windows.Forms.TextBox();
+            this.Sensor_A_SF_Tempco_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_A_SF_Tempco_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_X = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_Tempco_X = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_Tempco_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Offset_Tempco_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Misalign_Alpha = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Misalign_Beta = new System.Windows.Forms.TextBox();
+            this.Sensor_A_Misalign_Gamma = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Sample_rate = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Scale_factor_X = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Scale_factor_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Scale_factor_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_B_SF_Tempco_X = new System.Windows.Forms.TextBox();
+            this.Sensor_B_SF_Tempco_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_B_SF_Tempco_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_X = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_Tempco_X = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_Tempco_Y = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Offset_Tempco_Z = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Misalign_Alpha = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Misalign_Beta = new System.Windows.Forms.TextBox();
+            this.Sensor_B_Misalign_Gamma = new System.Windows.Forms.TextBox();
             this.Temperature_offset = new System.Windows.Forms.TextBox();
             this.Temperature_scale_factor = new System.Windows.Forms.TextBox();
             this.label_Carrier_serial_number = new System.Windows.Forms.Label();
-            this.label_Sensor_1_name = new System.Windows.Forms.Label();
-            this.label_Sensor_2_name = new System.Windows.Forms.Label();
-            this.label_Sensor_1_active_sensors = new System.Windows.Forms.Label();
-            this.label_Sensor_1_installed_bitmap = new System.Windows.Forms.Label();
-            this.label_Sensor_1_enabled_bitmap = new System.Windows.Forms.Label();
-            this.label_Sensor_1_faulty_bitmap = new System.Windows.Forms.Label();
-            this.label_Sensor_2_active_sensors = new System.Windows.Forms.Label();
-            this.label_Sensor_2_installed_bitmap = new System.Windows.Forms.Label();
-            this.label_Sensor_2_enabled_bitmap = new System.Windows.Forms.Label();
-            this.label_Sensor_2_failty_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_A_name = new System.Windows.Forms.Label();
+            this.label_Sensor_B_name = new System.Windows.Forms.Label();
+            this.label_Sensor_A_active_sensors = new System.Windows.Forms.Label();
+            this.label_Sensor_A_installed_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_A_enabled_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_A_faulty_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_B_active_sensors = new System.Windows.Forms.Label();
+            this.label_Sensor_B_installed_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_B_enabled_bitmap = new System.Windows.Forms.Label();
+            this.label_Sensor_B_failty_bitmap = new System.Windows.Forms.Label();
             this.label_Encoder_offset = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Raw_data_format = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Raw_data_format = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Sample_rate = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Scale_factor_X = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Scale_factor_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Scale_factor_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_1_SF_Tempco_X = new System.Windows.Forms.Label();
-            this.label_Sensor_1_SF_Tempco_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_1_SF_Tempco_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_X = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_Tempco_X = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_Tempco_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Offset_Tempco_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Misalign_Alpha = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Misalign_Beta = new System.Windows.Forms.Label();
-            this.label_Sensor_1_Misalign_Gamma = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Sample_rate = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Scale_factor_X = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Scale_factor_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Scale_factor_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_2_SF_Tempco_X = new System.Windows.Forms.Label();
-            this.label_Sensor_2_SF_Tempco_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_2_SF_Tempco_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_X = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_Tempco_X = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_Tempco_Y = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Offset_Tempco_Z = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Misalign_Alpha = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Misalign_Beta = new System.Windows.Forms.Label();
-            this.label_Sensor_2_Misalign_Gamma = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Raw_data_format = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Raw_data_format = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Sample_rate = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Scale_factor_X = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Scale_factor_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Scale_factor_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_A_SF_Tempco_X = new System.Windows.Forms.Label();
+            this.label_Sensor_A_SF_Tempco_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_A_SF_Tempco_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_X = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_Tempco_X = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_Tempco_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Offset_Tempco_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Misalign_Alpha = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Misalign_Beta = new System.Windows.Forms.Label();
+            this.label_Sensor_A_Misalign_Gamma = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Sample_rate = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Scale_factor_X = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Scale_factor_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Scale_factor_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_B_SF_Tempco_X = new System.Windows.Forms.Label();
+            this.label_Sensor_B_SF_Tempco_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_B_SF_Tempco_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_X = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_Tempco_X = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_Tempco_Y = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Offset_Tempco_Z = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Misalign_Alpha = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Misalign_Beta = new System.Windows.Forms.Label();
+            this.label_Sensor_B_Misalign_Gamma = new System.Windows.Forms.Label();
             this.label_Temperature_offset = new System.Windows.Forms.Label();
             this.SERCOM_statusbar = new System.Windows.Forms.ProgressBar();
             this.Sent = new System.Windows.Forms.TextBox();
@@ -379,117 +379,117 @@
             this.Carrier_serial_number.TabIndex = 27;
             this.Carrier_serial_number.TextChanged += new System.EventHandler(this.Carrier_serial_number_TextChanged);
             // 
-            // Sensor_1_name
+            // Sensor_A_name
             // 
-            this.Sensor_1_name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_name.Enabled = false;
-            this.Sensor_1_name.Location = new System.Drawing.Point(558, 85);
-            this.Sensor_1_name.Name = "Sensor_1_name";
-            this.Sensor_1_name.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_name.TabIndex = 27;
-            this.Sensor_1_name.TextChanged += new System.EventHandler(this.Sensor_1_name_TextChanged);
+            this.Sensor_A_name.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_name.Enabled = false;
+            this.Sensor_A_name.Location = new System.Drawing.Point(558, 85);
+            this.Sensor_A_name.Name = "Sensor_A_name";
+            this.Sensor_A_name.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_name.TabIndex = 27;
+            this.Sensor_A_name.TextChanged += new System.EventHandler(this.Sensor_A_name_TextChanged);
             // 
-            // Sensor_2_name
+            // Sensor_B_name
             // 
-            this.Sensor_2_name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_name.Enabled = false;
-            this.Sensor_2_name.Location = new System.Drawing.Point(558, 125);
-            this.Sensor_2_name.Name = "Sensor_2_name";
-            this.Sensor_2_name.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_name.TabIndex = 27;
-            this.Sensor_2_name.TextChanged += new System.EventHandler(this.Sensor_2_name_TextChanged);
+            this.Sensor_B_name.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_name.Enabled = false;
+            this.Sensor_B_name.Location = new System.Drawing.Point(558, 125);
+            this.Sensor_B_name.Name = "Sensor_B_name";
+            this.Sensor_B_name.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_name.TabIndex = 27;
+            this.Sensor_B_name.TextChanged += new System.EventHandler(this.Sensor_B_name_TextChanged);
             // 
-            // Sensor_1_active_sensors
+            // Sensor_A_active_sensors
             // 
-            this.Sensor_1_active_sensors.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_active_sensors.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_active_sensors.Enabled = false;
-            this.Sensor_1_active_sensors.Location = new System.Drawing.Point(558, 165);
-            this.Sensor_1_active_sensors.Name = "Sensor_1_active_sensors";
-            this.Sensor_1_active_sensors.ReadOnly = true;
-            this.Sensor_1_active_sensors.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_active_sensors.TabIndex = 27;
-            this.Sensor_1_active_sensors.TextChanged += new System.EventHandler(this.Sensor_1_active_sensors_TextChanged);
+            this.Sensor_A_active_sensors.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_active_sensors.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_active_sensors.Enabled = false;
+            this.Sensor_A_active_sensors.Location = new System.Drawing.Point(558, 165);
+            this.Sensor_A_active_sensors.Name = "Sensor_A_active_sensors";
+            this.Sensor_A_active_sensors.ReadOnly = true;
+            this.Sensor_A_active_sensors.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_active_sensors.TabIndex = 27;
+            this.Sensor_A_active_sensors.TextChanged += new System.EventHandler(this.Sensor_A_active_sensors_TextChanged);
             // 
-            // Sensor_1_installed_bitmap
+            // Sensor_A_installed_bitmap
             // 
-            this.Sensor_1_installed_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_installed_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_installed_bitmap.Enabled = false;
-            this.Sensor_1_installed_bitmap.Location = new System.Drawing.Point(558, 205);
-            this.Sensor_1_installed_bitmap.Name = "Sensor_1_installed_bitmap";
-            this.Sensor_1_installed_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_installed_bitmap.TabIndex = 27;
-            this.Sensor_1_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_1_installed_bitmap_TextChanged);
+            this.Sensor_A_installed_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_installed_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_installed_bitmap.Enabled = false;
+            this.Sensor_A_installed_bitmap.Location = new System.Drawing.Point(558, 205);
+            this.Sensor_A_installed_bitmap.Name = "Sensor_A_installed_bitmap";
+            this.Sensor_A_installed_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_installed_bitmap.TabIndex = 27;
+            this.Sensor_A_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_A_installed_bitmap_TextChanged);
             // 
-            // Sensor_1_enabled_bitmap
+            // Sensor_A_enabled_bitmap
             // 
-            this.Sensor_1_enabled_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_enabled_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_enabled_bitmap.Enabled = false;
-            this.Sensor_1_enabled_bitmap.Location = new System.Drawing.Point(558, 245);
-            this.Sensor_1_enabled_bitmap.Name = "Sensor_1_enabled_bitmap";
-            this.Sensor_1_enabled_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_enabled_bitmap.TabIndex = 27;
-            this.Sensor_1_enabled_bitmap.TextChanged += new System.EventHandler(this.Sensor_1_enabled_bitmap_TextChanged);
+            this.Sensor_A_enabled_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_enabled_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_enabled_bitmap.Enabled = false;
+            this.Sensor_A_enabled_bitmap.Location = new System.Drawing.Point(558, 245);
+            this.Sensor_A_enabled_bitmap.Name = "Sensor_A_enabled_bitmap";
+            this.Sensor_A_enabled_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_enabled_bitmap.TabIndex = 27;
+            this.Sensor_A_enabled_bitmap.TextChanged += new System.EventHandler(this.Sensor_A_enabled_bitmap_TextChanged);
             // 
-            // Sensor_1_faulty_bitmap
+            // Sensor_A_faulty_bitmap
             // 
-            this.Sensor_1_faulty_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_faulty_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_faulty_bitmap.Enabled = false;
-            this.Sensor_1_faulty_bitmap.Location = new System.Drawing.Point(558, 285);
-            this.Sensor_1_faulty_bitmap.Name = "Sensor_1_faulty_bitmap";
-            this.Sensor_1_faulty_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_faulty_bitmap.TabIndex = 27;
-            this.Sensor_1_faulty_bitmap.TextChanged += new System.EventHandler(this.Sensor_1_faulty_bitmap_TextChanged);
+            this.Sensor_A_faulty_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_faulty_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_faulty_bitmap.Enabled = false;
+            this.Sensor_A_faulty_bitmap.Location = new System.Drawing.Point(558, 285);
+            this.Sensor_A_faulty_bitmap.Name = "Sensor_A_faulty_bitmap";
+            this.Sensor_A_faulty_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_faulty_bitmap.TabIndex = 27;
+            this.Sensor_A_faulty_bitmap.TextChanged += new System.EventHandler(this.Sensor_A_faulty_bitmap_TextChanged);
             // 
-            // Sensor_2_active_sensors
+            // Sensor_B_active_sensors
             // 
-            this.Sensor_2_active_sensors.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_active_sensors.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_active_sensors.Enabled = false;
-            this.Sensor_2_active_sensors.Location = new System.Drawing.Point(558, 325);
-            this.Sensor_2_active_sensors.Name = "Sensor_2_active_sensors";
-            this.Sensor_2_active_sensors.ReadOnly = true;
-            this.Sensor_2_active_sensors.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_active_sensors.TabIndex = 27;
-            this.Sensor_2_active_sensors.TextChanged += new System.EventHandler(this.Sensor_2_active_sensors_TextChanged);
+            this.Sensor_B_active_sensors.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_active_sensors.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_active_sensors.Enabled = false;
+            this.Sensor_B_active_sensors.Location = new System.Drawing.Point(558, 325);
+            this.Sensor_B_active_sensors.Name = "Sensor_B_active_sensors";
+            this.Sensor_B_active_sensors.ReadOnly = true;
+            this.Sensor_B_active_sensors.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_active_sensors.TabIndex = 27;
+            this.Sensor_B_active_sensors.TextChanged += new System.EventHandler(this.Sensor_B_active_sensors_TextChanged);
             // 
-            // Sensor_2_installed_bitmap
+            // Sensor_B_installed_bitmap
             // 
-            this.Sensor_2_installed_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_installed_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_installed_bitmap.Enabled = false;
-            this.Sensor_2_installed_bitmap.Location = new System.Drawing.Point(558, 365);
-            this.Sensor_2_installed_bitmap.Name = "Sensor_2_installed_bitmap";
-            this.Sensor_2_installed_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_installed_bitmap.TabIndex = 27;
-            this.Sensor_2_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_2_installed_bitmap_TextChanged);
+            this.Sensor_B_installed_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_installed_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_installed_bitmap.Enabled = false;
+            this.Sensor_B_installed_bitmap.Location = new System.Drawing.Point(558, 365);
+            this.Sensor_B_installed_bitmap.Name = "Sensor_B_installed_bitmap";
+            this.Sensor_B_installed_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_installed_bitmap.TabIndex = 27;
+            this.Sensor_B_installed_bitmap.TextChanged += new System.EventHandler(this.Sensor_B_installed_bitmap_TextChanged);
             // 
-            // Sensor_2_enabled_bitmap
+            // Sensor_B_enabled_bitmap
             // 
-            this.Sensor_2_enabled_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_enabled_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_enabled_bitmap.Enabled = false;
-            this.Sensor_2_enabled_bitmap.Location = new System.Drawing.Point(558, 405);
-            this.Sensor_2_enabled_bitmap.Name = "Sensor_2_enabled_bitmap";
-            this.Sensor_2_enabled_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_enabled_bitmap.TabIndex = 27;
-            this.Sensor_2_enabled_bitmap.TextChanged += new System.EventHandler(this.Sensor_2_enabled_bitmap_TextChanged);
+            this.Sensor_B_enabled_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_enabled_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_enabled_bitmap.Enabled = false;
+            this.Sensor_B_enabled_bitmap.Location = new System.Drawing.Point(558, 405);
+            this.Sensor_B_enabled_bitmap.Name = "Sensor_B_enabled_bitmap";
+            this.Sensor_B_enabled_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_enabled_bitmap.TabIndex = 27;
+            this.Sensor_B_enabled_bitmap.TextChanged += new System.EventHandler(this.Sensor_B_enabled_bitmap_TextChanged);
             // 
-            // Sensor_2_failty_bitmap
+            // Sensor_B_failty_bitmap
             // 
-            this.Sensor_2_failty_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_failty_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_failty_bitmap.Enabled = false;
-            this.Sensor_2_failty_bitmap.Location = new System.Drawing.Point(558, 445);
-            this.Sensor_2_failty_bitmap.Name = "Sensor_2_failty_bitmap";
-            this.Sensor_2_failty_bitmap.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_failty_bitmap.TabIndex = 27;
-            this.Sensor_2_failty_bitmap.TextChanged += new System.EventHandler(this.Sensor_2_failty_bitmap_TextChanged);
+            this.Sensor_B_failty_bitmap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_failty_bitmap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_failty_bitmap.Enabled = false;
+            this.Sensor_B_failty_bitmap.Location = new System.Drawing.Point(558, 445);
+            this.Sensor_B_failty_bitmap.Name = "Sensor_B_failty_bitmap";
+            this.Sensor_B_failty_bitmap.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_failty_bitmap.TabIndex = 27;
+            this.Sensor_B_failty_bitmap.TextChanged += new System.EventHandler(this.Sensor_B_failty_bitmap_TextChanged);
             // 
             // Encoder_offset
             // 
@@ -502,379 +502,379 @@
             this.Encoder_offset.TabIndex = 27;
             this.Encoder_offset.TextChanged += new System.EventHandler(this.Encoder_offset_TextChanged);
             // 
-            // Sensor_1_Raw_data_format
-            // 
-            this.Sensor_1_Raw_data_format.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Raw_data_format.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Raw_data_format.Enabled = false;
-            this.Sensor_1_Raw_data_format.Location = new System.Drawing.Point(558, 525);
-            this.Sensor_1_Raw_data_format.Name = "Sensor_1_Raw_data_format";
-            this.Sensor_1_Raw_data_format.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Raw_data_format.TabIndex = 27;
-            this.Sensor_1_Raw_data_format.TextChanged += new System.EventHandler(this.Sensor_1_Raw_data_format_TextChanged);
-            // 
-            // Sensor_2_Raw_data_format
-            // 
-            this.Sensor_2_Raw_data_format.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Raw_data_format.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Raw_data_format.Enabled = false;
-            this.Sensor_2_Raw_data_format.Location = new System.Drawing.Point(558, 565);
-            this.Sensor_2_Raw_data_format.Name = "Sensor_2_Raw_data_format";
-            this.Sensor_2_Raw_data_format.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Raw_data_format.TabIndex = 27;
-            this.Sensor_2_Raw_data_format.TextChanged += new System.EventHandler(this.Sensor_2_Raw_data_format_TextChanged);
-            // 
-            // Sensor_1_Sample_rate
-            // 
-            this.Sensor_1_Sample_rate.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Sample_rate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Sample_rate.Enabled = false;
-            this.Sensor_1_Sample_rate.Location = new System.Drawing.Point(558, 605);
-            this.Sensor_1_Sample_rate.Name = "Sensor_1_Sample_rate";
-            this.Sensor_1_Sample_rate.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Sample_rate.TabIndex = 27;
-            this.Sensor_1_Sample_rate.TextChanged += new System.EventHandler(this.Sensor_1_Sample_rate_TextChanged);
-            // 
-            // Sensor_1_Scale_factor_X
-            // 
-            this.Sensor_1_Scale_factor_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Scale_factor_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Scale_factor_X.Enabled = false;
-            this.Sensor_1_Scale_factor_X.Location = new System.Drawing.Point(558, 645);
-            this.Sensor_1_Scale_factor_X.Name = "Sensor_1_Scale_factor_X";
-            this.Sensor_1_Scale_factor_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Scale_factor_X.TabIndex = 27;
-            this.Sensor_1_Scale_factor_X.TextChanged += new System.EventHandler(this.Sensor_1_Scale_factor_X_TextChanged);
-            // 
-            // Sensor_1_Scale_factor_Y
-            // 
-            this.Sensor_1_Scale_factor_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Scale_factor_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Scale_factor_Y.Enabled = false;
-            this.Sensor_1_Scale_factor_Y.Location = new System.Drawing.Point(708, 45);
-            this.Sensor_1_Scale_factor_Y.Name = "Sensor_1_Scale_factor_Y";
-            this.Sensor_1_Scale_factor_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Scale_factor_Y.TabIndex = 27;
-            this.Sensor_1_Scale_factor_Y.TextChanged += new System.EventHandler(this.Sensor_1_Scale_factor_Y_TextChanged);
-            // 
-            // Sensor_1_Scale_factor_Z
-            // 
-            this.Sensor_1_Scale_factor_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Scale_factor_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Scale_factor_Z.Enabled = false;
-            this.Sensor_1_Scale_factor_Z.Location = new System.Drawing.Point(708, 85);
-            this.Sensor_1_Scale_factor_Z.Name = "Sensor_1_Scale_factor_Z";
-            this.Sensor_1_Scale_factor_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Scale_factor_Z.TabIndex = 27;
-            this.Sensor_1_Scale_factor_Z.TextChanged += new System.EventHandler(this.Sensor_1_Scale_factor_Z_TextChanged);
-            // 
-            // Sensor_1_SF_Tempco_X
-            // 
-            this.Sensor_1_SF_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_SF_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_SF_Tempco_X.Enabled = false;
-            this.Sensor_1_SF_Tempco_X.Location = new System.Drawing.Point(708, 125);
-            this.Sensor_1_SF_Tempco_X.Name = "Sensor_1_SF_Tempco_X";
-            this.Sensor_1_SF_Tempco_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_SF_Tempco_X.TabIndex = 27;
-            this.Sensor_1_SF_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_1_SF_Tempco_X_TextChanged);
-            // 
-            // Sensor_1_SF_Tempco_Y
-            // 
-            this.Sensor_1_SF_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_SF_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_SF_Tempco_Y.Enabled = false;
-            this.Sensor_1_SF_Tempco_Y.Location = new System.Drawing.Point(708, 165);
-            this.Sensor_1_SF_Tempco_Y.Name = "Sensor_1_SF_Tempco_Y";
-            this.Sensor_1_SF_Tempco_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_SF_Tempco_Y.TabIndex = 27;
-            this.Sensor_1_SF_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_1_SF_Tempco_Y_TextChanged);
-            // 
-            // Sensor_1_SF_Tempco_Z
-            // 
-            this.Sensor_1_SF_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_SF_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_SF_Tempco_Z.Enabled = false;
-            this.Sensor_1_SF_Tempco_Z.Location = new System.Drawing.Point(708, 205);
-            this.Sensor_1_SF_Tempco_Z.Name = "Sensor_1_SF_Tempco_Z";
-            this.Sensor_1_SF_Tempco_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_SF_Tempco_Z.TabIndex = 27;
-            this.Sensor_1_SF_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_1_SF_Tempco_Z_TextChanged);
-            // 
-            // Sensor_1_Offset_X
-            // 
-            this.Sensor_1_Offset_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_X.Enabled = false;
-            this.Sensor_1_Offset_X.Location = new System.Drawing.Point(708, 245);
-            this.Sensor_1_Offset_X.Name = "Sensor_1_Offset_X";
-            this.Sensor_1_Offset_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_X.TabIndex = 27;
-            this.Sensor_1_Offset_X.TextChanged += new System.EventHandler(this.Sensor_1_Offset_X_TextChanged);
-            // 
-            // Sensor_1_Offset_Y
-            // 
-            this.Sensor_1_Offset_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_Y.Enabled = false;
-            this.Sensor_1_Offset_Y.Location = new System.Drawing.Point(708, 285);
-            this.Sensor_1_Offset_Y.Name = "Sensor_1_Offset_Y";
-            this.Sensor_1_Offset_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_Y.TabIndex = 27;
-            this.Sensor_1_Offset_Y.TextChanged += new System.EventHandler(this.Sensor_1_Offset_Y_TextChanged);
-            // 
-            // Sensor_1_Offset_Z
-            // 
-            this.Sensor_1_Offset_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_Z.Enabled = false;
-            this.Sensor_1_Offset_Z.Location = new System.Drawing.Point(708, 325);
-            this.Sensor_1_Offset_Z.Name = "Sensor_1_Offset_Z";
-            this.Sensor_1_Offset_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_Z.TabIndex = 27;
-            this.Sensor_1_Offset_Z.TextChanged += new System.EventHandler(this.Sensor_1_Offset_Z_TextChanged);
-            // 
-            // Sensor_1_Offset_Tempco_X
-            // 
-            this.Sensor_1_Offset_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_Tempco_X.Enabled = false;
-            this.Sensor_1_Offset_Tempco_X.Location = new System.Drawing.Point(708, 365);
-            this.Sensor_1_Offset_Tempco_X.Name = "Sensor_1_Offset_Tempco_X";
-            this.Sensor_1_Offset_Tempco_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_Tempco_X.TabIndex = 27;
-            this.Sensor_1_Offset_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_1_Offset_Tempco_X_TextChanged);
-            // 
-            // Sensor_1_Offset_Tempco_Y
-            // 
-            this.Sensor_1_Offset_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_Tempco_Y.Enabled = false;
-            this.Sensor_1_Offset_Tempco_Y.Location = new System.Drawing.Point(708, 405);
-            this.Sensor_1_Offset_Tempco_Y.Name = "Sensor_1_Offset_Tempco_Y";
-            this.Sensor_1_Offset_Tempco_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_Tempco_Y.TabIndex = 27;
-            this.Sensor_1_Offset_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_1_Offset_Tempco_Y_TextChanged);
-            // 
-            // Sensor_1_Offset_Tempco_Z
-            // 
-            this.Sensor_1_Offset_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Offset_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Offset_Tempco_Z.Enabled = false;
-            this.Sensor_1_Offset_Tempco_Z.Location = new System.Drawing.Point(708, 445);
-            this.Sensor_1_Offset_Tempco_Z.Name = "Sensor_1_Offset_Tempco_Z";
-            this.Sensor_1_Offset_Tempco_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Offset_Tempco_Z.TabIndex = 27;
-            this.Sensor_1_Offset_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_1_Offset_Tempco_Z_TextChanged);
-            // 
-            // Sensor_1_Misalign_Alpha
-            // 
-            this.Sensor_1_Misalign_Alpha.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Misalign_Alpha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Misalign_Alpha.Enabled = false;
-            this.Sensor_1_Misalign_Alpha.Location = new System.Drawing.Point(708, 485);
-            this.Sensor_1_Misalign_Alpha.Name = "Sensor_1_Misalign_Alpha";
-            this.Sensor_1_Misalign_Alpha.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Misalign_Alpha.TabIndex = 27;
-            this.Sensor_1_Misalign_Alpha.TextChanged += new System.EventHandler(this.Sensor_1_Misalign_Alpha_TextChanged);
-            // 
-            // Sensor_1_Misalign_Beta
-            // 
-            this.Sensor_1_Misalign_Beta.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Misalign_Beta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Misalign_Beta.Enabled = false;
-            this.Sensor_1_Misalign_Beta.Location = new System.Drawing.Point(708, 525);
-            this.Sensor_1_Misalign_Beta.Name = "Sensor_1_Misalign_Beta";
-            this.Sensor_1_Misalign_Beta.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Misalign_Beta.TabIndex = 27;
-            this.Sensor_1_Misalign_Beta.TextChanged += new System.EventHandler(this.Sensor_1_Misalign_Beta_TextChanged);
-            // 
-            // Sensor_1_Misalign_Gamma
-            // 
-            this.Sensor_1_Misalign_Gamma.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_1_Misalign_Gamma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_1_Misalign_Gamma.Enabled = false;
-            this.Sensor_1_Misalign_Gamma.Location = new System.Drawing.Point(708, 565);
-            this.Sensor_1_Misalign_Gamma.Name = "Sensor_1_Misalign_Gamma";
-            this.Sensor_1_Misalign_Gamma.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_1_Misalign_Gamma.TabIndex = 27;
-            this.Sensor_1_Misalign_Gamma.TextChanged += new System.EventHandler(this.Sensor_1_Misalign_Gamma_TextChanged);
-            // 
-            // Sensor_2_Sample_rate
-            // 
-            this.Sensor_2_Sample_rate.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Sample_rate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Sample_rate.Enabled = false;
-            this.Sensor_2_Sample_rate.Location = new System.Drawing.Point(708, 605);
-            this.Sensor_2_Sample_rate.Name = "Sensor_2_Sample_rate";
-            this.Sensor_2_Sample_rate.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Sample_rate.TabIndex = 27;
-            this.Sensor_2_Sample_rate.TextChanged += new System.EventHandler(this.Sensor_2_Sample_rate_TextChanged);
-            // 
-            // Sensor_2_Scale_factor_X
-            // 
-            this.Sensor_2_Scale_factor_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Scale_factor_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Scale_factor_X.Enabled = false;
-            this.Sensor_2_Scale_factor_X.Location = new System.Drawing.Point(708, 645);
-            this.Sensor_2_Scale_factor_X.Name = "Sensor_2_Scale_factor_X";
-            this.Sensor_2_Scale_factor_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Scale_factor_X.TabIndex = 27;
-            this.Sensor_2_Scale_factor_X.TextChanged += new System.EventHandler(this.Sensor_2_Scale_factor_X_TextChanged);
-            // 
-            // Sensor_2_Scale_factor_Y
-            // 
-            this.Sensor_2_Scale_factor_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Scale_factor_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Scale_factor_Y.Enabled = false;
-            this.Sensor_2_Scale_factor_Y.Location = new System.Drawing.Point(858, 45);
-            this.Sensor_2_Scale_factor_Y.Name = "Sensor_2_Scale_factor_Y";
-            this.Sensor_2_Scale_factor_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Scale_factor_Y.TabIndex = 27;
-            this.Sensor_2_Scale_factor_Y.TextChanged += new System.EventHandler(this.Sensor_2_Scale_factor_Y_TextChanged);
-            // 
-            // Sensor_2_Scale_factor_Z
-            // 
-            this.Sensor_2_Scale_factor_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Scale_factor_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Scale_factor_Z.Enabled = false;
-            this.Sensor_2_Scale_factor_Z.Location = new System.Drawing.Point(858, 85);
-            this.Sensor_2_Scale_factor_Z.Name = "Sensor_2_Scale_factor_Z";
-            this.Sensor_2_Scale_factor_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Scale_factor_Z.TabIndex = 27;
-            this.Sensor_2_Scale_factor_Z.TextChanged += new System.EventHandler(this.Sensor_2_Scale_factor_Z_TextChanged);
-            // 
-            // Sensor_2_SF_Tempco_X
-            // 
-            this.Sensor_2_SF_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_SF_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_SF_Tempco_X.Enabled = false;
-            this.Sensor_2_SF_Tempco_X.Location = new System.Drawing.Point(858, 125);
-            this.Sensor_2_SF_Tempco_X.Name = "Sensor_2_SF_Tempco_X";
-            this.Sensor_2_SF_Tempco_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_SF_Tempco_X.TabIndex = 27;
-            this.Sensor_2_SF_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_2_SF_Tempco_X_TextChanged);
-            // 
-            // Sensor_2_SF_Tempco_Y
-            // 
-            this.Sensor_2_SF_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_SF_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_SF_Tempco_Y.Enabled = false;
-            this.Sensor_2_SF_Tempco_Y.Location = new System.Drawing.Point(858, 165);
-            this.Sensor_2_SF_Tempco_Y.Name = "Sensor_2_SF_Tempco_Y";
-            this.Sensor_2_SF_Tempco_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_SF_Tempco_Y.TabIndex = 27;
-            this.Sensor_2_SF_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_2_SF_Tempco_Y_TextChanged);
-            // 
-            // Sensor_2_SF_Tempco_Z
-            // 
-            this.Sensor_2_SF_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_SF_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_SF_Tempco_Z.Enabled = false;
-            this.Sensor_2_SF_Tempco_Z.Location = new System.Drawing.Point(858, 205);
-            this.Sensor_2_SF_Tempco_Z.Name = "Sensor_2_SF_Tempco_Z";
-            this.Sensor_2_SF_Tempco_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_SF_Tempco_Z.TabIndex = 27;
-            this.Sensor_2_SF_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_2_SF_Tempco_Z_TextChanged);
-            // 
-            // Sensor_2_Offset_X
-            // 
-            this.Sensor_2_Offset_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_X.Enabled = false;
-            this.Sensor_2_Offset_X.Location = new System.Drawing.Point(858, 245);
-            this.Sensor_2_Offset_X.Name = "Sensor_2_Offset_X";
-            this.Sensor_2_Offset_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_X.TabIndex = 27;
-            this.Sensor_2_Offset_X.TextChanged += new System.EventHandler(this.Sensor_2_Offset_X_TextChanged);
-            // 
-            // Sensor_2_Offset_Y
-            // 
-            this.Sensor_2_Offset_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_Y.Enabled = false;
-            this.Sensor_2_Offset_Y.Location = new System.Drawing.Point(858, 285);
-            this.Sensor_2_Offset_Y.Name = "Sensor_2_Offset_Y";
-            this.Sensor_2_Offset_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_Y.TabIndex = 27;
-            this.Sensor_2_Offset_Y.TextChanged += new System.EventHandler(this.Sensor_2_Offset_Y_TextChanged);
-            // 
-            // Sensor_2_Offset_Z
-            // 
-            this.Sensor_2_Offset_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_Z.Enabled = false;
-            this.Sensor_2_Offset_Z.Location = new System.Drawing.Point(858, 325);
-            this.Sensor_2_Offset_Z.Name = "Sensor_2_Offset_Z";
-            this.Sensor_2_Offset_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_Z.TabIndex = 27;
-            this.Sensor_2_Offset_Z.TextChanged += new System.EventHandler(this.Sensor_2_Offset_Z_TextChanged);
-            // 
-            // Sensor_2_Offset_Tempco_X
-            // 
-            this.Sensor_2_Offset_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_Tempco_X.Enabled = false;
-            this.Sensor_2_Offset_Tempco_X.Location = new System.Drawing.Point(858, 365);
-            this.Sensor_2_Offset_Tempco_X.Name = "Sensor_2_Offset_Tempco_X";
-            this.Sensor_2_Offset_Tempco_X.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_Tempco_X.TabIndex = 27;
-            this.Sensor_2_Offset_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_2_Offset_Tempco_X_TextChanged);
-            // 
-            // Sensor_2_Offset_Tempco_Y
-            // 
-            this.Sensor_2_Offset_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_Tempco_Y.Enabled = false;
-            this.Sensor_2_Offset_Tempco_Y.Location = new System.Drawing.Point(858, 405);
-            this.Sensor_2_Offset_Tempco_Y.Name = "Sensor_2_Offset_Tempco_Y";
-            this.Sensor_2_Offset_Tempco_Y.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_Tempco_Y.TabIndex = 27;
-            this.Sensor_2_Offset_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_2_Offset_Tempco_Y_TextChanged);
-            // 
-            // Sensor_2_Offset_Tempco_Z
-            // 
-            this.Sensor_2_Offset_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Offset_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Offset_Tempco_Z.Enabled = false;
-            this.Sensor_2_Offset_Tempco_Z.Location = new System.Drawing.Point(858, 445);
-            this.Sensor_2_Offset_Tempco_Z.Name = "Sensor_2_Offset_Tempco_Z";
-            this.Sensor_2_Offset_Tempco_Z.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Offset_Tempco_Z.TabIndex = 27;
-            this.Sensor_2_Offset_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_2_Offset_Tempco_Z_TextChanged);
-            // 
-            // Sensor_2_Misalign_Alpha
-            // 
-            this.Sensor_2_Misalign_Alpha.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Misalign_Alpha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Misalign_Alpha.Enabled = false;
-            this.Sensor_2_Misalign_Alpha.Location = new System.Drawing.Point(858, 485);
-            this.Sensor_2_Misalign_Alpha.Name = "Sensor_2_Misalign_Alpha";
-            this.Sensor_2_Misalign_Alpha.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Misalign_Alpha.TabIndex = 27;
-            this.Sensor_2_Misalign_Alpha.TextChanged += new System.EventHandler(this.Sensor_2_Misalign_Alpha_TextChanged);
-            // 
-            // Sensor_2_Misalign_Beta
-            // 
-            this.Sensor_2_Misalign_Beta.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Misalign_Beta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Misalign_Beta.Enabled = false;
-            this.Sensor_2_Misalign_Beta.Location = new System.Drawing.Point(858, 525);
-            this.Sensor_2_Misalign_Beta.Name = "Sensor_2_Misalign_Beta";
-            this.Sensor_2_Misalign_Beta.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Misalign_Beta.TabIndex = 27;
-            this.Sensor_2_Misalign_Beta.TextChanged += new System.EventHandler(this.Sensor_2_Misalign_Beta_TextChanged);
-            // 
-            // Sensor_2_Misalign_Gamma
-            // 
-            this.Sensor_2_Misalign_Gamma.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Sensor_2_Misalign_Gamma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Sensor_2_Misalign_Gamma.Enabled = false;
-            this.Sensor_2_Misalign_Gamma.Location = new System.Drawing.Point(858, 565);
-            this.Sensor_2_Misalign_Gamma.Name = "Sensor_2_Misalign_Gamma";
-            this.Sensor_2_Misalign_Gamma.Size = new System.Drawing.Size(130, 20);
-            this.Sensor_2_Misalign_Gamma.TabIndex = 27;
-            this.Sensor_2_Misalign_Gamma.TextChanged += new System.EventHandler(this.Sensor_2_Misalign_Gamma_TextChanged);
+            // Sensor_A_Raw_data_format
+            // 
+            this.Sensor_A_Raw_data_format.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Raw_data_format.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Raw_data_format.Enabled = false;
+            this.Sensor_A_Raw_data_format.Location = new System.Drawing.Point(558, 525);
+            this.Sensor_A_Raw_data_format.Name = "Sensor_A_Raw_data_format";
+            this.Sensor_A_Raw_data_format.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Raw_data_format.TabIndex = 27;
+            this.Sensor_A_Raw_data_format.TextChanged += new System.EventHandler(this.Sensor_A_Raw_data_format_TextChanged);
+            // 
+            // Sensor_B_Raw_data_format
+            // 
+            this.Sensor_B_Raw_data_format.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Raw_data_format.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Raw_data_format.Enabled = false;
+            this.Sensor_B_Raw_data_format.Location = new System.Drawing.Point(558, 565);
+            this.Sensor_B_Raw_data_format.Name = "Sensor_B_Raw_data_format";
+            this.Sensor_B_Raw_data_format.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Raw_data_format.TabIndex = 27;
+            this.Sensor_B_Raw_data_format.TextChanged += new System.EventHandler(this.Sensor_B_Raw_data_format_TextChanged);
+            // 
+            // Sensor_A_Sample_rate
+            // 
+            this.Sensor_A_Sample_rate.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Sample_rate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Sample_rate.Enabled = false;
+            this.Sensor_A_Sample_rate.Location = new System.Drawing.Point(558, 605);
+            this.Sensor_A_Sample_rate.Name = "Sensor_A_Sample_rate";
+            this.Sensor_A_Sample_rate.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Sample_rate.TabIndex = 27;
+            this.Sensor_A_Sample_rate.TextChanged += new System.EventHandler(this.Sensor_A_Sample_rate_TextChanged);
+            // 
+            // Sensor_A_Scale_factor_X
+            // 
+            this.Sensor_A_Scale_factor_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Scale_factor_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Scale_factor_X.Enabled = false;
+            this.Sensor_A_Scale_factor_X.Location = new System.Drawing.Point(558, 645);
+            this.Sensor_A_Scale_factor_X.Name = "Sensor_A_Scale_factor_X";
+            this.Sensor_A_Scale_factor_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Scale_factor_X.TabIndex = 27;
+            this.Sensor_A_Scale_factor_X.TextChanged += new System.EventHandler(this.Sensor_A_Scale_factor_X_TextChanged);
+            // 
+            // Sensor_A_Scale_factor_Y
+            // 
+            this.Sensor_A_Scale_factor_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Scale_factor_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Scale_factor_Y.Enabled = false;
+            this.Sensor_A_Scale_factor_Y.Location = new System.Drawing.Point(708, 45);
+            this.Sensor_A_Scale_factor_Y.Name = "Sensor_A_Scale_factor_Y";
+            this.Sensor_A_Scale_factor_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Scale_factor_Y.TabIndex = 27;
+            this.Sensor_A_Scale_factor_Y.TextChanged += new System.EventHandler(this.Sensor_A_Scale_factor_Y_TextChanged);
+            // 
+            // Sensor_A_Scale_factor_Z
+            // 
+            this.Sensor_A_Scale_factor_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Scale_factor_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Scale_factor_Z.Enabled = false;
+            this.Sensor_A_Scale_factor_Z.Location = new System.Drawing.Point(708, 85);
+            this.Sensor_A_Scale_factor_Z.Name = "Sensor_A_Scale_factor_Z";
+            this.Sensor_A_Scale_factor_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Scale_factor_Z.TabIndex = 27;
+            this.Sensor_A_Scale_factor_Z.TextChanged += new System.EventHandler(this.Sensor_A_Scale_factor_Z_TextChanged);
+            // 
+            // Sensor_A_SF_Tempco_X
+            // 
+            this.Sensor_A_SF_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_SF_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_SF_Tempco_X.Enabled = false;
+            this.Sensor_A_SF_Tempco_X.Location = new System.Drawing.Point(708, 125);
+            this.Sensor_A_SF_Tempco_X.Name = "Sensor_A_SF_Tempco_X";
+            this.Sensor_A_SF_Tempco_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_SF_Tempco_X.TabIndex = 27;
+            this.Sensor_A_SF_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_A_SF_Tempco_X_TextChanged);
+            // 
+            // Sensor_A_SF_Tempco_Y
+            // 
+            this.Sensor_A_SF_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_SF_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_SF_Tempco_Y.Enabled = false;
+            this.Sensor_A_SF_Tempco_Y.Location = new System.Drawing.Point(708, 165);
+            this.Sensor_A_SF_Tempco_Y.Name = "Sensor_A_SF_Tempco_Y";
+            this.Sensor_A_SF_Tempco_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_SF_Tempco_Y.TabIndex = 27;
+            this.Sensor_A_SF_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_A_SF_Tempco_Y_TextChanged);
+            // 
+            // Sensor_A_SF_Tempco_Z
+            // 
+            this.Sensor_A_SF_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_SF_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_SF_Tempco_Z.Enabled = false;
+            this.Sensor_A_SF_Tempco_Z.Location = new System.Drawing.Point(708, 205);
+            this.Sensor_A_SF_Tempco_Z.Name = "Sensor_A_SF_Tempco_Z";
+            this.Sensor_A_SF_Tempco_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_SF_Tempco_Z.TabIndex = 27;
+            this.Sensor_A_SF_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_A_SF_Tempco_Z_TextChanged);
+            // 
+            // Sensor_A_Offset_X
+            // 
+            this.Sensor_A_Offset_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_X.Enabled = false;
+            this.Sensor_A_Offset_X.Location = new System.Drawing.Point(708, 245);
+            this.Sensor_A_Offset_X.Name = "Sensor_A_Offset_X";
+            this.Sensor_A_Offset_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_X.TabIndex = 27;
+            this.Sensor_A_Offset_X.TextChanged += new System.EventHandler(this.Sensor_A_Offset_X_TextChanged);
+            // 
+            // Sensor_A_Offset_Y
+            // 
+            this.Sensor_A_Offset_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_Y.Enabled = false;
+            this.Sensor_A_Offset_Y.Location = new System.Drawing.Point(708, 285);
+            this.Sensor_A_Offset_Y.Name = "Sensor_A_Offset_Y";
+            this.Sensor_A_Offset_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_Y.TabIndex = 27;
+            this.Sensor_A_Offset_Y.TextChanged += new System.EventHandler(this.Sensor_A_Offset_Y_TextChanged);
+            // 
+            // Sensor_A_Offset_Z
+            // 
+            this.Sensor_A_Offset_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_Z.Enabled = false;
+            this.Sensor_A_Offset_Z.Location = new System.Drawing.Point(708, 325);
+            this.Sensor_A_Offset_Z.Name = "Sensor_A_Offset_Z";
+            this.Sensor_A_Offset_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_Z.TabIndex = 27;
+            this.Sensor_A_Offset_Z.TextChanged += new System.EventHandler(this.Sensor_A_Offset_Z_TextChanged);
+            // 
+            // Sensor_A_Offset_Tempco_X
+            // 
+            this.Sensor_A_Offset_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_Tempco_X.Enabled = false;
+            this.Sensor_A_Offset_Tempco_X.Location = new System.Drawing.Point(708, 365);
+            this.Sensor_A_Offset_Tempco_X.Name = "Sensor_A_Offset_Tempco_X";
+            this.Sensor_A_Offset_Tempco_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_Tempco_X.TabIndex = 27;
+            this.Sensor_A_Offset_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_A_Offset_Tempco_X_TextChanged);
+            // 
+            // Sensor_A_Offset_Tempco_Y
+            // 
+            this.Sensor_A_Offset_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_Tempco_Y.Enabled = false;
+            this.Sensor_A_Offset_Tempco_Y.Location = new System.Drawing.Point(708, 405);
+            this.Sensor_A_Offset_Tempco_Y.Name = "Sensor_A_Offset_Tempco_Y";
+            this.Sensor_A_Offset_Tempco_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_Tempco_Y.TabIndex = 27;
+            this.Sensor_A_Offset_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_A_Offset_Tempco_Y_TextChanged);
+            // 
+            // Sensor_A_Offset_Tempco_Z
+            // 
+            this.Sensor_A_Offset_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Offset_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Offset_Tempco_Z.Enabled = false;
+            this.Sensor_A_Offset_Tempco_Z.Location = new System.Drawing.Point(708, 445);
+            this.Sensor_A_Offset_Tempco_Z.Name = "Sensor_A_Offset_Tempco_Z";
+            this.Sensor_A_Offset_Tempco_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Offset_Tempco_Z.TabIndex = 27;
+            this.Sensor_A_Offset_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_A_Offset_Tempco_Z_TextChanged);
+            // 
+            // Sensor_A_Misalign_Alpha
+            // 
+            this.Sensor_A_Misalign_Alpha.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Misalign_Alpha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Misalign_Alpha.Enabled = false;
+            this.Sensor_A_Misalign_Alpha.Location = new System.Drawing.Point(708, 485);
+            this.Sensor_A_Misalign_Alpha.Name = "Sensor_A_Misalign_Alpha";
+            this.Sensor_A_Misalign_Alpha.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Misalign_Alpha.TabIndex = 27;
+            this.Sensor_A_Misalign_Alpha.TextChanged += new System.EventHandler(this.Sensor_A_Misalign_Alpha_TextChanged);
+            // 
+            // Sensor_A_Misalign_Beta
+            // 
+            this.Sensor_A_Misalign_Beta.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Misalign_Beta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Misalign_Beta.Enabled = false;
+            this.Sensor_A_Misalign_Beta.Location = new System.Drawing.Point(708, 525);
+            this.Sensor_A_Misalign_Beta.Name = "Sensor_A_Misalign_Beta";
+            this.Sensor_A_Misalign_Beta.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Misalign_Beta.TabIndex = 27;
+            this.Sensor_A_Misalign_Beta.TextChanged += new System.EventHandler(this.Sensor_A_Misalign_Beta_TextChanged);
+            // 
+            // Sensor_A_Misalign_Gamma
+            // 
+            this.Sensor_A_Misalign_Gamma.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_A_Misalign_Gamma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_A_Misalign_Gamma.Enabled = false;
+            this.Sensor_A_Misalign_Gamma.Location = new System.Drawing.Point(708, 565);
+            this.Sensor_A_Misalign_Gamma.Name = "Sensor_A_Misalign_Gamma";
+            this.Sensor_A_Misalign_Gamma.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_A_Misalign_Gamma.TabIndex = 27;
+            this.Sensor_A_Misalign_Gamma.TextChanged += new System.EventHandler(this.Sensor_A_Misalign_Gamma_TextChanged);
+            // 
+            // Sensor_B_Sample_rate
+            // 
+            this.Sensor_B_Sample_rate.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Sample_rate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Sample_rate.Enabled = false;
+            this.Sensor_B_Sample_rate.Location = new System.Drawing.Point(708, 605);
+            this.Sensor_B_Sample_rate.Name = "Sensor_B_Sample_rate";
+            this.Sensor_B_Sample_rate.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Sample_rate.TabIndex = 27;
+            this.Sensor_B_Sample_rate.TextChanged += new System.EventHandler(this.Sensor_B_Sample_rate_TextChanged);
+            // 
+            // Sensor_B_Scale_factor_X
+            // 
+            this.Sensor_B_Scale_factor_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Scale_factor_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Scale_factor_X.Enabled = false;
+            this.Sensor_B_Scale_factor_X.Location = new System.Drawing.Point(708, 645);
+            this.Sensor_B_Scale_factor_X.Name = "Sensor_B_Scale_factor_X";
+            this.Sensor_B_Scale_factor_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Scale_factor_X.TabIndex = 27;
+            this.Sensor_B_Scale_factor_X.TextChanged += new System.EventHandler(this.Sensor_B_Scale_factor_X_TextChanged);
+            // 
+            // Sensor_B_Scale_factor_Y
+            // 
+            this.Sensor_B_Scale_factor_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Scale_factor_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Scale_factor_Y.Enabled = false;
+            this.Sensor_B_Scale_factor_Y.Location = new System.Drawing.Point(858, 45);
+            this.Sensor_B_Scale_factor_Y.Name = "Sensor_B_Scale_factor_Y";
+            this.Sensor_B_Scale_factor_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Scale_factor_Y.TabIndex = 27;
+            this.Sensor_B_Scale_factor_Y.TextChanged += new System.EventHandler(this.Sensor_B_Scale_factor_Y_TextChanged);
+            // 
+            // Sensor_B_Scale_factor_Z
+            // 
+            this.Sensor_B_Scale_factor_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Scale_factor_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Scale_factor_Z.Enabled = false;
+            this.Sensor_B_Scale_factor_Z.Location = new System.Drawing.Point(858, 85);
+            this.Sensor_B_Scale_factor_Z.Name = "Sensor_B_Scale_factor_Z";
+            this.Sensor_B_Scale_factor_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Scale_factor_Z.TabIndex = 27;
+            this.Sensor_B_Scale_factor_Z.TextChanged += new System.EventHandler(this.Sensor_B_Scale_factor_Z_TextChanged);
+            // 
+            // Sensor_B_SF_Tempco_X
+            // 
+            this.Sensor_B_SF_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_SF_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_SF_Tempco_X.Enabled = false;
+            this.Sensor_B_SF_Tempco_X.Location = new System.Drawing.Point(858, 125);
+            this.Sensor_B_SF_Tempco_X.Name = "Sensor_B_SF_Tempco_X";
+            this.Sensor_B_SF_Tempco_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_SF_Tempco_X.TabIndex = 27;
+            this.Sensor_B_SF_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_B_SF_Tempco_X_TextChanged);
+            // 
+            // Sensor_B_SF_Tempco_Y
+            // 
+            this.Sensor_B_SF_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_SF_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_SF_Tempco_Y.Enabled = false;
+            this.Sensor_B_SF_Tempco_Y.Location = new System.Drawing.Point(858, 165);
+            this.Sensor_B_SF_Tempco_Y.Name = "Sensor_B_SF_Tempco_Y";
+            this.Sensor_B_SF_Tempco_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_SF_Tempco_Y.TabIndex = 27;
+            this.Sensor_B_SF_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_B_SF_Tempco_Y_TextChanged);
+            // 
+            // Sensor_B_SF_Tempco_Z
+            // 
+            this.Sensor_B_SF_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_SF_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_SF_Tempco_Z.Enabled = false;
+            this.Sensor_B_SF_Tempco_Z.Location = new System.Drawing.Point(858, 205);
+            this.Sensor_B_SF_Tempco_Z.Name = "Sensor_B_SF_Tempco_Z";
+            this.Sensor_B_SF_Tempco_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_SF_Tempco_Z.TabIndex = 27;
+            this.Sensor_B_SF_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_B_SF_Tempco_Z_TextChanged);
+            // 
+            // Sensor_B_Offset_X
+            // 
+            this.Sensor_B_Offset_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_X.Enabled = false;
+            this.Sensor_B_Offset_X.Location = new System.Drawing.Point(858, 245);
+            this.Sensor_B_Offset_X.Name = "Sensor_B_Offset_X";
+            this.Sensor_B_Offset_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_X.TabIndex = 27;
+            this.Sensor_B_Offset_X.TextChanged += new System.EventHandler(this.Sensor_B_Offset_X_TextChanged);
+            // 
+            // Sensor_B_Offset_Y
+            // 
+            this.Sensor_B_Offset_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_Y.Enabled = false;
+            this.Sensor_B_Offset_Y.Location = new System.Drawing.Point(858, 285);
+            this.Sensor_B_Offset_Y.Name = "Sensor_B_Offset_Y";
+            this.Sensor_B_Offset_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_Y.TabIndex = 27;
+            this.Sensor_B_Offset_Y.TextChanged += new System.EventHandler(this.Sensor_B_Offset_Y_TextChanged);
+            // 
+            // Sensor_B_Offset_Z
+            // 
+            this.Sensor_B_Offset_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_Z.Enabled = false;
+            this.Sensor_B_Offset_Z.Location = new System.Drawing.Point(858, 325);
+            this.Sensor_B_Offset_Z.Name = "Sensor_B_Offset_Z";
+            this.Sensor_B_Offset_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_Z.TabIndex = 27;
+            this.Sensor_B_Offset_Z.TextChanged += new System.EventHandler(this.Sensor_B_Offset_Z_TextChanged);
+            // 
+            // Sensor_B_Offset_Tempco_X
+            // 
+            this.Sensor_B_Offset_Tempco_X.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_Tempco_X.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_Tempco_X.Enabled = false;
+            this.Sensor_B_Offset_Tempco_X.Location = new System.Drawing.Point(858, 365);
+            this.Sensor_B_Offset_Tempco_X.Name = "Sensor_B_Offset_Tempco_X";
+            this.Sensor_B_Offset_Tempco_X.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_Tempco_X.TabIndex = 27;
+            this.Sensor_B_Offset_Tempco_X.TextChanged += new System.EventHandler(this.Sensor_B_Offset_Tempco_X_TextChanged);
+            // 
+            // Sensor_B_Offset_Tempco_Y
+            // 
+            this.Sensor_B_Offset_Tempco_Y.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_Tempco_Y.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_Tempco_Y.Enabled = false;
+            this.Sensor_B_Offset_Tempco_Y.Location = new System.Drawing.Point(858, 405);
+            this.Sensor_B_Offset_Tempco_Y.Name = "Sensor_B_Offset_Tempco_Y";
+            this.Sensor_B_Offset_Tempco_Y.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_Tempco_Y.TabIndex = 27;
+            this.Sensor_B_Offset_Tempco_Y.TextChanged += new System.EventHandler(this.Sensor_B_Offset_Tempco_Y_TextChanged);
+            // 
+            // Sensor_B_Offset_Tempco_Z
+            // 
+            this.Sensor_B_Offset_Tempco_Z.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Offset_Tempco_Z.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Offset_Tempco_Z.Enabled = false;
+            this.Sensor_B_Offset_Tempco_Z.Location = new System.Drawing.Point(858, 445);
+            this.Sensor_B_Offset_Tempco_Z.Name = "Sensor_B_Offset_Tempco_Z";
+            this.Sensor_B_Offset_Tempco_Z.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Offset_Tempco_Z.TabIndex = 27;
+            this.Sensor_B_Offset_Tempco_Z.TextChanged += new System.EventHandler(this.Sensor_B_Offset_Tempco_Z_TextChanged);
+            // 
+            // Sensor_B_Misalign_Alpha
+            // 
+            this.Sensor_B_Misalign_Alpha.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Misalign_Alpha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Misalign_Alpha.Enabled = false;
+            this.Sensor_B_Misalign_Alpha.Location = new System.Drawing.Point(858, 485);
+            this.Sensor_B_Misalign_Alpha.Name = "Sensor_B_Misalign_Alpha";
+            this.Sensor_B_Misalign_Alpha.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Misalign_Alpha.TabIndex = 27;
+            this.Sensor_B_Misalign_Alpha.TextChanged += new System.EventHandler(this.Sensor_B_Misalign_Alpha_TextChanged);
+            // 
+            // Sensor_B_Misalign_Beta
+            // 
+            this.Sensor_B_Misalign_Beta.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Misalign_Beta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Misalign_Beta.Enabled = false;
+            this.Sensor_B_Misalign_Beta.Location = new System.Drawing.Point(858, 525);
+            this.Sensor_B_Misalign_Beta.Name = "Sensor_B_Misalign_Beta";
+            this.Sensor_B_Misalign_Beta.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Misalign_Beta.TabIndex = 27;
+            this.Sensor_B_Misalign_Beta.TextChanged += new System.EventHandler(this.Sensor_B_Misalign_Beta_TextChanged);
+            // 
+            // Sensor_B_Misalign_Gamma
+            // 
+            this.Sensor_B_Misalign_Gamma.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Sensor_B_Misalign_Gamma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Sensor_B_Misalign_Gamma.Enabled = false;
+            this.Sensor_B_Misalign_Gamma.Location = new System.Drawing.Point(858, 565);
+            this.Sensor_B_Misalign_Gamma.Name = "Sensor_B_Misalign_Gamma";
+            this.Sensor_B_Misalign_Gamma.Size = new System.Drawing.Size(130, 20);
+            this.Sensor_B_Misalign_Gamma.TabIndex = 27;
+            this.Sensor_B_Misalign_Gamma.TextChanged += new System.EventHandler(this.Sensor_B_Misalign_Gamma_TextChanged);
             // 
             // Temperature_offset
             // 
@@ -909,105 +909,105 @@
             this.label_Carrier_serial_number.Text = "Carrier serial number";
             this.label_Carrier_serial_number.Click += new System.EventHandler(this.label_Carrier_serial_number_Click);
             // 
-            // label_Sensor_1_name
+            // label_Sensor_A_name
             // 
-            this.label_Sensor_1_name.AutoSize = true;
-            this.label_Sensor_1_name.Enabled = false;
-            this.label_Sensor_1_name.Location = new System.Drawing.Point(557, 70);
-            this.label_Sensor_1_name.Name = "label_Sensor_1_name";
-            this.label_Sensor_1_name.Size = new System.Drawing.Size(78, 13);
-            this.label_Sensor_1_name.TabIndex = 28;
-            this.label_Sensor_1_name.Text = "Sensor 1 name";
+            this.label_Sensor_A_name.AutoSize = true;
+            this.label_Sensor_A_name.Enabled = false;
+            this.label_Sensor_A_name.Location = new System.Drawing.Point(557, 70);
+            this.label_Sensor_A_name.Name = "label_Sensor_A_name";
+            this.label_Sensor_A_name.Size = new System.Drawing.Size(78, 13);
+            this.label_Sensor_A_name.TabIndex = 28;
+            this.label_Sensor_A_name.Text = "Sensor A name";
             // 
-            // label_Sensor_2_name
+            // label_Sensor_B_name
             // 
-            this.label_Sensor_2_name.AutoSize = true;
-            this.label_Sensor_2_name.Enabled = false;
-            this.label_Sensor_2_name.Location = new System.Drawing.Point(557, 110);
-            this.label_Sensor_2_name.Name = "label_Sensor_2_name";
-            this.label_Sensor_2_name.Size = new System.Drawing.Size(78, 13);
-            this.label_Sensor_2_name.TabIndex = 28;
-            this.label_Sensor_2_name.Text = "Sensor 2 name";
+            this.label_Sensor_B_name.AutoSize = true;
+            this.label_Sensor_B_name.Enabled = false;
+            this.label_Sensor_B_name.Location = new System.Drawing.Point(557, 110);
+            this.label_Sensor_B_name.Name = "label_Sensor_B_name";
+            this.label_Sensor_B_name.Size = new System.Drawing.Size(78, 13);
+            this.label_Sensor_B_name.TabIndex = 28;
+            this.label_Sensor_B_name.Text = "Sensor B name";
             // 
-            // label_Sensor_1_active_sensors
+            // label_Sensor_A_active_sensors
             // 
-            this.label_Sensor_1_active_sensors.AutoSize = true;
-            this.label_Sensor_1_active_sensors.Enabled = false;
-            this.label_Sensor_1_active_sensors.Location = new System.Drawing.Point(557, 150);
-            this.label_Sensor_1_active_sensors.Name = "label_Sensor_1_active_sensors";
-            this.label_Sensor_1_active_sensors.Size = new System.Drawing.Size(120, 13);
-            this.label_Sensor_1_active_sensors.TabIndex = 28;
-            this.label_Sensor_1_active_sensors.Text = "Sensor 1 active sensors";
+            this.label_Sensor_A_active_sensors.AutoSize = true;
+            this.label_Sensor_A_active_sensors.Enabled = false;
+            this.label_Sensor_A_active_sensors.Location = new System.Drawing.Point(557, 150);
+            this.label_Sensor_A_active_sensors.Name = "label_Sensor_A_active_sensors";
+            this.label_Sensor_A_active_sensors.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_A_active_sensors.TabIndex = 28;
+            this.label_Sensor_A_active_sensors.Text = "Sensor A active sensors";
             // 
-            // label_Sensor_1_installed_bitmap
+            // label_Sensor_A_installed_bitmap
             // 
-            this.label_Sensor_1_installed_bitmap.AutoSize = true;
-            this.label_Sensor_1_installed_bitmap.Enabled = false;
-            this.label_Sensor_1_installed_bitmap.Location = new System.Drawing.Point(557, 190);
-            this.label_Sensor_1_installed_bitmap.Name = "label_Sensor_1_installed_bitmap";
-            this.label_Sensor_1_installed_bitmap.Size = new System.Drawing.Size(124, 13);
-            this.label_Sensor_1_installed_bitmap.TabIndex = 28;
-            this.label_Sensor_1_installed_bitmap.Text = "Sensor 1 installed bitmap";
+            this.label_Sensor_A_installed_bitmap.AutoSize = true;
+            this.label_Sensor_A_installed_bitmap.Enabled = false;
+            this.label_Sensor_A_installed_bitmap.Location = new System.Drawing.Point(557, 190);
+            this.label_Sensor_A_installed_bitmap.Name = "label_Sensor_A_installed_bitmap";
+            this.label_Sensor_A_installed_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_A_installed_bitmap.TabIndex = 28;
+            this.label_Sensor_A_installed_bitmap.Text = "Sensor A installed bitmap";
             // 
-            // label_Sensor_1_enabled_bitmap
+            // label_Sensor_A_enabled_bitmap
             // 
-            this.label_Sensor_1_enabled_bitmap.AutoSize = true;
-            this.label_Sensor_1_enabled_bitmap.Enabled = false;
-            this.label_Sensor_1_enabled_bitmap.Location = new System.Drawing.Point(557, 230);
-            this.label_Sensor_1_enabled_bitmap.Name = "label_Sensor_1_enabled_bitmap";
-            this.label_Sensor_1_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
-            this.label_Sensor_1_enabled_bitmap.TabIndex = 28;
-            this.label_Sensor_1_enabled_bitmap.Text = "Sensor 1 enabled bitmap";
+            this.label_Sensor_A_enabled_bitmap.AutoSize = true;
+            this.label_Sensor_A_enabled_bitmap.Enabled = false;
+            this.label_Sensor_A_enabled_bitmap.Location = new System.Drawing.Point(557, 230);
+            this.label_Sensor_A_enabled_bitmap.Name = "label_Sensor_A_enabled_bitmap";
+            this.label_Sensor_A_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_A_enabled_bitmap.TabIndex = 28;
+            this.label_Sensor_A_enabled_bitmap.Text = "Sensor A enabled bitmap";
             // 
-            // label_Sensor_1_faulty_bitmap
+            // label_Sensor_A_faulty_bitmap
             // 
-            this.label_Sensor_1_faulty_bitmap.AutoSize = true;
-            this.label_Sensor_1_faulty_bitmap.Enabled = false;
-            this.label_Sensor_1_faulty_bitmap.Location = new System.Drawing.Point(557, 270);
-            this.label_Sensor_1_faulty_bitmap.Name = "label_Sensor_1_faulty_bitmap";
-            this.label_Sensor_1_faulty_bitmap.Size = new System.Drawing.Size(111, 13);
-            this.label_Sensor_1_faulty_bitmap.TabIndex = 28;
-            this.label_Sensor_1_faulty_bitmap.Text = "Sensor 1 faulty bitmap";
+            this.label_Sensor_A_faulty_bitmap.AutoSize = true;
+            this.label_Sensor_A_faulty_bitmap.Enabled = false;
+            this.label_Sensor_A_faulty_bitmap.Location = new System.Drawing.Point(557, 270);
+            this.label_Sensor_A_faulty_bitmap.Name = "label_Sensor_A_faulty_bitmap";
+            this.label_Sensor_A_faulty_bitmap.Size = new System.Drawing.Size(111, 13);
+            this.label_Sensor_A_faulty_bitmap.TabIndex = 28;
+            this.label_Sensor_A_faulty_bitmap.Text = "Sensor A faulty bitmap";
             // 
-            // label_Sensor_2_active_sensors
+            // label_Sensor_B_active_sensors
             // 
-            this.label_Sensor_2_active_sensors.AutoSize = true;
-            this.label_Sensor_2_active_sensors.Enabled = false;
-            this.label_Sensor_2_active_sensors.Location = new System.Drawing.Point(557, 310);
-            this.label_Sensor_2_active_sensors.Name = "label_Sensor_2_active_sensors";
-            this.label_Sensor_2_active_sensors.Size = new System.Drawing.Size(120, 13);
-            this.label_Sensor_2_active_sensors.TabIndex = 28;
-            this.label_Sensor_2_active_sensors.Text = "Sensor 2 active sensors";
+            this.label_Sensor_B_active_sensors.AutoSize = true;
+            this.label_Sensor_B_active_sensors.Enabled = false;
+            this.label_Sensor_B_active_sensors.Location = new System.Drawing.Point(557, 310);
+            this.label_Sensor_B_active_sensors.Name = "label_Sensor_B_active_sensors";
+            this.label_Sensor_B_active_sensors.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_B_active_sensors.TabIndex = 28;
+            this.label_Sensor_B_active_sensors.Text = "Sensor B active sensors";
             // 
-            // label_Sensor_2_installed_bitmap
+            // label_Sensor_B_installed_bitmap
             // 
-            this.label_Sensor_2_installed_bitmap.AutoSize = true;
-            this.label_Sensor_2_installed_bitmap.Enabled = false;
-            this.label_Sensor_2_installed_bitmap.Location = new System.Drawing.Point(557, 350);
-            this.label_Sensor_2_installed_bitmap.Name = "label_Sensor_2_installed_bitmap";
-            this.label_Sensor_2_installed_bitmap.Size = new System.Drawing.Size(124, 13);
-            this.label_Sensor_2_installed_bitmap.TabIndex = 28;
-            this.label_Sensor_2_installed_bitmap.Text = "Sensor 2 installed bitmap";
+            this.label_Sensor_B_installed_bitmap.AutoSize = true;
+            this.label_Sensor_B_installed_bitmap.Enabled = false;
+            this.label_Sensor_B_installed_bitmap.Location = new System.Drawing.Point(557, 350);
+            this.label_Sensor_B_installed_bitmap.Name = "label_Sensor_B_installed_bitmap";
+            this.label_Sensor_B_installed_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_B_installed_bitmap.TabIndex = 28;
+            this.label_Sensor_B_installed_bitmap.Text = "Sensor B installed bitmap";
             // 
-            // label_Sensor_2_enabled_bitmap
+            // label_Sensor_B_enabled_bitmap
             // 
-            this.label_Sensor_2_enabled_bitmap.AutoSize = true;
-            this.label_Sensor_2_enabled_bitmap.Enabled = false;
-            this.label_Sensor_2_enabled_bitmap.Location = new System.Drawing.Point(557, 390);
-            this.label_Sensor_2_enabled_bitmap.Name = "label_Sensor_2_enabled_bitmap";
-            this.label_Sensor_2_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
-            this.label_Sensor_2_enabled_bitmap.TabIndex = 28;
-            this.label_Sensor_2_enabled_bitmap.Text = "Sensor 2 enabled bitmap";
+            this.label_Sensor_B_enabled_bitmap.AutoSize = true;
+            this.label_Sensor_B_enabled_bitmap.Enabled = false;
+            this.label_Sensor_B_enabled_bitmap.Location = new System.Drawing.Point(557, 390);
+            this.label_Sensor_B_enabled_bitmap.Name = "label_Sensor_B_enabled_bitmap";
+            this.label_Sensor_B_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_B_enabled_bitmap.TabIndex = 28;
+            this.label_Sensor_B_enabled_bitmap.Text = "Sensor B enabled bitmap";
             // 
-            // label_Sensor_2_failty_bitmap
+            // label_Sensor_B_failty_bitmap
             // 
-            this.label_Sensor_2_failty_bitmap.AutoSize = true;
-            this.label_Sensor_2_failty_bitmap.Enabled = false;
-            this.label_Sensor_2_failty_bitmap.Location = new System.Drawing.Point(557, 430);
-            this.label_Sensor_2_failty_bitmap.Name = "label_Sensor_2_failty_bitmap";
-            this.label_Sensor_2_failty_bitmap.Size = new System.Drawing.Size(107, 13);
-            this.label_Sensor_2_failty_bitmap.TabIndex = 28;
-            this.label_Sensor_2_failty_bitmap.Text = "Sensor 2 failty bitmap";
+            this.label_Sensor_B_failty_bitmap.AutoSize = true;
+            this.label_Sensor_B_failty_bitmap.Enabled = false;
+            this.label_Sensor_B_failty_bitmap.Location = new System.Drawing.Point(557, 430);
+            this.label_Sensor_B_failty_bitmap.Name = "label_Sensor_B_failty_bitmap";
+            this.label_Sensor_B_failty_bitmap.Size = new System.Drawing.Size(107, 13);
+            this.label_Sensor_B_failty_bitmap.TabIndex = 28;
+            this.label_Sensor_B_failty_bitmap.Text = "Sensor B failty bitmap";
             // 
             // label_Encoder_offset
             // 
@@ -1019,345 +1019,345 @@
             this.label_Encoder_offset.TabIndex = 28;
             this.label_Encoder_offset.Text = "Encoder offset";
             // 
-            // label_Sensor_1_Raw_data_format
-            // 
-            this.label_Sensor_1_Raw_data_format.AutoSize = true;
-            this.label_Sensor_1_Raw_data_format.Enabled = false;
-            this.label_Sensor_1_Raw_data_format.Location = new System.Drawing.Point(557, 510);
-            this.label_Sensor_1_Raw_data_format.Name = "label_Sensor_1_Raw_data_format";
-            this.label_Sensor_1_Raw_data_format.Size = new System.Drawing.Size(130, 13);
-            this.label_Sensor_1_Raw_data_format.TabIndex = 28;
-            this.label_Sensor_1_Raw_data_format.Text = "Sensor 1 Raw data format";
-            // 
-            // label_Sensor_2_Raw_data_format
-            // 
-            this.label_Sensor_2_Raw_data_format.AutoSize = true;
-            this.label_Sensor_2_Raw_data_format.Enabled = false;
-            this.label_Sensor_2_Raw_data_format.Location = new System.Drawing.Point(557, 550);
-            this.label_Sensor_2_Raw_data_format.Name = "label_Sensor_2_Raw_data_format";
-            this.label_Sensor_2_Raw_data_format.Size = new System.Drawing.Size(130, 13);
-            this.label_Sensor_2_Raw_data_format.TabIndex = 28;
-            this.label_Sensor_2_Raw_data_format.Text = "Sensor 2 Raw data format";
-            // 
-            // label_Sensor_1_Sample_rate
-            // 
-            this.label_Sensor_1_Sample_rate.AutoSize = true;
-            this.label_Sensor_1_Sample_rate.Enabled = false;
-            this.label_Sensor_1_Sample_rate.Location = new System.Drawing.Point(557, 590);
-            this.label_Sensor_1_Sample_rate.Name = "label_Sensor_1_Sample_rate";
-            this.label_Sensor_1_Sample_rate.Size = new System.Drawing.Size(108, 13);
-            this.label_Sensor_1_Sample_rate.TabIndex = 28;
-            this.label_Sensor_1_Sample_rate.Text = "Sensor 1 Sample rate";
-            // 
-            // label_Sensor_1_Scale_factor_X
-            // 
-            this.label_Sensor_1_Scale_factor_X.AutoSize = true;
-            this.label_Sensor_1_Scale_factor_X.Enabled = false;
-            this.label_Sensor_1_Scale_factor_X.Location = new System.Drawing.Point(557, 630);
-            this.label_Sensor_1_Scale_factor_X.Name = "label_Sensor_1_Scale_factor_X";
-            this.label_Sensor_1_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_1_Scale_factor_X.TabIndex = 28;
-            this.label_Sensor_1_Scale_factor_X.Text = "Sensor 1 Scale factor X";
-            // 
-            // label_Sensor_1_Scale_factor_Y
-            // 
-            this.label_Sensor_1_Scale_factor_Y.AutoSize = true;
-            this.label_Sensor_1_Scale_factor_Y.Enabled = false;
-            this.label_Sensor_1_Scale_factor_Y.Location = new System.Drawing.Point(707, 30);
-            this.label_Sensor_1_Scale_factor_Y.Name = "label_Sensor_1_Scale_factor_Y";
-            this.label_Sensor_1_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_1_Scale_factor_Y.TabIndex = 28;
-            this.label_Sensor_1_Scale_factor_Y.Text = "Sensor 1 Scale factor Y";
-            // 
-            // label_Sensor_1_Scale_factor_Z
-            // 
-            this.label_Sensor_1_Scale_factor_Z.AutoSize = true;
-            this.label_Sensor_1_Scale_factor_Z.Enabled = false;
-            this.label_Sensor_1_Scale_factor_Z.Location = new System.Drawing.Point(707, 70);
-            this.label_Sensor_1_Scale_factor_Z.Name = "label_Sensor_1_Scale_factor_Z";
-            this.label_Sensor_1_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_1_Scale_factor_Z.TabIndex = 28;
-            this.label_Sensor_1_Scale_factor_Z.Text = "Sensor 1 Scale factor Z";
-            // 
-            // label_Sensor_1_SF_Tempco_X
-            // 
-            this.label_Sensor_1_SF_Tempco_X.AutoSize = true;
-            this.label_Sensor_1_SF_Tempco_X.Enabled = false;
-            this.label_Sensor_1_SF_Tempco_X.Location = new System.Drawing.Point(707, 110);
-            this.label_Sensor_1_SF_Tempco_X.Name = "label_Sensor_1_SF_Tempco_X";
-            this.label_Sensor_1_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_1_SF_Tempco_X.TabIndex = 28;
-            this.label_Sensor_1_SF_Tempco_X.Text = "Sensor 1 SF Tempco X";
-            // 
-            // label_Sensor_1_SF_Tempco_Y
-            // 
-            this.label_Sensor_1_SF_Tempco_Y.AutoSize = true;
-            this.label_Sensor_1_SF_Tempco_Y.Enabled = false;
-            this.label_Sensor_1_SF_Tempco_Y.Location = new System.Drawing.Point(707, 150);
-            this.label_Sensor_1_SF_Tempco_Y.Name = "label_Sensor_1_SF_Tempco_Y";
-            this.label_Sensor_1_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_1_SF_Tempco_Y.TabIndex = 28;
-            this.label_Sensor_1_SF_Tempco_Y.Text = "Sensor 1 SF Tempco Y";
-            // 
-            // label_Sensor_1_SF_Tempco_Z
-            // 
-            this.label_Sensor_1_SF_Tempco_Z.AutoSize = true;
-            this.label_Sensor_1_SF_Tempco_Z.Enabled = false;
-            this.label_Sensor_1_SF_Tempco_Z.Location = new System.Drawing.Point(707, 190);
-            this.label_Sensor_1_SF_Tempco_Z.Name = "label_Sensor_1_SF_Tempco_Z";
-            this.label_Sensor_1_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_1_SF_Tempco_Z.TabIndex = 28;
-            this.label_Sensor_1_SF_Tempco_Z.Text = "Sensor 1 SF Tempco Z";
-            // 
-            // label_Sensor_1_Offset_X
-            // 
-            this.label_Sensor_1_Offset_X.AutoSize = true;
-            this.label_Sensor_1_Offset_X.Enabled = false;
-            this.label_Sensor_1_Offset_X.Location = new System.Drawing.Point(707, 230);
-            this.label_Sensor_1_Offset_X.Name = "label_Sensor_1_Offset_X";
-            this.label_Sensor_1_Offset_X.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_1_Offset_X.TabIndex = 28;
-            this.label_Sensor_1_Offset_X.Text = "Sensor 1 Offset X";
-            // 
-            // label_Sensor_1_Offset_Y
-            // 
-            this.label_Sensor_1_Offset_Y.AutoSize = true;
-            this.label_Sensor_1_Offset_Y.Enabled = false;
-            this.label_Sensor_1_Offset_Y.Location = new System.Drawing.Point(707, 270);
-            this.label_Sensor_1_Offset_Y.Name = "label_Sensor_1_Offset_Y";
-            this.label_Sensor_1_Offset_Y.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_1_Offset_Y.TabIndex = 28;
-            this.label_Sensor_1_Offset_Y.Text = "Sensor 1 Offset Y";
-            // 
-            // label_Sensor_1_Offset_Z
-            // 
-            this.label_Sensor_1_Offset_Z.AutoSize = true;
-            this.label_Sensor_1_Offset_Z.Enabled = false;
-            this.label_Sensor_1_Offset_Z.Location = new System.Drawing.Point(707, 310);
-            this.label_Sensor_1_Offset_Z.Name = "label_Sensor_1_Offset_Z";
-            this.label_Sensor_1_Offset_Z.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_1_Offset_Z.TabIndex = 28;
-            this.label_Sensor_1_Offset_Z.Text = "Sensor 1 Offset Z";
-            // 
-            // label_Sensor_1_Offset_Tempco_X
-            // 
-            this.label_Sensor_1_Offset_Tempco_X.AutoSize = true;
-            this.label_Sensor_1_Offset_Tempco_X.Enabled = false;
-            this.label_Sensor_1_Offset_Tempco_X.Location = new System.Drawing.Point(707, 350);
-            this.label_Sensor_1_Offset_Tempco_X.Name = "label_Sensor_1_Offset_Tempco_X";
-            this.label_Sensor_1_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_1_Offset_Tempco_X.TabIndex = 28;
-            this.label_Sensor_1_Offset_Tempco_X.Text = "Sensor 1 Offset Tempco X";
-            // 
-            // label_Sensor_1_Offset_Tempco_Y
-            // 
-            this.label_Sensor_1_Offset_Tempco_Y.AutoSize = true;
-            this.label_Sensor_1_Offset_Tempco_Y.Enabled = false;
-            this.label_Sensor_1_Offset_Tempco_Y.Location = new System.Drawing.Point(707, 390);
-            this.label_Sensor_1_Offset_Tempco_Y.Name = "label_Sensor_1_Offset_Tempco_Y";
-            this.label_Sensor_1_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_1_Offset_Tempco_Y.TabIndex = 28;
-            this.label_Sensor_1_Offset_Tempco_Y.Text = "Sensor 1 Offset Tempco Y";
-            // 
-            // label_Sensor_1_Offset_Tempco_Z
-            // 
-            this.label_Sensor_1_Offset_Tempco_Z.AutoSize = true;
-            this.label_Sensor_1_Offset_Tempco_Z.Enabled = false;
-            this.label_Sensor_1_Offset_Tempco_Z.Location = new System.Drawing.Point(707, 430);
-            this.label_Sensor_1_Offset_Tempco_Z.Name = "label_Sensor_1_Offset_Tempco_Z";
-            this.label_Sensor_1_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_1_Offset_Tempco_Z.TabIndex = 28;
-            this.label_Sensor_1_Offset_Tempco_Z.Text = "Sensor 1 Offset Tempco Z";
-            // 
-            // label_Sensor_1_Misalign_Alpha
-            // 
-            this.label_Sensor_1_Misalign_Alpha.AutoSize = true;
-            this.label_Sensor_1_Misalign_Alpha.Enabled = false;
-            this.label_Sensor_1_Misalign_Alpha.Location = new System.Drawing.Point(707, 470);
-            this.label_Sensor_1_Misalign_Alpha.Name = "label_Sensor_1_Misalign_Alpha";
-            this.label_Sensor_1_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
-            this.label_Sensor_1_Misalign_Alpha.TabIndex = 28;
-            this.label_Sensor_1_Misalign_Alpha.Text = "Sensor 1 Misalign Alpha";
-            // 
-            // label_Sensor_1_Misalign_Beta
-            // 
-            this.label_Sensor_1_Misalign_Beta.AutoSize = true;
-            this.label_Sensor_1_Misalign_Beta.Enabled = false;
-            this.label_Sensor_1_Misalign_Beta.Location = new System.Drawing.Point(707, 510);
-            this.label_Sensor_1_Misalign_Beta.Name = "label_Sensor_1_Misalign_Beta";
-            this.label_Sensor_1_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
-            this.label_Sensor_1_Misalign_Beta.TabIndex = 28;
-            this.label_Sensor_1_Misalign_Beta.Text = "Sensor 1 Misalign Beta";
-            // 
-            // label_Sensor_1_Misalign_Gamma
-            // 
-            this.label_Sensor_1_Misalign_Gamma.AutoSize = true;
-            this.label_Sensor_1_Misalign_Gamma.Enabled = false;
-            this.label_Sensor_1_Misalign_Gamma.Location = new System.Drawing.Point(707, 550);
-            this.label_Sensor_1_Misalign_Gamma.Name = "label_Sensor_1_Misalign_Gamma";
-            this.label_Sensor_1_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
-            this.label_Sensor_1_Misalign_Gamma.TabIndex = 28;
-            this.label_Sensor_1_Misalign_Gamma.Text = "Sensor 1 Misalign Gamma";
-            // 
-            // label_Sensor_2_Sample_rate
-            // 
-            this.label_Sensor_2_Sample_rate.AutoSize = true;
-            this.label_Sensor_2_Sample_rate.Enabled = false;
-            this.label_Sensor_2_Sample_rate.Location = new System.Drawing.Point(707, 590);
-            this.label_Sensor_2_Sample_rate.Name = "label_Sensor_2_Sample_rate";
-            this.label_Sensor_2_Sample_rate.Size = new System.Drawing.Size(108, 13);
-            this.label_Sensor_2_Sample_rate.TabIndex = 28;
-            this.label_Sensor_2_Sample_rate.Text = "Sensor 2 Sample rate";
-            // 
-            // label_Sensor_2_Scale_factor_X
-            // 
-            this.label_Sensor_2_Scale_factor_X.AutoSize = true;
-            this.label_Sensor_2_Scale_factor_X.Enabled = false;
-            this.label_Sensor_2_Scale_factor_X.Location = new System.Drawing.Point(707, 630);
-            this.label_Sensor_2_Scale_factor_X.Name = "label_Sensor_2_Scale_factor_X";
-            this.label_Sensor_2_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_2_Scale_factor_X.TabIndex = 28;
-            this.label_Sensor_2_Scale_factor_X.Text = "Sensor 2 Scale factor X";
-            // 
-            // label_Sensor_2_Scale_factor_Y
-            // 
-            this.label_Sensor_2_Scale_factor_Y.AutoSize = true;
-            this.label_Sensor_2_Scale_factor_Y.Enabled = false;
-            this.label_Sensor_2_Scale_factor_Y.Location = new System.Drawing.Point(857, 30);
-            this.label_Sensor_2_Scale_factor_Y.Name = "label_Sensor_2_Scale_factor_Y";
-            this.label_Sensor_2_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_2_Scale_factor_Y.TabIndex = 28;
-            this.label_Sensor_2_Scale_factor_Y.Text = "Sensor 2 Scale factor Y";
-            // 
-            // label_Sensor_2_Scale_factor_Z
-            // 
-            this.label_Sensor_2_Scale_factor_Z.AutoSize = true;
-            this.label_Sensor_2_Scale_factor_Z.Enabled = false;
-            this.label_Sensor_2_Scale_factor_Z.Location = new System.Drawing.Point(857, 70);
-            this.label_Sensor_2_Scale_factor_Z.Name = "label_Sensor_2_Scale_factor_Z";
-            this.label_Sensor_2_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
-            this.label_Sensor_2_Scale_factor_Z.TabIndex = 28;
-            this.label_Sensor_2_Scale_factor_Z.Text = "Sensor 2 Scale factor Z";
-            // 
-            // label_Sensor_2_SF_Tempco_X
-            // 
-            this.label_Sensor_2_SF_Tempco_X.AutoSize = true;
-            this.label_Sensor_2_SF_Tempco_X.Enabled = false;
-            this.label_Sensor_2_SF_Tempco_X.Location = new System.Drawing.Point(857, 110);
-            this.label_Sensor_2_SF_Tempco_X.Name = "label_Sensor_2_SF_Tempco_X";
-            this.label_Sensor_2_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_2_SF_Tempco_X.TabIndex = 28;
-            this.label_Sensor_2_SF_Tempco_X.Text = "Sensor 2 SF Tempco X";
-            // 
-            // label_Sensor_2_SF_Tempco_Y
-            // 
-            this.label_Sensor_2_SF_Tempco_Y.AutoSize = true;
-            this.label_Sensor_2_SF_Tempco_Y.Enabled = false;
-            this.label_Sensor_2_SF_Tempco_Y.Location = new System.Drawing.Point(857, 150);
-            this.label_Sensor_2_SF_Tempco_Y.Name = "label_Sensor_2_SF_Tempco_Y";
-            this.label_Sensor_2_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_2_SF_Tempco_Y.TabIndex = 28;
-            this.label_Sensor_2_SF_Tempco_Y.Text = "Sensor 2 SF Tempco Y";
-            // 
-            // label_Sensor_2_SF_Tempco_Z
-            // 
-            this.label_Sensor_2_SF_Tempco_Z.AutoSize = true;
-            this.label_Sensor_2_SF_Tempco_Z.Enabled = false;
-            this.label_Sensor_2_SF_Tempco_Z.Location = new System.Drawing.Point(857, 190);
-            this.label_Sensor_2_SF_Tempco_Z.Name = "label_Sensor_2_SF_Tempco_Z";
-            this.label_Sensor_2_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
-            this.label_Sensor_2_SF_Tempco_Z.TabIndex = 28;
-            this.label_Sensor_2_SF_Tempco_Z.Text = "Sensor 2 SF Tempco Z";
-            // 
-            // label_Sensor_2_Offset_X
-            // 
-            this.label_Sensor_2_Offset_X.AutoSize = true;
-            this.label_Sensor_2_Offset_X.Enabled = false;
-            this.label_Sensor_2_Offset_X.Location = new System.Drawing.Point(857, 230);
-            this.label_Sensor_2_Offset_X.Name = "label_Sensor_2_Offset_X";
-            this.label_Sensor_2_Offset_X.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_2_Offset_X.TabIndex = 28;
-            this.label_Sensor_2_Offset_X.Text = "Sensor 2 Offset X";
-            // 
-            // label_Sensor_2_Offset_Y
-            // 
-            this.label_Sensor_2_Offset_Y.AutoSize = true;
-            this.label_Sensor_2_Offset_Y.Enabled = false;
-            this.label_Sensor_2_Offset_Y.Location = new System.Drawing.Point(857, 270);
-            this.label_Sensor_2_Offset_Y.Name = "label_Sensor_2_Offset_Y";
-            this.label_Sensor_2_Offset_Y.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_2_Offset_Y.TabIndex = 28;
-            this.label_Sensor_2_Offset_Y.Text = "Sensor 2 Offset Y";
-            // 
-            // label_Sensor_2_Offset_Z
-            // 
-            this.label_Sensor_2_Offset_Z.AutoSize = true;
-            this.label_Sensor_2_Offset_Z.Enabled = false;
-            this.label_Sensor_2_Offset_Z.Location = new System.Drawing.Point(857, 310);
-            this.label_Sensor_2_Offset_Z.Name = "label_Sensor_2_Offset_Z";
-            this.label_Sensor_2_Offset_Z.Size = new System.Drawing.Size(90, 13);
-            this.label_Sensor_2_Offset_Z.TabIndex = 28;
-            this.label_Sensor_2_Offset_Z.Text = "Sensor 2 Offset Z";
-            // 
-            // label_Sensor_2_Offset_Tempco_X
-            // 
-            this.label_Sensor_2_Offset_Tempco_X.AutoSize = true;
-            this.label_Sensor_2_Offset_Tempco_X.Enabled = false;
-            this.label_Sensor_2_Offset_Tempco_X.Location = new System.Drawing.Point(857, 350);
-            this.label_Sensor_2_Offset_Tempco_X.Name = "label_Sensor_2_Offset_Tempco_X";
-            this.label_Sensor_2_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_2_Offset_Tempco_X.TabIndex = 28;
-            this.label_Sensor_2_Offset_Tempco_X.Text = "Sensor 2 Offset Tempco X";
-            // 
-            // label_Sensor_2_Offset_Tempco_Y
-            // 
-            this.label_Sensor_2_Offset_Tempco_Y.AutoSize = true;
-            this.label_Sensor_2_Offset_Tempco_Y.Enabled = false;
-            this.label_Sensor_2_Offset_Tempco_Y.Location = new System.Drawing.Point(857, 390);
-            this.label_Sensor_2_Offset_Tempco_Y.Name = "label_Sensor_2_Offset_Tempco_Y";
-            this.label_Sensor_2_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_2_Offset_Tempco_Y.TabIndex = 28;
-            this.label_Sensor_2_Offset_Tempco_Y.Text = "Sensor 2 Offset Tempco Y";
-            // 
-            // label_Sensor_2_Offset_Tempco_Z
-            // 
-            this.label_Sensor_2_Offset_Tempco_Z.AutoSize = true;
-            this.label_Sensor_2_Offset_Tempco_Z.Enabled = false;
-            this.label_Sensor_2_Offset_Tempco_Z.Location = new System.Drawing.Point(857, 430);
-            this.label_Sensor_2_Offset_Tempco_Z.Name = "label_Sensor_2_Offset_Tempco_Z";
-            this.label_Sensor_2_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
-            this.label_Sensor_2_Offset_Tempco_Z.TabIndex = 28;
-            this.label_Sensor_2_Offset_Tempco_Z.Text = "Sensor 2 Offset Tempco Z";
-            // 
-            // label_Sensor_2_Misalign_Alpha
-            // 
-            this.label_Sensor_2_Misalign_Alpha.AutoSize = true;
-            this.label_Sensor_2_Misalign_Alpha.Enabled = false;
-            this.label_Sensor_2_Misalign_Alpha.Location = new System.Drawing.Point(857, 470);
-            this.label_Sensor_2_Misalign_Alpha.Name = "label_Sensor_2_Misalign_Alpha";
-            this.label_Sensor_2_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
-            this.label_Sensor_2_Misalign_Alpha.TabIndex = 28;
-            this.label_Sensor_2_Misalign_Alpha.Text = "Sensor 2 Misalign Alpha";
-            // 
-            // label_Sensor_2_Misalign_Beta
-            // 
-            this.label_Sensor_2_Misalign_Beta.AutoSize = true;
-            this.label_Sensor_2_Misalign_Beta.Enabled = false;
-            this.label_Sensor_2_Misalign_Beta.Location = new System.Drawing.Point(857, 510);
-            this.label_Sensor_2_Misalign_Beta.Name = "label_Sensor_2_Misalign_Beta";
-            this.label_Sensor_2_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
-            this.label_Sensor_2_Misalign_Beta.TabIndex = 28;
-            this.label_Sensor_2_Misalign_Beta.Text = "Sensor 2 Misalign Beta";
-            // 
-            // label_Sensor_2_Misalign_Gamma
-            // 
-            this.label_Sensor_2_Misalign_Gamma.AutoSize = true;
-            this.label_Sensor_2_Misalign_Gamma.Enabled = false;
-            this.label_Sensor_2_Misalign_Gamma.Location = new System.Drawing.Point(857, 550);
-            this.label_Sensor_2_Misalign_Gamma.Name = "label_Sensor_2_Misalign_Gamma";
-            this.label_Sensor_2_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
-            this.label_Sensor_2_Misalign_Gamma.TabIndex = 28;
-            this.label_Sensor_2_Misalign_Gamma.Text = "Sensor 2 Misalign Gamma";
+            // label_Sensor_A_Raw_data_format
+            // 
+            this.label_Sensor_A_Raw_data_format.AutoSize = true;
+            this.label_Sensor_A_Raw_data_format.Enabled = false;
+            this.label_Sensor_A_Raw_data_format.Location = new System.Drawing.Point(557, 510);
+            this.label_Sensor_A_Raw_data_format.Name = "label_Sensor_A_Raw_data_format";
+            this.label_Sensor_A_Raw_data_format.Size = new System.Drawing.Size(130, 13);
+            this.label_Sensor_A_Raw_data_format.TabIndex = 28;
+            this.label_Sensor_A_Raw_data_format.Text = "Sensor A Raw data format";
+            // 
+            // label_Sensor_B_Raw_data_format
+            // 
+            this.label_Sensor_B_Raw_data_format.AutoSize = true;
+            this.label_Sensor_B_Raw_data_format.Enabled = false;
+            this.label_Sensor_B_Raw_data_format.Location = new System.Drawing.Point(557, 550);
+            this.label_Sensor_B_Raw_data_format.Name = "label_Sensor_B_Raw_data_format";
+            this.label_Sensor_B_Raw_data_format.Size = new System.Drawing.Size(130, 13);
+            this.label_Sensor_B_Raw_data_format.TabIndex = 28;
+            this.label_Sensor_B_Raw_data_format.Text = "Sensor B Raw data format";
+            // 
+            // label_Sensor_A_Sample_rate
+            // 
+            this.label_Sensor_A_Sample_rate.AutoSize = true;
+            this.label_Sensor_A_Sample_rate.Enabled = false;
+            this.label_Sensor_A_Sample_rate.Location = new System.Drawing.Point(557, 590);
+            this.label_Sensor_A_Sample_rate.Name = "label_Sensor_A_Sample_rate";
+            this.label_Sensor_A_Sample_rate.Size = new System.Drawing.Size(108, 13);
+            this.label_Sensor_A_Sample_rate.TabIndex = 28;
+            this.label_Sensor_A_Sample_rate.Text = "Sensor A Sample rate";
+            // 
+            // label_Sensor_A_Scale_factor_X
+            // 
+            this.label_Sensor_A_Scale_factor_X.AutoSize = true;
+            this.label_Sensor_A_Scale_factor_X.Enabled = false;
+            this.label_Sensor_A_Scale_factor_X.Location = new System.Drawing.Point(557, 630);
+            this.label_Sensor_A_Scale_factor_X.Name = "label_Sensor_A_Scale_factor_X";
+            this.label_Sensor_A_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_X.TabIndex = 28;
+            this.label_Sensor_A_Scale_factor_X.Text = "Sensor A Scale factor X";
+            // 
+            // label_Sensor_A_Scale_factor_Y
+            // 
+            this.label_Sensor_A_Scale_factor_Y.AutoSize = true;
+            this.label_Sensor_A_Scale_factor_Y.Enabled = false;
+            this.label_Sensor_A_Scale_factor_Y.Location = new System.Drawing.Point(707, 30);
+            this.label_Sensor_A_Scale_factor_Y.Name = "label_Sensor_A_Scale_factor_Y";
+            this.label_Sensor_A_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_Y.TabIndex = 28;
+            this.label_Sensor_A_Scale_factor_Y.Text = "Sensor A Scale factor Y";
+            // 
+            // label_Sensor_A_Scale_factor_Z
+            // 
+            this.label_Sensor_A_Scale_factor_Z.AutoSize = true;
+            this.label_Sensor_A_Scale_factor_Z.Enabled = false;
+            this.label_Sensor_A_Scale_factor_Z.Location = new System.Drawing.Point(707, 70);
+            this.label_Sensor_A_Scale_factor_Z.Name = "label_Sensor_A_Scale_factor_Z";
+            this.label_Sensor_A_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_Z.TabIndex = 28;
+            this.label_Sensor_A_Scale_factor_Z.Text = "Sensor A Scale factor Z";
+            // 
+            // label_Sensor_A_SF_Tempco_X
+            // 
+            this.label_Sensor_A_SF_Tempco_X.AutoSize = true;
+            this.label_Sensor_A_SF_Tempco_X.Enabled = false;
+            this.label_Sensor_A_SF_Tempco_X.Location = new System.Drawing.Point(707, 110);
+            this.label_Sensor_A_SF_Tempco_X.Name = "label_Sensor_A_SF_Tempco_X";
+            this.label_Sensor_A_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_X.TabIndex = 28;
+            this.label_Sensor_A_SF_Tempco_X.Text = "Sensor A SF Tempco X";
+            // 
+            // label_Sensor_A_SF_Tempco_Y
+            // 
+            this.label_Sensor_A_SF_Tempco_Y.AutoSize = true;
+            this.label_Sensor_A_SF_Tempco_Y.Enabled = false;
+            this.label_Sensor_A_SF_Tempco_Y.Location = new System.Drawing.Point(707, 150);
+            this.label_Sensor_A_SF_Tempco_Y.Name = "label_Sensor_A_SF_Tempco_Y";
+            this.label_Sensor_A_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_Y.TabIndex = 28;
+            this.label_Sensor_A_SF_Tempco_Y.Text = "Sensor A SF Tempco Y";
+            // 
+            // label_Sensor_A_SF_Tempco_Z
+            // 
+            this.label_Sensor_A_SF_Tempco_Z.AutoSize = true;
+            this.label_Sensor_A_SF_Tempco_Z.Enabled = false;
+            this.label_Sensor_A_SF_Tempco_Z.Location = new System.Drawing.Point(707, 190);
+            this.label_Sensor_A_SF_Tempco_Z.Name = "label_Sensor_A_SF_Tempco_Z";
+            this.label_Sensor_A_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_Z.TabIndex = 28;
+            this.label_Sensor_A_SF_Tempco_Z.Text = "Sensor A SF Tempco Z";
+            // 
+            // label_Sensor_A_Offset_X
+            // 
+            this.label_Sensor_A_Offset_X.AutoSize = true;
+            this.label_Sensor_A_Offset_X.Enabled = false;
+            this.label_Sensor_A_Offset_X.Location = new System.Drawing.Point(707, 230);
+            this.label_Sensor_A_Offset_X.Name = "label_Sensor_A_Offset_X";
+            this.label_Sensor_A_Offset_X.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_X.TabIndex = 28;
+            this.label_Sensor_A_Offset_X.Text = "Sensor A Offset X";
+            // 
+            // label_Sensor_A_Offset_Y
+            // 
+            this.label_Sensor_A_Offset_Y.AutoSize = true;
+            this.label_Sensor_A_Offset_Y.Enabled = false;
+            this.label_Sensor_A_Offset_Y.Location = new System.Drawing.Point(707, 270);
+            this.label_Sensor_A_Offset_Y.Name = "label_Sensor_A_Offset_Y";
+            this.label_Sensor_A_Offset_Y.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_Y.TabIndex = 28;
+            this.label_Sensor_A_Offset_Y.Text = "Sensor A Offset Y";
+            // 
+            // label_Sensor_A_Offset_Z
+            // 
+            this.label_Sensor_A_Offset_Z.AutoSize = true;
+            this.label_Sensor_A_Offset_Z.Enabled = false;
+            this.label_Sensor_A_Offset_Z.Location = new System.Drawing.Point(707, 310);
+            this.label_Sensor_A_Offset_Z.Name = "label_Sensor_A_Offset_Z";
+            this.label_Sensor_A_Offset_Z.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_Z.TabIndex = 28;
+            this.label_Sensor_A_Offset_Z.Text = "Sensor A Offset Z";
+            // 
+            // label_Sensor_A_Offset_Tempco_X
+            // 
+            this.label_Sensor_A_Offset_Tempco_X.AutoSize = true;
+            this.label_Sensor_A_Offset_Tempco_X.Enabled = false;
+            this.label_Sensor_A_Offset_Tempco_X.Location = new System.Drawing.Point(707, 350);
+            this.label_Sensor_A_Offset_Tempco_X.Name = "label_Sensor_A_Offset_Tempco_X";
+            this.label_Sensor_A_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_X.TabIndex = 28;
+            this.label_Sensor_A_Offset_Tempco_X.Text = "Sensor A Offset Tempco X";
+            // 
+            // label_Sensor_A_Offset_Tempco_Y
+            // 
+            this.label_Sensor_A_Offset_Tempco_Y.AutoSize = true;
+            this.label_Sensor_A_Offset_Tempco_Y.Enabled = false;
+            this.label_Sensor_A_Offset_Tempco_Y.Location = new System.Drawing.Point(707, 390);
+            this.label_Sensor_A_Offset_Tempco_Y.Name = "label_Sensor_A_Offset_Tempco_Y";
+            this.label_Sensor_A_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_Y.TabIndex = 28;
+            this.label_Sensor_A_Offset_Tempco_Y.Text = "Sensor A Offset Tempco Y";
+            // 
+            // label_Sensor_A_Offset_Tempco_Z
+            // 
+            this.label_Sensor_A_Offset_Tempco_Z.AutoSize = true;
+            this.label_Sensor_A_Offset_Tempco_Z.Enabled = false;
+            this.label_Sensor_A_Offset_Tempco_Z.Location = new System.Drawing.Point(707, 430);
+            this.label_Sensor_A_Offset_Tempco_Z.Name = "label_Sensor_A_Offset_Tempco_Z";
+            this.label_Sensor_A_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_Z.TabIndex = 28;
+            this.label_Sensor_A_Offset_Tempco_Z.Text = "Sensor A Offset Tempco Z";
+            // 
+            // label_Sensor_A_Misalign_Alpha
+            // 
+            this.label_Sensor_A_Misalign_Alpha.AutoSize = true;
+            this.label_Sensor_A_Misalign_Alpha.Enabled = false;
+            this.label_Sensor_A_Misalign_Alpha.Location = new System.Drawing.Point(707, 470);
+            this.label_Sensor_A_Misalign_Alpha.Name = "label_Sensor_A_Misalign_Alpha";
+            this.label_Sensor_A_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_A_Misalign_Alpha.TabIndex = 28;
+            this.label_Sensor_A_Misalign_Alpha.Text = "Sensor A Misalign Alpha";
+            // 
+            // label_Sensor_A_Misalign_Beta
+            // 
+            this.label_Sensor_A_Misalign_Beta.AutoSize = true;
+            this.label_Sensor_A_Misalign_Beta.Enabled = false;
+            this.label_Sensor_A_Misalign_Beta.Location = new System.Drawing.Point(707, 510);
+            this.label_Sensor_A_Misalign_Beta.Name = "label_Sensor_A_Misalign_Beta";
+            this.label_Sensor_A_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
+            this.label_Sensor_A_Misalign_Beta.TabIndex = 28;
+            this.label_Sensor_A_Misalign_Beta.Text = "Sensor A Misalign Beta";
+            // 
+            // label_Sensor_A_Misalign_Gamma
+            // 
+            this.label_Sensor_A_Misalign_Gamma.AutoSize = true;
+            this.label_Sensor_A_Misalign_Gamma.Enabled = false;
+            this.label_Sensor_A_Misalign_Gamma.Location = new System.Drawing.Point(707, 550);
+            this.label_Sensor_A_Misalign_Gamma.Name = "label_Sensor_A_Misalign_Gamma";
+            this.label_Sensor_A_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
+            this.label_Sensor_A_Misalign_Gamma.TabIndex = 28;
+            this.label_Sensor_A_Misalign_Gamma.Text = "Sensor A Misalign Gamma";
+            // 
+            // label_Sensor_B_Sample_rate
+            // 
+            this.label_Sensor_B_Sample_rate.AutoSize = true;
+            this.label_Sensor_B_Sample_rate.Enabled = false;
+            this.label_Sensor_B_Sample_rate.Location = new System.Drawing.Point(707, 590);
+            this.label_Sensor_B_Sample_rate.Name = "label_Sensor_B_Sample_rate";
+            this.label_Sensor_B_Sample_rate.Size = new System.Drawing.Size(108, 13);
+            this.label_Sensor_B_Sample_rate.TabIndex = 28;
+            this.label_Sensor_B_Sample_rate.Text = "Sensor B Sample rate";
+            // 
+            // label_Sensor_B_Scale_factor_X
+            // 
+            this.label_Sensor_B_Scale_factor_X.AutoSize = true;
+            this.label_Sensor_B_Scale_factor_X.Enabled = false;
+            this.label_Sensor_B_Scale_factor_X.Location = new System.Drawing.Point(707, 630);
+            this.label_Sensor_B_Scale_factor_X.Name = "label_Sensor_B_Scale_factor_X";
+            this.label_Sensor_B_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_X.TabIndex = 28;
+            this.label_Sensor_B_Scale_factor_X.Text = "Sensor B Scale factor X";
+            // 
+            // label_Sensor_B_Scale_factor_Y
+            // 
+            this.label_Sensor_B_Scale_factor_Y.AutoSize = true;
+            this.label_Sensor_B_Scale_factor_Y.Enabled = false;
+            this.label_Sensor_B_Scale_factor_Y.Location = new System.Drawing.Point(857, 30);
+            this.label_Sensor_B_Scale_factor_Y.Name = "label_Sensor_B_Scale_factor_Y";
+            this.label_Sensor_B_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_Y.TabIndex = 28;
+            this.label_Sensor_B_Scale_factor_Y.Text = "Sensor B Scale factor Y";
+            // 
+            // label_Sensor_B_Scale_factor_Z
+            // 
+            this.label_Sensor_B_Scale_factor_Z.AutoSize = true;
+            this.label_Sensor_B_Scale_factor_Z.Enabled = false;
+            this.label_Sensor_B_Scale_factor_Z.Location = new System.Drawing.Point(857, 70);
+            this.label_Sensor_B_Scale_factor_Z.Name = "label_Sensor_B_Scale_factor_Z";
+            this.label_Sensor_B_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_Z.TabIndex = 28;
+            this.label_Sensor_B_Scale_factor_Z.Text = "Sensor B Scale factor Z";
+            // 
+            // label_Sensor_B_SF_Tempco_X
+            // 
+            this.label_Sensor_B_SF_Tempco_X.AutoSize = true;
+            this.label_Sensor_B_SF_Tempco_X.Enabled = false;
+            this.label_Sensor_B_SF_Tempco_X.Location = new System.Drawing.Point(857, 110);
+            this.label_Sensor_B_SF_Tempco_X.Name = "label_Sensor_B_SF_Tempco_X";
+            this.label_Sensor_B_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_X.TabIndex = 28;
+            this.label_Sensor_B_SF_Tempco_X.Text = "Sensor B SF Tempco X";
+            // 
+            // label_Sensor_B_SF_Tempco_Y
+            // 
+            this.label_Sensor_B_SF_Tempco_Y.AutoSize = true;
+            this.label_Sensor_B_SF_Tempco_Y.Enabled = false;
+            this.label_Sensor_B_SF_Tempco_Y.Location = new System.Drawing.Point(857, 150);
+            this.label_Sensor_B_SF_Tempco_Y.Name = "label_Sensor_B_SF_Tempco_Y";
+            this.label_Sensor_B_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_Y.TabIndex = 28;
+            this.label_Sensor_B_SF_Tempco_Y.Text = "Sensor B SF Tempco Y";
+            // 
+            // label_Sensor_B_SF_Tempco_Z
+            // 
+            this.label_Sensor_B_SF_Tempco_Z.AutoSize = true;
+            this.label_Sensor_B_SF_Tempco_Z.Enabled = false;
+            this.label_Sensor_B_SF_Tempco_Z.Location = new System.Drawing.Point(857, 190);
+            this.label_Sensor_B_SF_Tempco_Z.Name = "label_Sensor_B_SF_Tempco_Z";
+            this.label_Sensor_B_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_Z.TabIndex = 28;
+            this.label_Sensor_B_SF_Tempco_Z.Text = "Sensor B SF Tempco Z";
+            // 
+            // label_Sensor_B_Offset_X
+            // 
+            this.label_Sensor_B_Offset_X.AutoSize = true;
+            this.label_Sensor_B_Offset_X.Enabled = false;
+            this.label_Sensor_B_Offset_X.Location = new System.Drawing.Point(857, 230);
+            this.label_Sensor_B_Offset_X.Name = "label_Sensor_B_Offset_X";
+            this.label_Sensor_B_Offset_X.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_X.TabIndex = 28;
+            this.label_Sensor_B_Offset_X.Text = "Sensor B Offset X";
+            // 
+            // label_Sensor_B_Offset_Y
+            // 
+            this.label_Sensor_B_Offset_Y.AutoSize = true;
+            this.label_Sensor_B_Offset_Y.Enabled = false;
+            this.label_Sensor_B_Offset_Y.Location = new System.Drawing.Point(857, 270);
+            this.label_Sensor_B_Offset_Y.Name = "label_Sensor_B_Offset_Y";
+            this.label_Sensor_B_Offset_Y.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_Y.TabIndex = 28;
+            this.label_Sensor_B_Offset_Y.Text = "Sensor B Offset Y";
+            // 
+            // label_Sensor_B_Offset_Z
+            // 
+            this.label_Sensor_B_Offset_Z.AutoSize = true;
+            this.label_Sensor_B_Offset_Z.Enabled = false;
+            this.label_Sensor_B_Offset_Z.Location = new System.Drawing.Point(857, 310);
+            this.label_Sensor_B_Offset_Z.Name = "label_Sensor_B_Offset_Z";
+            this.label_Sensor_B_Offset_Z.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_Z.TabIndex = 28;
+            this.label_Sensor_B_Offset_Z.Text = "Sensor B Offset Z";
+            // 
+            // label_Sensor_B_Offset_Tempco_X
+            // 
+            this.label_Sensor_B_Offset_Tempco_X.AutoSize = true;
+            this.label_Sensor_B_Offset_Tempco_X.Enabled = false;
+            this.label_Sensor_B_Offset_Tempco_X.Location = new System.Drawing.Point(857, 350);
+            this.label_Sensor_B_Offset_Tempco_X.Name = "label_Sensor_B_Offset_Tempco_X";
+            this.label_Sensor_B_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_X.TabIndex = 28;
+            this.label_Sensor_B_Offset_Tempco_X.Text = "Sensor B Offset Tempco X";
+            // 
+            // label_Sensor_B_Offset_Tempco_Y
+            // 
+            this.label_Sensor_B_Offset_Tempco_Y.AutoSize = true;
+            this.label_Sensor_B_Offset_Tempco_Y.Enabled = false;
+            this.label_Sensor_B_Offset_Tempco_Y.Location = new System.Drawing.Point(857, 390);
+            this.label_Sensor_B_Offset_Tempco_Y.Name = "label_Sensor_B_Offset_Tempco_Y";
+            this.label_Sensor_B_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_Y.TabIndex = 28;
+            this.label_Sensor_B_Offset_Tempco_Y.Text = "Sensor B Offset Tempco Y";
+            // 
+            // label_Sensor_B_Offset_Tempco_Z
+            // 
+            this.label_Sensor_B_Offset_Tempco_Z.AutoSize = true;
+            this.label_Sensor_B_Offset_Tempco_Z.Enabled = false;
+            this.label_Sensor_B_Offset_Tempco_Z.Location = new System.Drawing.Point(857, 430);
+            this.label_Sensor_B_Offset_Tempco_Z.Name = "label_Sensor_B_Offset_Tempco_Z";
+            this.label_Sensor_B_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_Z.TabIndex = 28;
+            this.label_Sensor_B_Offset_Tempco_Z.Text = "Sensor B Offset Tempco Z";
+            // 
+            // label_Sensor_B_Misalign_Alpha
+            // 
+            this.label_Sensor_B_Misalign_Alpha.AutoSize = true;
+            this.label_Sensor_B_Misalign_Alpha.Enabled = false;
+            this.label_Sensor_B_Misalign_Alpha.Location = new System.Drawing.Point(857, 470);
+            this.label_Sensor_B_Misalign_Alpha.Name = "label_Sensor_B_Misalign_Alpha";
+            this.label_Sensor_B_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_B_Misalign_Alpha.TabIndex = 28;
+            this.label_Sensor_B_Misalign_Alpha.Text = "Sensor B Misalign Alpha";
+            // 
+            // label_Sensor_B_Misalign_Beta
+            // 
+            this.label_Sensor_B_Misalign_Beta.AutoSize = true;
+            this.label_Sensor_B_Misalign_Beta.Enabled = false;
+            this.label_Sensor_B_Misalign_Beta.Location = new System.Drawing.Point(857, 510);
+            this.label_Sensor_B_Misalign_Beta.Name = "label_Sensor_B_Misalign_Beta";
+            this.label_Sensor_B_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
+            this.label_Sensor_B_Misalign_Beta.TabIndex = 28;
+            this.label_Sensor_B_Misalign_Beta.Text = "Sensor B Misalign Beta";
+            // 
+            // label_Sensor_B_Misalign_Gamma
+            // 
+            this.label_Sensor_B_Misalign_Gamma.AutoSize = true;
+            this.label_Sensor_B_Misalign_Gamma.Enabled = false;
+            this.label_Sensor_B_Misalign_Gamma.Location = new System.Drawing.Point(857, 550);
+            this.label_Sensor_B_Misalign_Gamma.Name = "label_Sensor_B_Misalign_Gamma";
+            this.label_Sensor_B_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
+            this.label_Sensor_B_Misalign_Gamma.TabIndex = 28;
+            this.label_Sensor_B_Misalign_Gamma.Text = "Sensor B Misalign Gamma";
             // 
             // label_Temperature_offset
             // 
@@ -2240,99 +2240,99 @@
             this.Controls.Add(this.Baudrate);
             this.Controls.Add(this.bt_serialConnect);
             this.Controls.Add(this.Carrier_serial_number);
-            this.Controls.Add(this.Sensor_1_name);
-            this.Controls.Add(this.Sensor_2_name);
-            this.Controls.Add(this.Sensor_1_active_sensors);
-            this.Controls.Add(this.Sensor_1_installed_bitmap);
-            this.Controls.Add(this.Sensor_1_enabled_bitmap);
-            this.Controls.Add(this.Sensor_1_faulty_bitmap);
-            this.Controls.Add(this.Sensor_2_active_sensors);
-            this.Controls.Add(this.Sensor_2_installed_bitmap);
-            this.Controls.Add(this.Sensor_2_enabled_bitmap);
-            this.Controls.Add(this.Sensor_2_failty_bitmap);
+            this.Controls.Add(this.Sensor_A_name);
+            this.Controls.Add(this.Sensor_B_name);
+            this.Controls.Add(this.Sensor_A_active_sensors);
+            this.Controls.Add(this.Sensor_A_installed_bitmap);
+            this.Controls.Add(this.Sensor_A_enabled_bitmap);
+            this.Controls.Add(this.Sensor_A_faulty_bitmap);
+            this.Controls.Add(this.Sensor_B_active_sensors);
+            this.Controls.Add(this.Sensor_B_installed_bitmap);
+            this.Controls.Add(this.Sensor_B_enabled_bitmap);
+            this.Controls.Add(this.Sensor_B_failty_bitmap);
             this.Controls.Add(this.Encoder_offset);
-            this.Controls.Add(this.Sensor_1_Raw_data_format);
-            this.Controls.Add(this.Sensor_2_Raw_data_format);
-            this.Controls.Add(this.Sensor_1_Sample_rate);
-            this.Controls.Add(this.Sensor_1_Scale_factor_X);
-            this.Controls.Add(this.Sensor_1_Scale_factor_Y);
-            this.Controls.Add(this.Sensor_1_Scale_factor_Z);
-            this.Controls.Add(this.Sensor_1_SF_Tempco_X);
-            this.Controls.Add(this.Sensor_1_SF_Tempco_Y);
-            this.Controls.Add(this.Sensor_1_SF_Tempco_Z);
-            this.Controls.Add(this.Sensor_1_Offset_X);
-            this.Controls.Add(this.Sensor_1_Offset_Y);
-            this.Controls.Add(this.Sensor_1_Offset_Z);
-            this.Controls.Add(this.Sensor_1_Offset_Tempco_X);
-            this.Controls.Add(this.Sensor_1_Offset_Tempco_Y);
-            this.Controls.Add(this.Sensor_1_Offset_Tempco_Z);
-            this.Controls.Add(this.Sensor_1_Misalign_Alpha);
-            this.Controls.Add(this.Sensor_1_Misalign_Beta);
-            this.Controls.Add(this.Sensor_1_Misalign_Gamma);
-            this.Controls.Add(this.Sensor_2_Sample_rate);
-            this.Controls.Add(this.Sensor_2_Scale_factor_X);
-            this.Controls.Add(this.Sensor_2_Scale_factor_Y);
-            this.Controls.Add(this.Sensor_2_Scale_factor_Z);
-            this.Controls.Add(this.Sensor_2_SF_Tempco_X);
-            this.Controls.Add(this.Sensor_2_SF_Tempco_Y);
-            this.Controls.Add(this.Sensor_2_SF_Tempco_Z);
-            this.Controls.Add(this.Sensor_2_Offset_X);
-            this.Controls.Add(this.Sensor_2_Offset_Y);
-            this.Controls.Add(this.Sensor_2_Offset_Z);
-            this.Controls.Add(this.Sensor_2_Offset_Tempco_X);
-            this.Controls.Add(this.Sensor_2_Offset_Tempco_Y);
-            this.Controls.Add(this.Sensor_2_Offset_Tempco_Z);
-            this.Controls.Add(this.Sensor_2_Misalign_Alpha);
-            this.Controls.Add(this.Sensor_2_Misalign_Beta);
-            this.Controls.Add(this.Sensor_2_Misalign_Gamma);
+            this.Controls.Add(this.Sensor_A_Raw_data_format);
+            this.Controls.Add(this.Sensor_B_Raw_data_format);
+            this.Controls.Add(this.Sensor_A_Sample_rate);
+            this.Controls.Add(this.Sensor_A_Scale_factor_X);
+            this.Controls.Add(this.Sensor_A_Scale_factor_Y);
+            this.Controls.Add(this.Sensor_A_Scale_factor_Z);
+            this.Controls.Add(this.Sensor_A_SF_Tempco_X);
+            this.Controls.Add(this.Sensor_A_SF_Tempco_Y);
+            this.Controls.Add(this.Sensor_A_SF_Tempco_Z);
+            this.Controls.Add(this.Sensor_A_Offset_X);
+            this.Controls.Add(this.Sensor_A_Offset_Y);
+            this.Controls.Add(this.Sensor_A_Offset_Z);
+            this.Controls.Add(this.Sensor_A_Offset_Tempco_X);
+            this.Controls.Add(this.Sensor_A_Offset_Tempco_Y);
+            this.Controls.Add(this.Sensor_A_Offset_Tempco_Z);
+            this.Controls.Add(this.Sensor_A_Misalign_Alpha);
+            this.Controls.Add(this.Sensor_A_Misalign_Beta);
+            this.Controls.Add(this.Sensor_A_Misalign_Gamma);
+            this.Controls.Add(this.Sensor_B_Sample_rate);
+            this.Controls.Add(this.Sensor_B_Scale_factor_X);
+            this.Controls.Add(this.Sensor_B_Scale_factor_Y);
+            this.Controls.Add(this.Sensor_B_Scale_factor_Z);
+            this.Controls.Add(this.Sensor_B_SF_Tempco_X);
+            this.Controls.Add(this.Sensor_B_SF_Tempco_Y);
+            this.Controls.Add(this.Sensor_B_SF_Tempco_Z);
+            this.Controls.Add(this.Sensor_B_Offset_X);
+            this.Controls.Add(this.Sensor_B_Offset_Y);
+            this.Controls.Add(this.Sensor_B_Offset_Z);
+            this.Controls.Add(this.Sensor_B_Offset_Tempco_X);
+            this.Controls.Add(this.Sensor_B_Offset_Tempco_Y);
+            this.Controls.Add(this.Sensor_B_Offset_Tempco_Z);
+            this.Controls.Add(this.Sensor_B_Misalign_Alpha);
+            this.Controls.Add(this.Sensor_B_Misalign_Beta);
+            this.Controls.Add(this.Sensor_B_Misalign_Gamma);
             this.Controls.Add(this.Temperature_offset);
             this.Controls.Add(this.Temperature_scale_factor);
             this.Controls.Add(this.label_Carrier_serial_number);
-            this.Controls.Add(this.label_Sensor_1_name);
-            this.Controls.Add(this.label_Sensor_2_name);
-            this.Controls.Add(this.label_Sensor_1_active_sensors);
-            this.Controls.Add(this.label_Sensor_1_installed_bitmap);
-            this.Controls.Add(this.label_Sensor_1_enabled_bitmap);
-            this.Controls.Add(this.label_Sensor_1_faulty_bitmap);
-            this.Controls.Add(this.label_Sensor_2_active_sensors);
-            this.Controls.Add(this.label_Sensor_2_installed_bitmap);
-            this.Controls.Add(this.label_Sensor_2_enabled_bitmap);
-            this.Controls.Add(this.label_Sensor_2_failty_bitmap);
+            this.Controls.Add(this.label_Sensor_A_name);
+            this.Controls.Add(this.label_Sensor_B_name);
+            this.Controls.Add(this.label_Sensor_A_active_sensors);
+            this.Controls.Add(this.label_Sensor_A_installed_bitmap);
+            this.Controls.Add(this.label_Sensor_A_enabled_bitmap);
+            this.Controls.Add(this.label_Sensor_A_faulty_bitmap);
+            this.Controls.Add(this.label_Sensor_B_active_sensors);
+            this.Controls.Add(this.label_Sensor_B_installed_bitmap);
+            this.Controls.Add(this.label_Sensor_B_enabled_bitmap);
+            this.Controls.Add(this.label_Sensor_B_failty_bitmap);
             this.Controls.Add(this.label_Encoder_offset);
-            this.Controls.Add(this.label_Sensor_1_Raw_data_format);
-            this.Controls.Add(this.label_Sensor_2_Raw_data_format);
-            this.Controls.Add(this.label_Sensor_1_Sample_rate);
-            this.Controls.Add(this.label_Sensor_1_Scale_factor_X);
-            this.Controls.Add(this.label_Sensor_1_Scale_factor_Y);
-            this.Controls.Add(this.label_Sensor_1_Scale_factor_Z);
-            this.Controls.Add(this.label_Sensor_1_SF_Tempco_X);
-            this.Controls.Add(this.label_Sensor_1_SF_Tempco_Y);
-            this.Controls.Add(this.label_Sensor_1_SF_Tempco_Z);
-            this.Controls.Add(this.label_Sensor_1_Offset_X);
-            this.Controls.Add(this.label_Sensor_1_Offset_Y);
-            this.Controls.Add(this.label_Sensor_1_Offset_Z);
-            this.Controls.Add(this.label_Sensor_1_Offset_Tempco_X);
-            this.Controls.Add(this.label_Sensor_1_Offset_Tempco_Y);
-            this.Controls.Add(this.label_Sensor_1_Offset_Tempco_Z);
-            this.Controls.Add(this.label_Sensor_1_Misalign_Alpha);
-            this.Controls.Add(this.label_Sensor_1_Misalign_Beta);
-            this.Controls.Add(this.label_Sensor_1_Misalign_Gamma);
-            this.Controls.Add(this.label_Sensor_2_Sample_rate);
-            this.Controls.Add(this.label_Sensor_2_Scale_factor_X);
-            this.Controls.Add(this.label_Sensor_2_Scale_factor_Y);
-            this.Controls.Add(this.label_Sensor_2_Scale_factor_Z);
-            this.Controls.Add(this.label_Sensor_2_SF_Tempco_X);
-            this.Controls.Add(this.label_Sensor_2_SF_Tempco_Y);
-            this.Controls.Add(this.label_Sensor_2_SF_Tempco_Z);
-            this.Controls.Add(this.label_Sensor_2_Offset_X);
-            this.Controls.Add(this.label_Sensor_2_Offset_Y);
-            this.Controls.Add(this.label_Sensor_2_Offset_Z);
-            this.Controls.Add(this.label_Sensor_2_Offset_Tempco_X);
-            this.Controls.Add(this.label_Sensor_2_Offset_Tempco_Y);
-            this.Controls.Add(this.label_Sensor_2_Offset_Tempco_Z);
-            this.Controls.Add(this.label_Sensor_2_Misalign_Alpha);
-            this.Controls.Add(this.label_Sensor_2_Misalign_Beta);
-            this.Controls.Add(this.label_Sensor_2_Misalign_Gamma);
+            this.Controls.Add(this.label_Sensor_A_Raw_data_format);
+            this.Controls.Add(this.label_Sensor_B_Raw_data_format);
+            this.Controls.Add(this.label_Sensor_A_Sample_rate);
+            this.Controls.Add(this.label_Sensor_A_Scale_factor_X);
+            this.Controls.Add(this.label_Sensor_A_Scale_factor_Y);
+            this.Controls.Add(this.label_Sensor_A_Scale_factor_Z);
+            this.Controls.Add(this.label_Sensor_A_SF_Tempco_X);
+            this.Controls.Add(this.label_Sensor_A_SF_Tempco_Y);
+            this.Controls.Add(this.label_Sensor_A_SF_Tempco_Z);
+            this.Controls.Add(this.label_Sensor_A_Offset_X);
+            this.Controls.Add(this.label_Sensor_A_Offset_Y);
+            this.Controls.Add(this.label_Sensor_A_Offset_Z);
+            this.Controls.Add(this.label_Sensor_A_Offset_Tempco_X);
+            this.Controls.Add(this.label_Sensor_A_Offset_Tempco_Y);
+            this.Controls.Add(this.label_Sensor_A_Offset_Tempco_Z);
+            this.Controls.Add(this.label_Sensor_A_Misalign_Alpha);
+            this.Controls.Add(this.label_Sensor_A_Misalign_Beta);
+            this.Controls.Add(this.label_Sensor_A_Misalign_Gamma);
+            this.Controls.Add(this.label_Sensor_B_Sample_rate);
+            this.Controls.Add(this.label_Sensor_B_Scale_factor_X);
+            this.Controls.Add(this.label_Sensor_B_Scale_factor_Y);
+            this.Controls.Add(this.label_Sensor_B_Scale_factor_Z);
+            this.Controls.Add(this.label_Sensor_B_SF_Tempco_X);
+            this.Controls.Add(this.label_Sensor_B_SF_Tempco_Y);
+            this.Controls.Add(this.label_Sensor_B_SF_Tempco_Z);
+            this.Controls.Add(this.label_Sensor_B_Offset_X);
+            this.Controls.Add(this.label_Sensor_B_Offset_Y);
+            this.Controls.Add(this.label_Sensor_B_Offset_Z);
+            this.Controls.Add(this.label_Sensor_B_Offset_Tempco_X);
+            this.Controls.Add(this.label_Sensor_B_Offset_Tempco_Y);
+            this.Controls.Add(this.label_Sensor_B_Offset_Tempco_Z);
+            this.Controls.Add(this.label_Sensor_B_Misalign_Alpha);
+            this.Controls.Add(this.label_Sensor_B_Misalign_Beta);
+            this.Controls.Add(this.label_Sensor_B_Misalign_Gamma);
             this.Controls.Add(this.label_Temperature_offset);
             this.Controls.Add(this.label_Temperature_scale_factor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -2380,96 +2380,96 @@
 
         private System.Windows.Forms.TextBox Carrier_serial_number;
         private System.Windows.Forms.Label label_Carrier_serial_number;
-        private System.Windows.Forms.TextBox Sensor_1_name;
-        private System.Windows.Forms.Label label_Sensor_1_name;
-        private System.Windows.Forms.TextBox Sensor_2_name;
-        private System.Windows.Forms.Label label_Sensor_2_name;
-        private System.Windows.Forms.TextBox Sensor_1_active_sensors;
-        private System.Windows.Forms.Label label_Sensor_1_active_sensors;
-        private System.Windows.Forms.TextBox Sensor_1_installed_bitmap;
-        private System.Windows.Forms.Label label_Sensor_1_installed_bitmap;
-        private System.Windows.Forms.TextBox Sensor_1_enabled_bitmap;
-        private System.Windows.Forms.Label label_Sensor_1_enabled_bitmap;
-        private System.Windows.Forms.TextBox Sensor_1_faulty_bitmap;
-        private System.Windows.Forms.Label label_Sensor_1_faulty_bitmap;
-        private System.Windows.Forms.TextBox Sensor_2_active_sensors;
-        private System.Windows.Forms.Label label_Sensor_2_active_sensors;
-        private System.Windows.Forms.TextBox Sensor_2_installed_bitmap;
-        private System.Windows.Forms.Label label_Sensor_2_installed_bitmap;
-        private System.Windows.Forms.TextBox Sensor_2_enabled_bitmap;
-        private System.Windows.Forms.Label label_Sensor_2_enabled_bitmap;
-        private System.Windows.Forms.TextBox Sensor_2_failty_bitmap;
-        private System.Windows.Forms.Label label_Sensor_2_failty_bitmap;
+        private System.Windows.Forms.TextBox Sensor_A_name;
+        private System.Windows.Forms.Label label_Sensor_A_name;
+        private System.Windows.Forms.TextBox Sensor_B_name;
+        private System.Windows.Forms.Label label_Sensor_B_name;
+        private System.Windows.Forms.TextBox Sensor_A_active_sensors;
+        private System.Windows.Forms.Label label_Sensor_A_active_sensors;
+        private System.Windows.Forms.TextBox Sensor_A_installed_bitmap;
+        private System.Windows.Forms.Label label_Sensor_A_installed_bitmap;
+        private System.Windows.Forms.TextBox Sensor_A_enabled_bitmap;
+        private System.Windows.Forms.Label label_Sensor_A_enabled_bitmap;
+        private System.Windows.Forms.TextBox Sensor_A_faulty_bitmap;
+        private System.Windows.Forms.Label label_Sensor_A_faulty_bitmap;
+        private System.Windows.Forms.TextBox Sensor_B_active_sensors;
+        private System.Windows.Forms.Label label_Sensor_B_active_sensors;
+        private System.Windows.Forms.TextBox Sensor_B_installed_bitmap;
+        private System.Windows.Forms.Label label_Sensor_B_installed_bitmap;
+        private System.Windows.Forms.TextBox Sensor_B_enabled_bitmap;
+        private System.Windows.Forms.Label label_Sensor_B_enabled_bitmap;
+        private System.Windows.Forms.TextBox Sensor_B_failty_bitmap;
+        private System.Windows.Forms.Label label_Sensor_B_failty_bitmap;
         private System.Windows.Forms.TextBox Encoder_offset;
         private System.Windows.Forms.Label label_Encoder_offset;
-        private System.Windows.Forms.TextBox Sensor_1_Raw_data_format;
-        private System.Windows.Forms.Label label_Sensor_1_Raw_data_format;
-        private System.Windows.Forms.TextBox Sensor_2_Raw_data_format;
-        private System.Windows.Forms.Label label_Sensor_2_Raw_data_format;
-        private System.Windows.Forms.TextBox Sensor_1_Sample_rate;
-        private System.Windows.Forms.Label label_Sensor_1_Sample_rate;
-        private System.Windows.Forms.TextBox Sensor_1_Scale_factor_X;
-        private System.Windows.Forms.Label label_Sensor_1_Scale_factor_X;
-        private System.Windows.Forms.TextBox Sensor_1_Scale_factor_Y;
-        private System.Windows.Forms.Label label_Sensor_1_Scale_factor_Y;
-        private System.Windows.Forms.TextBox Sensor_1_Scale_factor_Z;
-        private System.Windows.Forms.Label label_Sensor_1_Scale_factor_Z;
-        private System.Windows.Forms.TextBox Sensor_1_SF_Tempco_X;
-        private System.Windows.Forms.Label label_Sensor_1_SF_Tempco_X;
-        private System.Windows.Forms.TextBox Sensor_1_SF_Tempco_Y;
-        private System.Windows.Forms.Label label_Sensor_1_SF_Tempco_Y;
-        private System.Windows.Forms.TextBox Sensor_1_SF_Tempco_Z;
-        private System.Windows.Forms.Label label_Sensor_1_SF_Tempco_Z;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_X;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_X;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_Y;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_Y;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_Z;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_Z;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_Tempco_X;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_Tempco_X;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_Tempco_Y;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_Tempco_Y;
-        private System.Windows.Forms.TextBox Sensor_1_Offset_Tempco_Z;
-        private System.Windows.Forms.Label label_Sensor_1_Offset_Tempco_Z;
-        private System.Windows.Forms.TextBox Sensor_1_Misalign_Alpha;
-        private System.Windows.Forms.Label label_Sensor_1_Misalign_Alpha;
-        private System.Windows.Forms.TextBox Sensor_1_Misalign_Beta;
-        private System.Windows.Forms.Label label_Sensor_1_Misalign_Beta;
-        private System.Windows.Forms.TextBox Sensor_1_Misalign_Gamma;
-        private System.Windows.Forms.Label label_Sensor_1_Misalign_Gamma;
-        private System.Windows.Forms.TextBox Sensor_2_Sample_rate;
-        private System.Windows.Forms.Label label_Sensor_2_Sample_rate;
-        private System.Windows.Forms.TextBox Sensor_2_Scale_factor_X;
-        private System.Windows.Forms.Label label_Sensor_2_Scale_factor_X;
-        private System.Windows.Forms.TextBox Sensor_2_Scale_factor_Y;
-        private System.Windows.Forms.Label label_Sensor_2_Scale_factor_Y;
-        private System.Windows.Forms.TextBox Sensor_2_Scale_factor_Z;
-        private System.Windows.Forms.Label label_Sensor_2_Scale_factor_Z;
-        private System.Windows.Forms.TextBox Sensor_2_SF_Tempco_X;
-        private System.Windows.Forms.Label label_Sensor_2_SF_Tempco_X;
-        private System.Windows.Forms.TextBox Sensor_2_SF_Tempco_Y;
-        private System.Windows.Forms.Label label_Sensor_2_SF_Tempco_Y;
-        private System.Windows.Forms.TextBox Sensor_2_SF_Tempco_Z;
-        private System.Windows.Forms.Label label_Sensor_2_SF_Tempco_Z;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_X;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_X;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_Y;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_Y;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_Z;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_Z;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_Tempco_X;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_Tempco_X;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_Tempco_Y;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_Tempco_Y;
-        private System.Windows.Forms.TextBox Sensor_2_Offset_Tempco_Z;
-        private System.Windows.Forms.Label label_Sensor_2_Offset_Tempco_Z;
-        private System.Windows.Forms.TextBox Sensor_2_Misalign_Alpha;
-        private System.Windows.Forms.Label label_Sensor_2_Misalign_Alpha;
-        private System.Windows.Forms.TextBox Sensor_2_Misalign_Beta;
-        private System.Windows.Forms.Label label_Sensor_2_Misalign_Beta;
-        private System.Windows.Forms.TextBox Sensor_2_Misalign_Gamma;
-        private System.Windows.Forms.Label label_Sensor_2_Misalign_Gamma;
+        private System.Windows.Forms.TextBox Sensor_A_Raw_data_format;
+        private System.Windows.Forms.Label label_Sensor_A_Raw_data_format;
+        private System.Windows.Forms.TextBox Sensor_B_Raw_data_format;
+        private System.Windows.Forms.Label label_Sensor_B_Raw_data_format;
+        private System.Windows.Forms.TextBox Sensor_A_Sample_rate;
+        private System.Windows.Forms.Label label_Sensor_A_Sample_rate;
+        private System.Windows.Forms.TextBox Sensor_A_Scale_factor_X;
+        private System.Windows.Forms.Label label_Sensor_A_Scale_factor_X;
+        private System.Windows.Forms.TextBox Sensor_A_Scale_factor_Y;
+        private System.Windows.Forms.Label label_Sensor_A_Scale_factor_Y;
+        private System.Windows.Forms.TextBox Sensor_A_Scale_factor_Z;
+        private System.Windows.Forms.Label label_Sensor_A_Scale_factor_Z;
+        private System.Windows.Forms.TextBox Sensor_A_SF_Tempco_X;
+        private System.Windows.Forms.Label label_Sensor_A_SF_Tempco_X;
+        private System.Windows.Forms.TextBox Sensor_A_SF_Tempco_Y;
+        private System.Windows.Forms.Label label_Sensor_A_SF_Tempco_Y;
+        private System.Windows.Forms.TextBox Sensor_A_SF_Tempco_Z;
+        private System.Windows.Forms.Label label_Sensor_A_SF_Tempco_Z;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_X;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_X;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_Y;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_Y;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_Z;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_Z;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_Tempco_X;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_Tempco_X;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_Tempco_Y;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_Tempco_Y;
+        private System.Windows.Forms.TextBox Sensor_A_Offset_Tempco_Z;
+        private System.Windows.Forms.Label label_Sensor_A_Offset_Tempco_Z;
+        private System.Windows.Forms.TextBox Sensor_A_Misalign_Alpha;
+        private System.Windows.Forms.Label label_Sensor_A_Misalign_Alpha;
+        private System.Windows.Forms.TextBox Sensor_A_Misalign_Beta;
+        private System.Windows.Forms.Label label_Sensor_A_Misalign_Beta;
+        private System.Windows.Forms.TextBox Sensor_A_Misalign_Gamma;
+        private System.Windows.Forms.Label label_Sensor_A_Misalign_Gamma;
+        private System.Windows.Forms.TextBox Sensor_B_Sample_rate;
+        private System.Windows.Forms.Label label_Sensor_B_Sample_rate;
+        private System.Windows.Forms.TextBox Sensor_B_Scale_factor_X;
+        private System.Windows.Forms.Label label_Sensor_B_Scale_factor_X;
+        private System.Windows.Forms.TextBox Sensor_B_Scale_factor_Y;
+        private System.Windows.Forms.Label label_Sensor_B_Scale_factor_Y;
+        private System.Windows.Forms.TextBox Sensor_B_Scale_factor_Z;
+        private System.Windows.Forms.Label label_Sensor_B_Scale_factor_Z;
+        private System.Windows.Forms.TextBox Sensor_B_SF_Tempco_X;
+        private System.Windows.Forms.Label label_Sensor_B_SF_Tempco_X;
+        private System.Windows.Forms.TextBox Sensor_B_SF_Tempco_Y;
+        private System.Windows.Forms.Label label_Sensor_B_SF_Tempco_Y;
+        private System.Windows.Forms.TextBox Sensor_B_SF_Tempco_Z;
+        private System.Windows.Forms.Label label_Sensor_B_SF_Tempco_Z;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_X;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_X;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_Y;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_Y;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_Z;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_Z;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_Tempco_X;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_Tempco_X;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_Tempco_Y;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_Tempco_Y;
+        private System.Windows.Forms.TextBox Sensor_B_Offset_Tempco_Z;
+        private System.Windows.Forms.Label label_Sensor_B_Offset_Tempco_Z;
+        private System.Windows.Forms.TextBox Sensor_B_Misalign_Alpha;
+        private System.Windows.Forms.Label label_Sensor_B_Misalign_Alpha;
+        private System.Windows.Forms.TextBox Sensor_B_Misalign_Beta;
+        private System.Windows.Forms.Label label_Sensor_B_Misalign_Beta;
+        private System.Windows.Forms.TextBox Sensor_B_Misalign_Gamma;
+        private System.Windows.Forms.Label label_Sensor_B_Misalign_Gamma;
         private System.Windows.Forms.TextBox Temperature_offset;
         private System.Windows.Forms.Label label_Temperature_offset;
         private System.Windows.Forms.TextBox Temperature_scale_factor;
