@@ -10,6 +10,7 @@ using System.Threading;
 using System.Windows.Forms;
 using EposCmd.Net;
 using EposCmd.Net.DeviceCmdSet.Operation;
+using System.Diagnostics;
 
 /// <summary>
 /// Motor Controller uses the EposCmd.Net.dll library.
@@ -19,6 +20,11 @@ class MotorControllerEPOS
 {
 
     #region Hall sensor positioning using ProfilePositionMode
+
+    /// <summary>
+    /// true for 10MM, false for 20mm.
+    /// </summary>
+    private bool MotorType { get; set; }
 
     /// <summary>
     /// Lock to prevent multiple simultanious queueries to Motorcontroller.
@@ -137,6 +143,7 @@ class MotorControllerEPOS
     }
 
     /// <summary>
+    /// TODO major: This variable is not currently used. sampling is done using spinning while loop.
     /// Motor target detection sample rate.
     /// </summary>
     private int _sampleRate;
@@ -178,9 +185,11 @@ class MotorControllerEPOS
     /// <param name="DeviceNr"> Possible reduntant.</param>
     /// TODO minor: Investigate why DeviceNr has to be '1'.
     /// TODO minor: Implement full control over sample rate.
-    public int initializeNewMotorController(UInt16 DeviceNr)
+    public int initializeNewMotorController(UInt16 DeviceNr, bool motortype)
     {
         int success = 0;
+
+        MotorType = motortype;
 
         lock (_deviceLock)
         {
@@ -202,7 +211,8 @@ class MotorControllerEPOS
 
                 success = 0;
             }
-
+            //TODO fix sample rate
+            //_sampleRate = 1;
             _sampleRate = 1;
         }
 
@@ -215,19 +225,19 @@ class MotorControllerEPOS
     /// </summary>
     public int setNewZero()
     {
-        lock (_deviceLock)
-        {
             try
             {
-                _zeroPosition = _mEpos.Operation.MotionInfo.GetPositionIs();
-                return 1;
+                lock (_deviceLock)
+                {
+                    _zeroPosition = _mEpos.Operation.MotionInfo.GetPositionIs();
+                    return 1;
+                }
             }
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
                 return 0;
             }
-        }
     }       
 
     /// <summary>
@@ -352,20 +362,36 @@ class MotorControllerEPOS
         enable();
         _moving = true;
         absoluteMoveTo(target);
-        //lock (_deviceLock)
-        //{
+        lock (_deviceLock)
+        {
         var StopperThread = new Thread(() => Stopper(target));
         StopperThread.Start();
-        //}
+        }
     }
 
     private void Stopper(int target)
     {
         try
         {
-            while (target != position && !emergency_stop)
+            //(position < target+10 && position > target-10)
+            //while (target != position && !emergency_stop)
+
+
+            if (MotorType)//true for 10mm, false for 20mm.
             {
-                Thread.Sleep(_sampleRate);
+                while (target != position && !emergency_stop) { }
+            }
+            else {
+                while ((position < target - 5 || position > target + 5) && !emergency_stop)
+                {
+                    //TODO Fix positioning for fast stop
+                    //Thread.Sleep(_sampleRate);
+                    //var sw = Stopwatch.StartNew();
+                    //while (sw.ElapsedTicks < _sampleRate)
+                    //{
+
+                    //}
+                }
             }
         }
         catch (Exception ex)

@@ -1366,6 +1366,8 @@ namespace Testbench_Interfacer
                         motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
                         motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                        //TODO remove bugfixing here
+                        //Invoke(new Action(() => Console.AppendText(int.Parse(Motor3_Distance.Text).ToString() + "\n")));
                     }
                 }
                 else
@@ -1387,6 +1389,8 @@ namespace Testbench_Interfacer
                         motor3.absoluteMoveToAndStop(-(int.Parse(Motor3_Distance.Text)));
                         motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                        //TODO remove bugfixing here
+                        //Invoke(new Action(() => Console.AppendText((-(int.Parse(Motor3_Distance.Text))).ToString()+"\n")));
                     }
                 }
 
@@ -1430,7 +1434,7 @@ namespace Testbench_Interfacer
         {
             try
             {
-                motor1.initializeNewMotorController(1);
+                motor1.initializeNewMotorController(1,true);
                 cb_Motor1_Enabled.Checked = true;//TODO Find out why all needs to be 1
             }
             catch (Exception e)
@@ -1444,7 +1448,7 @@ namespace Testbench_Interfacer
             int temp = 0;
             try
             {
-                temp = motor1.initializeNewMotorController(1);
+                temp = motor1.initializeNewMotorController(1,true);
 
             }
             catch (Exception e)
@@ -1462,7 +1466,7 @@ namespace Testbench_Interfacer
         {
             try
             {
-                motor2.initializeNewMotorController(1);
+                motor2.initializeNewMotorController(1,true);
                 cb_Motor2_Enabled.Checked = true;//TODO Find out why all needs to be 1
             }
             catch (Exception e)
@@ -1477,7 +1481,7 @@ namespace Testbench_Interfacer
         {
             try
             {
-                motor3.initializeNewMotorController(1);
+                motor3.initializeNewMotorController(1,false);
                 cb_Motor3_Enabled.Checked = true;
             }
             catch (Exception e)
@@ -1521,7 +1525,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    if (motor1.initializeNewMotorController(1) == 1)
+                    if (motor1.initializeNewMotorController(1,true) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor1_Save_Setting.Enabled = true;
@@ -1575,7 +1579,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    if (motor2.initializeNewMotorController(1) == 1)
+                    if (motor2.initializeNewMotorController(1,true) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor2_Save_Setting.Enabled = true;
@@ -1628,7 +1632,7 @@ namespace Testbench_Interfacer
             {
                 try
                 {
-                    if (motor3.initializeNewMotorController(1) == 1)
+                    if (motor3.initializeNewMotorController(1,false) == 1)
                     {
                         bt_Start_Logging.Enabled = true;
                         bt_Motor3_Save_Setting.Enabled = true;

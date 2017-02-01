@@ -915,7 +915,7 @@
             this.label_Sensor_A_name.Enabled = false;
             this.label_Sensor_A_name.Location = new System.Drawing.Point(557, 70);
             this.label_Sensor_A_name.Name = "label_Sensor_A_name";
-            this.label_Sensor_A_name.Size = new System.Drawing.Size(78, 13);
+            this.label_Sensor_A_name.Size = new System.Drawing.Size(79, 13);
             this.label_Sensor_A_name.TabIndex = 28;
             this.label_Sensor_A_name.Text = "Sensor A name";
             // 
@@ -925,7 +925,7 @@
             this.label_Sensor_B_name.Enabled = false;
             this.label_Sensor_B_name.Location = new System.Drawing.Point(557, 110);
             this.label_Sensor_B_name.Name = "label_Sensor_B_name";
-            this.label_Sensor_B_name.Size = new System.Drawing.Size(78, 13);
+            this.label_Sensor_B_name.Size = new System.Drawing.Size(79, 13);
             this.label_Sensor_B_name.TabIndex = 28;
             this.label_Sensor_B_name.Text = "Sensor B name";
             // 
@@ -935,7 +935,7 @@
             this.label_Sensor_A_active_sensors.Enabled = false;
             this.label_Sensor_A_active_sensors.Location = new System.Drawing.Point(557, 150);
             this.label_Sensor_A_active_sensors.Name = "label_Sensor_A_active_sensors";
-            this.label_Sensor_A_active_sensors.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_A_active_sensors.Size = new System.Drawing.Size(121, 13);
             this.label_Sensor_A_active_sensors.TabIndex = 28;
             this.label_Sensor_A_active_sensors.Text = "Sensor A active sensors";
             // 
@@ -945,7 +945,7 @@
             this.label_Sensor_A_installed_bitmap.Enabled = false;
             this.label_Sensor_A_installed_bitmap.Location = new System.Drawing.Point(557, 190);
             this.label_Sensor_A_installed_bitmap.Name = "label_Sensor_A_installed_bitmap";
-            this.label_Sensor_A_installed_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_A_installed_bitmap.Size = new System.Drawing.Size(125, 13);
             this.label_Sensor_A_installed_bitmap.TabIndex = 28;
             this.label_Sensor_A_installed_bitmap.Text = "Sensor A installed bitmap";
             // 
@@ -955,7 +955,7 @@
             this.label_Sensor_A_enabled_bitmap.Enabled = false;
             this.label_Sensor_A_enabled_bitmap.Location = new System.Drawing.Point(557, 230);
             this.label_Sensor_A_enabled_bitmap.Name = "label_Sensor_A_enabled_bitmap";
-            this.label_Sensor_A_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_A_enabled_bitmap.Size = new System.Drawing.Size(125, 13);
             this.label_Sensor_A_enabled_bitmap.TabIndex = 28;
             this.label_Sensor_A_enabled_bitmap.Text = "Sensor A enabled bitmap";
             // 
@@ -965,7 +965,7 @@
             this.label_Sensor_A_faulty_bitmap.Enabled = false;
             this.label_Sensor_A_faulty_bitmap.Location = new System.Drawing.Point(557, 270);
             this.label_Sensor_A_faulty_bitmap.Name = "label_Sensor_A_faulty_bitmap";
-            this.label_Sensor_A_faulty_bitmap.Size = new System.Drawing.Size(111, 13);
+            this.label_Sensor_A_faulty_bitmap.Size = new System.Drawing.Size(112, 13);
             this.label_Sensor_A_faulty_bitmap.TabIndex = 28;
             this.label_Sensor_A_faulty_bitmap.Text = "Sensor A faulty bitmap";
             // 
@@ -975,7 +975,7 @@
             this.label_Sensor_B_active_sensors.Enabled = false;
             this.label_Sensor_B_active_sensors.Location = new System.Drawing.Point(557, 310);
             this.label_Sensor_B_active_sensors.Name = "label_Sensor_B_active_sensors";
-            this.label_Sensor_B_active_sensors.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_B_active_sensors.Size = new System.Drawing.Size(121, 13);
             this.label_Sensor_B_active_sensors.TabIndex = 28;
             this.label_Sensor_B_active_sensors.Text = "Sensor B active sensors";
             // 
@@ -985,7 +985,7 @@
             this.label_Sensor_B_installed_bitmap.Enabled = false;
             this.label_Sensor_B_installed_bitmap.Location = new System.Drawing.Point(557, 350);
             this.label_Sensor_B_installed_bitmap.Name = "label_Sensor_B_installed_bitmap";
-            this.label_Sensor_B_installed_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_B_installed_bitmap.Size = new System.Drawing.Size(125, 13);
             this.label_Sensor_B_installed_bitmap.TabIndex = 28;
             this.label_Sensor_B_installed_bitmap.Text = "Sensor B installed bitmap";
             // 
@@ -995,7 +995,7 @@
             this.label_Sensor_B_enabled_bitmap.Enabled = false;
             this.label_Sensor_B_enabled_bitmap.Location = new System.Drawing.Point(557, 390);
             this.label_Sensor_B_enabled_bitmap.Name = "label_Sensor_B_enabled_bitmap";
-            this.label_Sensor_B_enabled_bitmap.Size = new System.Drawing.Size(124, 13);
+            this.label_Sensor_B_enabled_bitmap.Size = new System.Drawing.Size(125, 13);
             this.label_Sensor_B_enabled_bitmap.TabIndex = 28;
             this.label_Sensor_B_enabled_bitmap.Text = "Sensor B enabled bitmap";
             // 
@@ -1005,7 +1005,7 @@
             this.label_Sensor_B_failty_bitmap.Enabled = false;
             this.label_Sensor_B_failty_bitmap.Location = new System.Drawing.Point(557, 430);
             this.label_Sensor_B_failty_bitmap.Name = "label_Sensor_B_failty_bitmap";
-            this.label_Sensor_B_failty_bitmap.Size = new System.Drawing.Size(107, 13);
+            this.label_Sensor_B_failty_bitmap.Size = new System.Drawing.Size(108, 13);
             this.label_Sensor_B_failty_bitmap.TabIndex = 28;
             this.label_Sensor_B_failty_bitmap.Text = "Sensor B failty bitmap";
             // 
@@ -1025,7 +1025,7 @@
             this.label_Sensor_A_Raw_data_format.Enabled = false;
             this.label_Sensor_A_Raw_data_format.Location = new System.Drawing.Point(557, 510);
             this.label_Sensor_A_Raw_data_format.Name = "label_Sensor_A_Raw_data_format";
-            this.label_Sensor_A_Raw_data_format.Size = new System.Drawing.Size(130, 13);
+            this.label_Sensor_A_Raw_data_format.Size = new System.Drawing.Size(131, 13);
             this.label_Sensor_A_Raw_data_format.TabIndex = 28;
             this.label_Sensor_A_Raw_data_format.Text = "Sensor A Raw data format";
             // 
@@ -1035,7 +1035,7 @@
             this.label_Sensor_B_Raw_data_format.Enabled = false;
             this.label_Sensor_B_Raw_data_format.Location = new System.Drawing.Point(557, 550);
             this.label_Sensor_B_Raw_data_format.Name = "label_Sensor_B_Raw_data_format";
-            this.label_Sensor_B_Raw_data_format.Size = new System.Drawing.Size(130, 13);
+            this.label_Sensor_B_Raw_data_format.Size = new System.Drawing.Size(131, 13);
             this.label_Sensor_B_Raw_data_format.TabIndex = 28;
             this.label_Sensor_B_Raw_data_format.Text = "Sensor B Raw data format";
             // 
@@ -1045,7 +1045,7 @@
             this.label_Sensor_A_Sample_rate.Enabled = false;
             this.label_Sensor_A_Sample_rate.Location = new System.Drawing.Point(557, 590);
             this.label_Sensor_A_Sample_rate.Name = "label_Sensor_A_Sample_rate";
-            this.label_Sensor_A_Sample_rate.Size = new System.Drawing.Size(108, 13);
+            this.label_Sensor_A_Sample_rate.Size = new System.Drawing.Size(109, 13);
             this.label_Sensor_A_Sample_rate.TabIndex = 28;
             this.label_Sensor_A_Sample_rate.Text = "Sensor A Sample rate";
             // 
@@ -1055,7 +1055,7 @@
             this.label_Sensor_A_Scale_factor_X.Enabled = false;
             this.label_Sensor_A_Scale_factor_X.Location = new System.Drawing.Point(557, 630);
             this.label_Sensor_A_Scale_factor_X.Name = "label_Sensor_A_Scale_factor_X";
-            this.label_Sensor_A_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_X.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_A_Scale_factor_X.TabIndex = 28;
             this.label_Sensor_A_Scale_factor_X.Text = "Sensor A Scale factor X";
             // 
@@ -1065,7 +1065,7 @@
             this.label_Sensor_A_Scale_factor_Y.Enabled = false;
             this.label_Sensor_A_Scale_factor_Y.Location = new System.Drawing.Point(707, 30);
             this.label_Sensor_A_Scale_factor_Y.Name = "label_Sensor_A_Scale_factor_Y";
-            this.label_Sensor_A_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_Y.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_A_Scale_factor_Y.TabIndex = 28;
             this.label_Sensor_A_Scale_factor_Y.Text = "Sensor A Scale factor Y";
             // 
@@ -1075,7 +1075,7 @@
             this.label_Sensor_A_Scale_factor_Z.Enabled = false;
             this.label_Sensor_A_Scale_factor_Z.Location = new System.Drawing.Point(707, 70);
             this.label_Sensor_A_Scale_factor_Z.Name = "label_Sensor_A_Scale_factor_Z";
-            this.label_Sensor_A_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_A_Scale_factor_Z.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_A_Scale_factor_Z.TabIndex = 28;
             this.label_Sensor_A_Scale_factor_Z.Text = "Sensor A Scale factor Z";
             // 
@@ -1085,7 +1085,7 @@
             this.label_Sensor_A_SF_Tempco_X.Enabled = false;
             this.label_Sensor_A_SF_Tempco_X.Location = new System.Drawing.Point(707, 110);
             this.label_Sensor_A_SF_Tempco_X.Name = "label_Sensor_A_SF_Tempco_X";
-            this.label_Sensor_A_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_X.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_A_SF_Tempco_X.TabIndex = 28;
             this.label_Sensor_A_SF_Tempco_X.Text = "Sensor A SF Tempco X";
             // 
@@ -1095,7 +1095,7 @@
             this.label_Sensor_A_SF_Tempco_Y.Enabled = false;
             this.label_Sensor_A_SF_Tempco_Y.Location = new System.Drawing.Point(707, 150);
             this.label_Sensor_A_SF_Tempco_Y.Name = "label_Sensor_A_SF_Tempco_Y";
-            this.label_Sensor_A_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_Y.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_A_SF_Tempco_Y.TabIndex = 28;
             this.label_Sensor_A_SF_Tempco_Y.Text = "Sensor A SF Tempco Y";
             // 
@@ -1105,7 +1105,7 @@
             this.label_Sensor_A_SF_Tempco_Z.Enabled = false;
             this.label_Sensor_A_SF_Tempco_Z.Location = new System.Drawing.Point(707, 190);
             this.label_Sensor_A_SF_Tempco_Z.Name = "label_Sensor_A_SF_Tempco_Z";
-            this.label_Sensor_A_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_A_SF_Tempco_Z.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_A_SF_Tempco_Z.TabIndex = 28;
             this.label_Sensor_A_SF_Tempco_Z.Text = "Sensor A SF Tempco Z";
             // 
@@ -1115,7 +1115,7 @@
             this.label_Sensor_A_Offset_X.Enabled = false;
             this.label_Sensor_A_Offset_X.Location = new System.Drawing.Point(707, 230);
             this.label_Sensor_A_Offset_X.Name = "label_Sensor_A_Offset_X";
-            this.label_Sensor_A_Offset_X.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_X.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_A_Offset_X.TabIndex = 28;
             this.label_Sensor_A_Offset_X.Text = "Sensor A Offset X";
             // 
@@ -1125,7 +1125,7 @@
             this.label_Sensor_A_Offset_Y.Enabled = false;
             this.label_Sensor_A_Offset_Y.Location = new System.Drawing.Point(707, 270);
             this.label_Sensor_A_Offset_Y.Name = "label_Sensor_A_Offset_Y";
-            this.label_Sensor_A_Offset_Y.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_Y.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_A_Offset_Y.TabIndex = 28;
             this.label_Sensor_A_Offset_Y.Text = "Sensor A Offset Y";
             // 
@@ -1135,7 +1135,7 @@
             this.label_Sensor_A_Offset_Z.Enabled = false;
             this.label_Sensor_A_Offset_Z.Location = new System.Drawing.Point(707, 310);
             this.label_Sensor_A_Offset_Z.Name = "label_Sensor_A_Offset_Z";
-            this.label_Sensor_A_Offset_Z.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_A_Offset_Z.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_A_Offset_Z.TabIndex = 28;
             this.label_Sensor_A_Offset_Z.Text = "Sensor A Offset Z";
             // 
@@ -1145,7 +1145,7 @@
             this.label_Sensor_A_Offset_Tempco_X.Enabled = false;
             this.label_Sensor_A_Offset_Tempco_X.Location = new System.Drawing.Point(707, 350);
             this.label_Sensor_A_Offset_Tempco_X.Name = "label_Sensor_A_Offset_Tempco_X";
-            this.label_Sensor_A_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_X.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_A_Offset_Tempco_X.TabIndex = 28;
             this.label_Sensor_A_Offset_Tempco_X.Text = "Sensor A Offset Tempco X";
             // 
@@ -1155,7 +1155,7 @@
             this.label_Sensor_A_Offset_Tempco_Y.Enabled = false;
             this.label_Sensor_A_Offset_Tempco_Y.Location = new System.Drawing.Point(707, 390);
             this.label_Sensor_A_Offset_Tempco_Y.Name = "label_Sensor_A_Offset_Tempco_Y";
-            this.label_Sensor_A_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_Y.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_A_Offset_Tempco_Y.TabIndex = 28;
             this.label_Sensor_A_Offset_Tempco_Y.Text = "Sensor A Offset Tempco Y";
             // 
@@ -1165,7 +1165,7 @@
             this.label_Sensor_A_Offset_Tempco_Z.Enabled = false;
             this.label_Sensor_A_Offset_Tempco_Z.Location = new System.Drawing.Point(707, 430);
             this.label_Sensor_A_Offset_Tempco_Z.Name = "label_Sensor_A_Offset_Tempco_Z";
-            this.label_Sensor_A_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_A_Offset_Tempco_Z.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_A_Offset_Tempco_Z.TabIndex = 28;
             this.label_Sensor_A_Offset_Tempco_Z.Text = "Sensor A Offset Tempco Z";
             // 
@@ -1175,7 +1175,7 @@
             this.label_Sensor_A_Misalign_Alpha.Enabled = false;
             this.label_Sensor_A_Misalign_Alpha.Location = new System.Drawing.Point(707, 470);
             this.label_Sensor_A_Misalign_Alpha.Name = "label_Sensor_A_Misalign_Alpha";
-            this.label_Sensor_A_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_A_Misalign_Alpha.Size = new System.Drawing.Size(121, 13);
             this.label_Sensor_A_Misalign_Alpha.TabIndex = 28;
             this.label_Sensor_A_Misalign_Alpha.Text = "Sensor A Misalign Alpha";
             // 
@@ -1185,7 +1185,7 @@
             this.label_Sensor_A_Misalign_Beta.Enabled = false;
             this.label_Sensor_A_Misalign_Beta.Location = new System.Drawing.Point(707, 510);
             this.label_Sensor_A_Misalign_Beta.Name = "label_Sensor_A_Misalign_Beta";
-            this.label_Sensor_A_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
+            this.label_Sensor_A_Misalign_Beta.Size = new System.Drawing.Size(116, 13);
             this.label_Sensor_A_Misalign_Beta.TabIndex = 28;
             this.label_Sensor_A_Misalign_Beta.Text = "Sensor A Misalign Beta";
             // 
@@ -1195,7 +1195,7 @@
             this.label_Sensor_A_Misalign_Gamma.Enabled = false;
             this.label_Sensor_A_Misalign_Gamma.Location = new System.Drawing.Point(707, 550);
             this.label_Sensor_A_Misalign_Gamma.Name = "label_Sensor_A_Misalign_Gamma";
-            this.label_Sensor_A_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
+            this.label_Sensor_A_Misalign_Gamma.Size = new System.Drawing.Size(130, 13);
             this.label_Sensor_A_Misalign_Gamma.TabIndex = 28;
             this.label_Sensor_A_Misalign_Gamma.Text = "Sensor A Misalign Gamma";
             // 
@@ -1205,7 +1205,7 @@
             this.label_Sensor_B_Sample_rate.Enabled = false;
             this.label_Sensor_B_Sample_rate.Location = new System.Drawing.Point(707, 590);
             this.label_Sensor_B_Sample_rate.Name = "label_Sensor_B_Sample_rate";
-            this.label_Sensor_B_Sample_rate.Size = new System.Drawing.Size(108, 13);
+            this.label_Sensor_B_Sample_rate.Size = new System.Drawing.Size(109, 13);
             this.label_Sensor_B_Sample_rate.TabIndex = 28;
             this.label_Sensor_B_Sample_rate.Text = "Sensor B Sample rate";
             // 
@@ -1215,7 +1215,7 @@
             this.label_Sensor_B_Scale_factor_X.Enabled = false;
             this.label_Sensor_B_Scale_factor_X.Location = new System.Drawing.Point(707, 630);
             this.label_Sensor_B_Scale_factor_X.Name = "label_Sensor_B_Scale_factor_X";
-            this.label_Sensor_B_Scale_factor_X.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_X.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_B_Scale_factor_X.TabIndex = 28;
             this.label_Sensor_B_Scale_factor_X.Text = "Sensor B Scale factor X";
             // 
@@ -1225,7 +1225,7 @@
             this.label_Sensor_B_Scale_factor_Y.Enabled = false;
             this.label_Sensor_B_Scale_factor_Y.Location = new System.Drawing.Point(857, 30);
             this.label_Sensor_B_Scale_factor_Y.Name = "label_Sensor_B_Scale_factor_Y";
-            this.label_Sensor_B_Scale_factor_Y.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_Y.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_B_Scale_factor_Y.TabIndex = 28;
             this.label_Sensor_B_Scale_factor_Y.Text = "Sensor B Scale factor Y";
             // 
@@ -1235,7 +1235,7 @@
             this.label_Sensor_B_Scale_factor_Z.Enabled = false;
             this.label_Sensor_B_Scale_factor_Z.Location = new System.Drawing.Point(857, 70);
             this.label_Sensor_B_Scale_factor_Z.Name = "label_Sensor_B_Scale_factor_Z";
-            this.label_Sensor_B_Scale_factor_Z.Size = new System.Drawing.Size(119, 13);
+            this.label_Sensor_B_Scale_factor_Z.Size = new System.Drawing.Size(120, 13);
             this.label_Sensor_B_Scale_factor_Z.TabIndex = 28;
             this.label_Sensor_B_Scale_factor_Z.Text = "Sensor B Scale factor Z";
             // 
@@ -1245,7 +1245,7 @@
             this.label_Sensor_B_SF_Tempco_X.Enabled = false;
             this.label_Sensor_B_SF_Tempco_X.Location = new System.Drawing.Point(857, 110);
             this.label_Sensor_B_SF_Tempco_X.Name = "label_Sensor_B_SF_Tempco_X";
-            this.label_Sensor_B_SF_Tempco_X.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_X.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_B_SF_Tempco_X.TabIndex = 28;
             this.label_Sensor_B_SF_Tempco_X.Text = "Sensor B SF Tempco X";
             // 
@@ -1255,7 +1255,7 @@
             this.label_Sensor_B_SF_Tempco_Y.Enabled = false;
             this.label_Sensor_B_SF_Tempco_Y.Location = new System.Drawing.Point(857, 150);
             this.label_Sensor_B_SF_Tempco_Y.Name = "label_Sensor_B_SF_Tempco_Y";
-            this.label_Sensor_B_SF_Tempco_Y.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_Y.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_B_SF_Tempco_Y.TabIndex = 28;
             this.label_Sensor_B_SF_Tempco_Y.Text = "Sensor B SF Tempco Y";
             // 
@@ -1265,7 +1265,7 @@
             this.label_Sensor_B_SF_Tempco_Z.Enabled = false;
             this.label_Sensor_B_SF_Tempco_Z.Location = new System.Drawing.Point(857, 190);
             this.label_Sensor_B_SF_Tempco_Z.Name = "label_Sensor_B_SF_Tempco_Z";
-            this.label_Sensor_B_SF_Tempco_Z.Size = new System.Drawing.Size(117, 13);
+            this.label_Sensor_B_SF_Tempco_Z.Size = new System.Drawing.Size(118, 13);
             this.label_Sensor_B_SF_Tempco_Z.TabIndex = 28;
             this.label_Sensor_B_SF_Tempco_Z.Text = "Sensor B SF Tempco Z";
             // 
@@ -1275,7 +1275,7 @@
             this.label_Sensor_B_Offset_X.Enabled = false;
             this.label_Sensor_B_Offset_X.Location = new System.Drawing.Point(857, 230);
             this.label_Sensor_B_Offset_X.Name = "label_Sensor_B_Offset_X";
-            this.label_Sensor_B_Offset_X.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_X.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_B_Offset_X.TabIndex = 28;
             this.label_Sensor_B_Offset_X.Text = "Sensor B Offset X";
             // 
@@ -1285,7 +1285,7 @@
             this.label_Sensor_B_Offset_Y.Enabled = false;
             this.label_Sensor_B_Offset_Y.Location = new System.Drawing.Point(857, 270);
             this.label_Sensor_B_Offset_Y.Name = "label_Sensor_B_Offset_Y";
-            this.label_Sensor_B_Offset_Y.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_Y.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_B_Offset_Y.TabIndex = 28;
             this.label_Sensor_B_Offset_Y.Text = "Sensor B Offset Y";
             // 
@@ -1295,7 +1295,7 @@
             this.label_Sensor_B_Offset_Z.Enabled = false;
             this.label_Sensor_B_Offset_Z.Location = new System.Drawing.Point(857, 310);
             this.label_Sensor_B_Offset_Z.Name = "label_Sensor_B_Offset_Z";
-            this.label_Sensor_B_Offset_Z.Size = new System.Drawing.Size(90, 13);
+            this.label_Sensor_B_Offset_Z.Size = new System.Drawing.Size(91, 13);
             this.label_Sensor_B_Offset_Z.TabIndex = 28;
             this.label_Sensor_B_Offset_Z.Text = "Sensor B Offset Z";
             // 
@@ -1305,7 +1305,7 @@
             this.label_Sensor_B_Offset_Tempco_X.Enabled = false;
             this.label_Sensor_B_Offset_Tempco_X.Location = new System.Drawing.Point(857, 350);
             this.label_Sensor_B_Offset_Tempco_X.Name = "label_Sensor_B_Offset_Tempco_X";
-            this.label_Sensor_B_Offset_Tempco_X.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_X.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_B_Offset_Tempco_X.TabIndex = 28;
             this.label_Sensor_B_Offset_Tempco_X.Text = "Sensor B Offset Tempco X";
             // 
@@ -1315,7 +1315,7 @@
             this.label_Sensor_B_Offset_Tempco_Y.Enabled = false;
             this.label_Sensor_B_Offset_Tempco_Y.Location = new System.Drawing.Point(857, 390);
             this.label_Sensor_B_Offset_Tempco_Y.Name = "label_Sensor_B_Offset_Tempco_Y";
-            this.label_Sensor_B_Offset_Tempco_Y.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_Y.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_B_Offset_Tempco_Y.TabIndex = 28;
             this.label_Sensor_B_Offset_Tempco_Y.Text = "Sensor B Offset Tempco Y";
             // 
@@ -1325,7 +1325,7 @@
             this.label_Sensor_B_Offset_Tempco_Z.Enabled = false;
             this.label_Sensor_B_Offset_Tempco_Z.Location = new System.Drawing.Point(857, 430);
             this.label_Sensor_B_Offset_Tempco_Z.Name = "label_Sensor_B_Offset_Tempco_Z";
-            this.label_Sensor_B_Offset_Tempco_Z.Size = new System.Drawing.Size(132, 13);
+            this.label_Sensor_B_Offset_Tempco_Z.Size = new System.Drawing.Size(133, 13);
             this.label_Sensor_B_Offset_Tempco_Z.TabIndex = 28;
             this.label_Sensor_B_Offset_Tempco_Z.Text = "Sensor B Offset Tempco Z";
             // 
@@ -1335,7 +1335,7 @@
             this.label_Sensor_B_Misalign_Alpha.Enabled = false;
             this.label_Sensor_B_Misalign_Alpha.Location = new System.Drawing.Point(857, 470);
             this.label_Sensor_B_Misalign_Alpha.Name = "label_Sensor_B_Misalign_Alpha";
-            this.label_Sensor_B_Misalign_Alpha.Size = new System.Drawing.Size(120, 13);
+            this.label_Sensor_B_Misalign_Alpha.Size = new System.Drawing.Size(121, 13);
             this.label_Sensor_B_Misalign_Alpha.TabIndex = 28;
             this.label_Sensor_B_Misalign_Alpha.Text = "Sensor B Misalign Alpha";
             // 
@@ -1345,7 +1345,7 @@
             this.label_Sensor_B_Misalign_Beta.Enabled = false;
             this.label_Sensor_B_Misalign_Beta.Location = new System.Drawing.Point(857, 510);
             this.label_Sensor_B_Misalign_Beta.Name = "label_Sensor_B_Misalign_Beta";
-            this.label_Sensor_B_Misalign_Beta.Size = new System.Drawing.Size(115, 13);
+            this.label_Sensor_B_Misalign_Beta.Size = new System.Drawing.Size(116, 13);
             this.label_Sensor_B_Misalign_Beta.TabIndex = 28;
             this.label_Sensor_B_Misalign_Beta.Text = "Sensor B Misalign Beta";
             // 
@@ -1355,7 +1355,7 @@
             this.label_Sensor_B_Misalign_Gamma.Enabled = false;
             this.label_Sensor_B_Misalign_Gamma.Location = new System.Drawing.Point(857, 550);
             this.label_Sensor_B_Misalign_Gamma.Name = "label_Sensor_B_Misalign_Gamma";
-            this.label_Sensor_B_Misalign_Gamma.Size = new System.Drawing.Size(129, 13);
+            this.label_Sensor_B_Misalign_Gamma.Size = new System.Drawing.Size(130, 13);
             this.label_Sensor_B_Misalign_Gamma.TabIndex = 28;
             this.label_Sensor_B_Misalign_Gamma.Text = "Sensor B Misalign Gamma";
             // 
@@ -1431,9 +1431,9 @@
             this.lb_Motor_Controller1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lb_Motor_Controller1.Location = new System.Drawing.Point(13, 705);
             this.lb_Motor_Controller1.Name = "lb_Motor_Controller1";
-            this.lb_Motor_Controller1.Size = new System.Drawing.Size(110, 13);
+            this.lb_Motor_Controller1.Size = new System.Drawing.Size(79, 13);
             this.lb_Motor_Controller1.TabIndex = 36;
-            this.lb_Motor_Controller1.Text = "Motor1 (EPOS2 24/2)";
+            this.lb_Motor_Controller1.Text = "20MM : Motor1";
             // 
             // Motor1_Velocity
             // 
@@ -1620,9 +1620,9 @@
             this.lb_Motor_Controller2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lb_Motor_Controller2.Location = new System.Drawing.Point(346, 705);
             this.lb_Motor_Controller2.Name = "lb_Motor_Controller2";
-            this.lb_Motor_Controller2.Size = new System.Drawing.Size(110, 13);
+            this.lb_Motor_Controller2.Size = new System.Drawing.Size(79, 13);
             this.lb_Motor_Controller2.TabIndex = 52;
-            this.lb_Motor_Controller2.Text = "Motor2 (EPOS2 24/2)";
+            this.lb_Motor_Controller2.Text = "20MM : Motor2";
             // 
             // bt_Motor2_Setup
             // 
@@ -1699,7 +1699,7 @@
             this.Motor3_Acceleration.Name = "Motor3_Acceleration";
             this.Motor3_Acceleration.Size = new System.Drawing.Size(100, 20);
             this.Motor3_Acceleration.TabIndex = 63;
-            this.Motor3_Acceleration.Text = "720";
+            this.Motor3_Acceleration.Text = "9000";
             // 
             // Motor3_Velocity
             // 
@@ -1710,7 +1710,7 @@
             this.Motor3_Velocity.Name = "Motor3_Velocity";
             this.Motor3_Velocity.Size = new System.Drawing.Size(100, 20);
             this.Motor3_Velocity.TabIndex = 62;
-            this.Motor3_Velocity.Text = "120";
+            this.Motor3_Velocity.Text = "3000";
             // 
             // lb_Motor_Controller3
             // 
@@ -1718,9 +1718,9 @@
             this.lb_Motor_Controller3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lb_Motor_Controller3.Location = new System.Drawing.Point(679, 704);
             this.lb_Motor_Controller3.Name = "lb_Motor_Controller3";
-            this.lb_Motor_Controller3.Size = new System.Drawing.Size(110, 13);
+            this.lb_Motor_Controller3.Size = new System.Drawing.Size(73, 13);
             this.lb_Motor_Controller3.TabIndex = 61;
-            this.lb_Motor_Controller3.Text = "Motor3 (EPOS2 24/2)";
+            this.lb_Motor_Controller3.Text = "10MM : Motor";
             // 
             // bt_Motor3_Setup
             // 
@@ -1782,7 +1782,7 @@
             this.Motor3_Distance.Name = "Motor3_Distance";
             this.Motor3_Distance.Size = new System.Drawing.Size(100, 20);
             this.Motor3_Distance.TabIndex = 74;
-            this.Motor3_Distance.Text = "32";
+            this.Motor3_Distance.Text = "3072";
             // 
             // Motor1_Deacceleration
             // 
@@ -1831,7 +1831,7 @@
             this.Motor3_Deacceleration.Name = "Motor3_Deacceleration";
             this.Motor3_Deacceleration.Size = new System.Drawing.Size(100, 20);
             this.Motor3_Deacceleration.TabIndex = 80;
-            this.Motor3_Deacceleration.Text = "720";
+            this.Motor3_Deacceleration.Text = "9000";
             // 
             // bt_Motor1_Set_Zero
             // 
