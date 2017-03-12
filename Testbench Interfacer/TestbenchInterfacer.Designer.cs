@@ -241,7 +241,7 @@
             this.Baudrate.Name = "Baudrate";
             this.Baudrate.Size = new System.Drawing.Size(75, 20);
             this.Baudrate.TabIndex = 1;
-            this.Baudrate.Text = "227790";
+            this.Baudrate.Text = "230400";
             this.Baudrate.TextChanged += new System.EventHandler(this.Baudrate_TextChanged);
             // 
             // sendMessage

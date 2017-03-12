@@ -66,6 +66,7 @@ namespace Testbench_Interfacer
                         Carriers[InitializedCarriers].found = true;
                         Carriers[InitializedCarriers].Logg_Active = false;
                         Carriers[InitializedCarriers].Carrier_I2C_address = serialData.Substring(27);
+                        //Invoke(new Action(() => Console.AppendText(Carriers[InitializedCarriers].Carrier_I2C_address)));
                         break;
 
                     case "Carrier serial number   ":
@@ -128,16 +129,23 @@ namespace Testbench_Interfacer
                         break;
 
                     case "Sensor A Sample rate    ":
-
-                        if (serialData.Substring(27, 9).Equals("undefined"))
+                        try
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Sample_rate = 0;
+                            //Invoke(new Action(() => Console.AppendText(serialData.Substring(27, 9))));
+                            if (serialData.Substring(27, 9).Equals("undefined"))
+                            {
+                                Carriers[InitializedCarriers].Sensor_A_Sample_rate = 0;
+                            }
+                            else
+                            {
+                                Carriers[InitializedCarriers].Sensor_A_Sample_rate = float.Parse(serialData.Substring(26));
+                            }
+                            // Invoke(new Action(() => Console.AppendText("HERE" + Carriers[InitializedCarriers].Sensor_A_Sample_rate.ToString())));
                         }
-                        else
-                        {
-                            Carriers[InitializedCarriers].Sensor_A_Sample_rate = float.Parse(serialData.Substring(28));
+                        catch(Exception ex)     
+                            {
+                            MessageBox.Show(ex.ToString());
                         }
-
                         break;
 
                     case "Sensor A Scale factor X ":
@@ -148,7 +156,8 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_X = float.Parse(serialData.Substring(28));
+                            //Invoke(new Action(() => Console.AppendText("HERE" + serialData.Substring(26))));
+                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -161,7 +170,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -174,7 +183,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Scale_factor_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -187,7 +196,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -200,7 +209,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -213,7 +222,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_SF_Tempco_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -226,7 +235,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -239,7 +248,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -252,7 +261,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -265,7 +274,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -278,7 +287,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -291,7 +300,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Offset_Tempco_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -304,7 +313,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Misalign_Alpha = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Misalign_Alpha = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -317,7 +326,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Misalign_Beta = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Misalign_Beta = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -330,7 +339,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_A_Misalign_Gamma = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_A_Misalign_Gamma = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -343,7 +352,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Sample_rate = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Sample_rate = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -356,7 +365,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -369,7 +378,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -382,7 +391,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Scale_factor_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -395,7 +404,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -408,7 +417,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -421,7 +430,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_SF_Tempco_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -434,7 +443,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -447,7 +456,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -460,7 +469,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -473,7 +482,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_X = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_X = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -486,7 +495,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_Y = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_Y = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -499,7 +508,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_Z = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Offset_Tempco_Z = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -512,7 +521,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Misalign_Alpha = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Misalign_Alpha = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -525,7 +534,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Misalign_Beta = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Misalign_Beta = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -538,7 +547,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Sensor_B_Misalign_Gamma = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Sensor_B_Misalign_Gamma = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -551,7 +560,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Temperature_offset = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Temperature_offset = float.Parse(serialData.Substring(26));
                         }
 
                         break;
@@ -568,7 +577,7 @@ namespace Testbench_Interfacer
                         }
                         else
                         {
-                            Carriers[InitializedCarriers].Temperature_scale_factor = float.Parse(serialData.Substring(28));
+                            Carriers[InitializedCarriers].Temperature_scale_factor = float.Parse(serialData.Substring(26));
                         }
 
 
@@ -576,6 +585,7 @@ namespace Testbench_Interfacer
                         //Increment when done Initializing Carrier
                         InitializedCarriers++;
                         break;
+                        //Invoke(new Action(() => Console.AppendText(serialData.Substring(27, 9))));
 
                     case "No such data or command ":
                         Invoke(new Action(() => sendMessage.Clear()));
@@ -610,8 +620,24 @@ namespace Testbench_Interfacer
 
                     default:
 
+                        //Invoke(new Action(() => Console.AppendText(serialData.Substring(0,2))));
                         switch (serialData.Substring(0, 2))
                         {
+                            case "DR":
+                                //Invoke(new Action(() => Console.AppendText("HERE" + serialData.Substring(5,24))));
+                                if (serialData.Substring(5, 24).Equals("No device at this I2C ad"))
+                                {
+                                    //Invoke(new Action(() => Console.AppendText(serialData)));
+                                    //TODO delete carrier instances  that has disconnected
+                                    Carriers[InitializedCarriers] = new Carrier();
+                                    Carriers[InitializedCarriers].found = false;
+                                    Add_Carrier_List_Item("NONE@0x" + (20 + InitializedCarriers));
+                                    //Increment when done Initializing Carrier
+                                    InitializedCarriers++;
+                                }
+                                break;
+
+
                             case "20":
                                 if (Carriers[0].Logg_Active)
                                 {
@@ -628,9 +654,15 @@ namespace Testbench_Interfacer
                                 break;
 
                             case "22":
-                                if (Carriers[2].Logg_Active)
-                                {
-                                    Carriers[2].Logg_Target.WriteLine(string.Format("{0:HH:mm:ss:fff}", DateTime.Now) + " " + serialData);
+                                try {
+                                    if (Carriers[2].Logg_Active)
+                                    {
+                                        Carriers[2].Logg_Target.WriteLine(string.Format("{0:HH:mm:ss:fff}", DateTime.Now) + " " + serialData);
+                                    }
+                                }
+                                catch (Exception ex)
+                                {  
+                                        MessageBox.Show(ex.ToString());
                                 }
                                 break;
 

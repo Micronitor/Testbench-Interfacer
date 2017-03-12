@@ -231,11 +231,11 @@ namespace Testbench_Interfacer
                     //TODO Fix or rework this logic
                     if (CarrierList.SelectedIndex < 15)
                     {
-                        //CarrierList.SelectedIndex++;
+                        CarrierList.SelectedIndex++;
                     }
                     else
                     {
-                        //CarrierList.SelectedIndex = 0;
+                        CarrierList.SelectedIndex = 0;
                     }
                     //Invoke(new Action(() => CarrierList_SelectedIndexChanged(this, e)));
                 }
@@ -487,7 +487,7 @@ namespace Testbench_Interfacer
                     findCarrierTarget = 20 + i;
                     serial_Write("DR" + findCarrierTarget.ToString());
                     Invoke(new Action(() => SERCOM_statusbar.Increment(1)));
-                    Thread.Sleep(20);
+                    Thread.Sleep(50);
                 }
             }
             else
@@ -1025,12 +1025,14 @@ namespace Testbench_Interfacer
                     if (Carriers[i].Logg_Active)
                     {
                         //TODO minor: Fix formating better
+;
                         Carriers[i].Logg_Target = initializeLoggFile(Carriers[i].Carrier_I2C_address.Substring(2, 2),
                           " " + Carriers[i].Sensor_A_active_sensors.Substring(0, 1)
                         + " " + Carriers[i].Sensor_A_name.Substring(0, 11)
                         + " " + Carriers[i].Sensor_B_active_sensors.Substring(0, 1)
                         + " " + Carriers[i].Sensor_B_name.Substring(0, 11)
                         );
+                        //Invoke(new Action(() => Console.AppendText(Carriers[i].Logg_Target.ToString() + "i: " + i.ToString())));
                     }
                 }
                 catch

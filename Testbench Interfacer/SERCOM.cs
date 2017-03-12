@@ -33,7 +33,7 @@ namespace Testbench_Interfacer
             _serialPort.Handshake = (Handshake)Enum.Parse(typeof(Handshake), "None", true);
             _serialPort.ReadTimeout = 500;
             _serialPort.WriteTimeout = 500;
-            _serialPort.BaudRate = 227790; //455580 456.6
+            _serialPort.BaudRate = 230400; //455580 456.6
             _serialPort.PortName = " ";
             _serialPort.Close();
             foreach (string s in SerialPort.GetPortNames())
@@ -113,6 +113,8 @@ namespace Testbench_Interfacer
                 {
                     string message = _serialPort.ReadLine();
                     serialData = message.ToString();
+                    //Invoke(new Action(() => Console.AppendText(serialData)));
+                    //Thread.Sleep(1000);
                     try
                     {
                         parse(this, e);
