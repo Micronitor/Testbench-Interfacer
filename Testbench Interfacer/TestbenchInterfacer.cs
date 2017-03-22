@@ -38,8 +38,10 @@ namespace Testbench_Interfacer
         static MotorControllerEPOS motor2 = new MotorControllerEPOS();
         static MotorControllerEPOS motor3 = new MotorControllerEPOS();
 
-
-
+        static string scripttext;
+        FileStream fs;
+        StreamWriter file;
+        bool SDCreadactive = false;
 
         //
         //private List<string> contents = new List<string>();
@@ -112,8 +114,8 @@ namespace Testbench_Interfacer
 
         private void bt_send_Click(object sender, EventArgs e)
         {
-            Console.Clear();
-            serial_Write(sendMessage.Text);
+            //Console.Clear();
+            serial_Write(sendMessage.Text,true);
         }
 
         private void sendMessage_KeyDown(object sender, KeyEventArgs e)
@@ -137,8 +139,9 @@ namespace Testbench_Interfacer
                 string filename = openFileDialog1.FileName;
                 try
                 {
-                    string text = System.IO.File.ReadAllText(filename);
-                    size = text.Length;
+                    scripttext = System.IO.File.ReadAllText(filename);
+                    size = scripttext.Length;
+                    Invoke(new Action(() => Console.AppendText(scripttext)));
                 }
                 catch //(IOException)
                 {
@@ -429,7 +432,7 @@ namespace Testbench_Interfacer
                 */
 
 
-                serial_Write(carrierSettings);
+                serial_Write(carrierSettings,true);
             }
             catch (Exception ex)
             {
@@ -485,9 +488,9 @@ namespace Testbench_Interfacer
                 for (int i = 0; i < 16; i++)
                 {
                     findCarrierTarget = 20 + i;
-                    serial_Write("DR" + findCarrierTarget.ToString());
+                    serial_Write("DR" + findCarrierTarget.ToString(),true);
                     Invoke(new Action(() => SERCOM_statusbar.Increment(1)));
-                    Thread.Sleep(50);
+                    Thread.Sleep(150);
                 }
             }
             else
@@ -1155,7 +1158,7 @@ namespace Testbench_Interfacer
                     if (Carriers[i].Logg_Active)
                     {
                         Logg_warning = false;
-                        serial_Write("MR" + Carriers[i].Carrier_I2C_address.Substring(2, 2));
+                        serial_Write("MR" + Carriers[i].Carrier_I2C_address.Substring(2, 2),true);
                     }
                 }
                 catch
@@ -1254,7 +1257,7 @@ namespace Testbench_Interfacer
                 {
                     if (Carriers[i].Logg_Active)
                     {
-                        serial_Write("M0" + Carriers[i].Carrier_I2C_address.Substring(2, 2)); // TODO stop polling
+                        serial_Write("M0" + Carriers[i].Carrier_I2C_address.Substring(2, 2),true); // TODO stop polling
                         Carriers[i].Logg_Target.Close();
                         Invoke(new Action(() => LoggProgress.Value = (remainingTicks / 16) * i));
                     }
@@ -1306,21 +1309,22 @@ namespace Testbench_Interfacer
                 if (cb_Motor1_Enabled.Checked)
                 {
                     motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
-                    motor1.setNewZero();
+                    //motor1.setNewZero();
                     Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                 }
 
                 if (cb_Motor2_Enabled.Checked)
                 {
                     motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
-                    motor2.setNewZero();
+                    //motor2.setNewZero();
                     Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                 }
                 if (cb_Motor3_Enabled.Checked)
                 {
                     motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
-                    motor3.setNewZero();
+                    //motor3.setNewZero();
                     Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
+                    //Invoke(new Action(() => Console.AppendText("Going to distance: " + Motor3_Distance.Text)));
                 }
             }
             else if (cb_Textguide.Checked)
@@ -1328,20 +1332,20 @@ namespace Testbench_Interfacer
                 if (cb_Motor1_Enabled.Checked)
                 {
                     motor1.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
-                    motor1.setNewZero();
+                    //motor1.setNewZero();
                     Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                 }
 
                 if (cb_Motor2_Enabled.Checked)
                 {
                     motor2.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
-                    motor2.setNewZero();
+                    //motor2.setNewZero();
                     Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                 }
                 if (cb_Motor3_Enabled.Checked)
                 {
                     motor3.absoluteMoveToAndStop(int.Parse(textguide[Ticks - 1]));
-                    motor3.setNewZero();
+                    //motor3.setNewZero();
                     Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                 }
 
@@ -1353,20 +1357,20 @@ namespace Testbench_Interfacer
                     if (cb_Motor1_Enabled.Checked)
                     {
                         motor1.absoluteMoveToAndStop(int.Parse(Motor1_Distance.Text));
-                        motor1.setNewZero();
+                        //motor1.setNewZero();
                         Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                     }
 
                     if (cb_Motor2_Enabled.Checked)
                     {
                         motor2.absoluteMoveToAndStop(int.Parse(Motor2_Distancereal.Text));
-                        motor2.setNewZero();
+                        //motor2.setNewZero();
                         Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                     }
                     if (cb_Motor3_Enabled.Checked)
                     {
                         motor3.absoluteMoveToAndStop(int.Parse(Motor3_Distance.Text));
-                        motor3.setNewZero();
+                        //motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                         //TODO remove bugfixing here
                         //Invoke(new Action(() => Console.AppendText(int.Parse(Motor3_Distance.Text).ToString() + "\n")));
@@ -1377,19 +1381,19 @@ namespace Testbench_Interfacer
                     if (cb_Motor1_Enabled.Checked)
                     {
                         motor1.absoluteMoveToAndStop(-(int.Parse(Motor1_Distance.Text)));
-                        motor1.setNewZero();
+                        //motor1.setNewZero();
                         Invoke(new Action(() => Motor1_Position.Text = motor1.position.ToString()));
                     }
                     if (cb_Motor2_Enabled.Checked)
                     {
                         motor2.absoluteMoveToAndStop(-(int.Parse(Motor2_Distancereal.Text)));
-                        motor2.setNewZero();
+                        //motor2.setNewZero();
                         Invoke(new Action(() => Motor2_Positionreal.Text = motor2.position.ToString()));
                     }
                     if (cb_Motor3_Enabled.Checked)
                     {
                         motor3.absoluteMoveToAndStop(-(int.Parse(Motor3_Distance.Text)));
-                        motor3.setNewZero();
+                        //motor3.setNewZero();
                         Invoke(new Action(() => Motor3_Position.Text = motor3.position.ToString()));
                         //TODO remove bugfixing here
                         //Invoke(new Action(() => Console.AppendText((-(int.Parse(Motor3_Distance.Text))).ToString()+"\n")));
@@ -1778,7 +1782,7 @@ namespace Testbench_Interfacer
                 {
                     if (Carriers[i].Logg_Active)
                     {
-                        serial_Write("M0" + Carriers[i].Carrier_I2C_address.Substring(2, 2)); // TODO stop polling
+                        serial_Write("M0" + Carriers[i].Carrier_I2C_address.Substring(2, 2),true); // TODO stop polling
                         Carriers[i].Logg_Target.Close();
                     }
                 }
@@ -1812,6 +1816,44 @@ namespace Testbench_Interfacer
             else
             {
                 cb_Textguide.Enabled = true;
+            }
+        }
+
+        private void bt_load_script_Click(object sender, EventArgs e)
+        {
+            serial_Write("SCRIPT",false);
+            Thread.Sleep(200);
+            serial_Write(scripttext,false);
+        }
+
+        private void bt_run_script_Click(object sender, EventArgs e)
+        {
+            serial_Write("LAUNCH\n",false);
+        }
+
+        private void Read_SDC_Log_Click(object sender, EventArgs e)
+        {
+            if (!SDCreadactive)
+            {
+                string startUpPath;
+                string currentLogFileName;
+                string logfolder;
+                customCulture.NumberFormat.NumberDecimalSeparator = ".";
+                //TODO Check if file and folders excists
+                currentLogFileName = string.Format("{0:yyyy-MM-dd-HH-mm-ss}", DateTime.Now) + "SDC Log.txt";// There are following custom format specifiers y (year), M (month), d (day), h (hour 12), H (hour 24), m (minute), s (second), f (second fraction), F (second fraction, trailing zeroes are trimmed), t (P.M or A.M) and z (time zone).
+                startUpPath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "log");
+                logfolder = Path.Combine(startUpPath, currentLogFileName);
+                fs = File.Create(logfolder);
+                file = new StreamWriter(fs);
+                SDCreadactive = true;
+                serial_Write("CR\n", false);
+                bt_Read_SDC_Log.Text = "Done Reading SDC";
+            }
+            else
+            {
+                file.Close();
+                SDCreadactive = false;
+                bt_Read_SDC_Log.Text = "Read SDC";
             }
         }
     }

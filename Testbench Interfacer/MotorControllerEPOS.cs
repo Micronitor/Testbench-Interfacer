@@ -230,6 +230,7 @@ class MotorControllerEPOS
                 lock (_deviceLock)
                 {
                     _zeroPosition = _mEpos.Operation.MotionInfo.GetPositionIs();
+                    //MessageBox.Show(_zeroPosition.ToString());      
                     return 1;
                 }
             }
@@ -382,7 +383,7 @@ class MotorControllerEPOS
                 while (target != position && !emergency_stop) { }
             }
             else {
-                while ((position < target - 5 || position > target + 5) && !emergency_stop)
+                while ((position < target - 50 || position > target + 50) && !emergency_stop)
                 {
                     //TODO Fix positioning for fast stop
                     //Thread.Sleep(_sampleRate);
@@ -400,6 +401,7 @@ class MotorControllerEPOS
         }
         _moving = false;
         disable();
+        setNewZero();
     }
 
     #endregion

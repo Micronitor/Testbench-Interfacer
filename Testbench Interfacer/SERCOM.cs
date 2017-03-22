@@ -112,18 +112,25 @@ namespace Testbench_Interfacer
                 try
                 {
                     string message = _serialPort.ReadLine();
-                    serialData = message.ToString();
-                    //Invoke(new Action(() => Console.AppendText(serialData)));
-                    //Thread.Sleep(1000);
-                    try
+                    if (!SDCreadactive)
                     {
-                        parse(this, e);
+                        serialData = message.ToString();
+                        //Invoke(new Action(() => Console.AppendText(serialData)));
+                        //Thread.Sleep(1000);
+                        try
+                        {
+                            parse(this, e);
+                        }
+                        catch
+                        {
+                            //TODO
+                        }
                     }
-                    catch
+                    else
                     {
-                        //TODO
+                        file.WriteLine(message.ToString());
+                        Invoke(new Action(() => Console.AppendText(message.ToString())));
                     }
-
                 }
                 catch (Exception ex)
                 {
@@ -133,13 +140,19 @@ namespace Testbench_Interfacer
                     }
                     if (ex is TimeoutException)
                     {
+                        //if (SDCreadactive)
+                        //{
+                        //    SDCreadactive = false;
+                        //    fs.Close();
+                        //    MessageBox.Show("Done reading SD card");
+                        //}
                         //CanSend = true;
                         //MessageBox.Show("TimeoutException!");
                     }
                     
                     else
                     {
-                        throw;
+                        //throw;
                     }
                 }
             }
@@ -147,17 +160,24 @@ namespace Testbench_Interfacer
         }
 
 
-        private void serial_Write(string text)
+        private void serial_Write(string text, bool remove_endings)
         {
-            
-            string txt = RemoveLineEndings(text);
+            string txt;
+            if (remove_endings)
+            {
+                txt = RemoveLineEndings(text);
+            }
+            else
+            {
+                txt = text;
+            }
                 try
                     {
                         //set_Console_Text(txt + Environment.NewLine);
                         _serialPort.WriteLine(txt);
                 Invoke(new Action(() => Sent.AppendText(txt+ "\t")));
                 //Give MCU time to respond
-                Thread.Sleep(100);
+                //Thread.Sleep(10);
             }
                 catch (Exception ex)
                     {

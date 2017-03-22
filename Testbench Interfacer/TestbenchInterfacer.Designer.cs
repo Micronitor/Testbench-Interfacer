@@ -215,6 +215,10 @@
             this.cb_Toggle_in_on_direction = new System.Windows.Forms.CheckBox();
             this.bt_Motor1_Setup = new System.Windows.Forms.Button();
             this.cb_Textguide = new System.Windows.Forms.CheckBox();
+            this.bt_load_script = new System.Windows.Forms.Button();
+            this.bt_run_script = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bt_Read_SDC_Log = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -1710,7 +1714,7 @@
             this.Motor3_Velocity.Name = "Motor3_Velocity";
             this.Motor3_Velocity.Size = new System.Drawing.Size(100, 20);
             this.Motor3_Velocity.TabIndex = 62;
-            this.Motor3_Velocity.Text = "3000";
+            this.Motor3_Velocity.Text = "5000";
             // 
             // lb_Motor_Controller3
             // 
@@ -2177,13 +2181,57 @@
             this.cb_Textguide.UseVisualStyleBackColor = true;
             this.cb_Textguide.CheckedChanged += new System.EventHandler(this.cb_Textguide_CheckedChanged);
             // 
+            // bt_load_script
+            // 
+            this.bt_load_script.Location = new System.Drawing.Point(1037, 105);
+            this.bt_load_script.Name = "bt_load_script";
+            this.bt_load_script.Size = new System.Drawing.Size(131, 23);
+            this.bt_load_script.TabIndex = 98;
+            this.bt_load_script.Text = "Upload Script";
+            this.bt_load_script.UseVisualStyleBackColor = true;
+            this.bt_load_script.Click += new System.EventHandler(this.bt_load_script_Click);
+            // 
+            // bt_run_script
+            // 
+            this.bt_run_script.Location = new System.Drawing.Point(1037, 145);
+            this.bt_run_script.Name = "bt_run_script";
+            this.bt_run_script.Size = new System.Drawing.Size(131, 23);
+            this.bt_run_script.TabIndex = 99;
+            this.bt_run_script.Text = "Launch Script";
+            this.bt_run_script.UseVisualStyleBackColor = true;
+            this.bt_run_script.Click += new System.EventHandler(this.bt_run_script_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1037, 65);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(131, 23);
+            this.button1.TabIndex = 100;
+            this.button1.Text = "Read Script";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // bt_Read_SDC_Log
+            // 
+            this.bt_Read_SDC_Log.Location = new System.Drawing.Point(1037, 185);
+            this.bt_Read_SDC_Log.Name = "bt_Read_SDC_Log";
+            this.bt_Read_SDC_Log.Size = new System.Drawing.Size(131, 23);
+            this.bt_Read_SDC_Log.TabIndex = 102;
+            this.bt_Read_SDC_Log.Text = "Read SDC log";
+            this.bt_Read_SDC_Log.UseVisualStyleBackColor = true;
+            this.bt_Read_SDC_Log.Click += new System.EventHandler(this.Read_SDC_Log_Click);
+            // 
             // Interfacer
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(1007, 970);
+            this.ClientSize = new System.Drawing.Size(1312, 970);
+            this.Controls.Add(this.bt_Read_SDC_Log);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bt_run_script);
+            this.Controls.Add(this.bt_load_script);
             this.Controls.Add(this.cb_Textguide);
             this.Controls.Add(this.cb_Toggle_in_on_direction);
             this.Controls.Add(this.lb_Micronitor);
@@ -2554,6 +2602,10 @@
         private System.Windows.Forms.CheckBox cb_Toggle_in_on_direction;
         private System.Windows.Forms.Button bt_Motor1_Setup;
         private System.Windows.Forms.CheckBox cb_Textguide;
+        private System.Windows.Forms.Button bt_load_script;
+        private System.Windows.Forms.Button bt_run_script;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bt_Read_SDC_Log;
     }
 }
 

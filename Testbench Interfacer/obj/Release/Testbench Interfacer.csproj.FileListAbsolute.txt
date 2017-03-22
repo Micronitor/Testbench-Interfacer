@@ -39,16 +39,6 @@ C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Int
 C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Interfacer.resources
 C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Properties.Resources.resources
 C:\Users\Lars Erik S Paulsen\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.csproj.GenerateResource.Cache
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.exe.config
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.exe
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.pdb
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.exe
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.pdb
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\EposCmd.Net.dll
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.csprojResolveAssemblyReference.cache
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Interfacer.resources
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Properties.Resources.resources
-C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.csproj.GenerateResource.Cache
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.exe.config
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.exe
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.pdb
@@ -59,3 +49,12 @@ C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Interfacer.resources
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Properties.Resources.resources
 C:\Users\lepaulse\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.csproj.GenerateResource.Cache
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.exe.config
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.exe
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\Testbench Interfacer.pdb
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\bin\Release\EposCmd.Net.dll
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Interfacer.resources
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench_Interfacer.Properties.Resources.resources
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.csproj.GenerateResource.Cache
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.exe
+C:\Users\Lars Erik SP\Documents\GitHub\Testbench-Interfacer\Testbench Interfacer\obj\Release\Testbench Interfacer.pdb
